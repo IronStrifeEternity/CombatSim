@@ -1,0 +1,1751 @@
+fileFormatVersion: 2
+guid: 6678b1b3d3ac52b47a7c63fd0c1a3334
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: goblin_shield
+    100002: bip_gob_war
+    100004: goblin_arch
+    100006: goblin warrior
+    100008: goblin warrior boot A
+    100010: goblin warrior boot B
+    100012: bip_gob_warLDigit32
+    100014: bip_gob_warLDigit21
+    100016: bip_gob_warLForearm
+    100018: bip_gob_warLCollarbone
+    100020: bip_gob_warRFoot
+    100022: ctrl_goblin arch_dummie top
+    100024: bip_gob_warRThigh
+    100026: bip_gob_warLDigit22
+    100028: bip_gob_warLDigit12
+    100030: bip_gob_warLDigit11
+    100032: bip_gob_warLDigit31
+    100034: bip_gob_warSpine2
+    100036: bip_gob_warRibcage
+    100038: ctrl_goblin arch_main
+    100040: bip_gob_warSpine4
+    100042: bip_gob_warLCalf
+    100044: IK_goblin arch_top
+    100046: ctrl_goblin arch_dummie botton
+    100048: bip_gob_warSpine1
+    100050: bip_gob_warSpine3
+    100052: bip_gob_warLPalm
+    100054: bip_gob_warLFoot
+    100056: bip_gob_warRCalf
+    100058: bip_gob_warLThigh
+    100060: bip_gob_warLDigit11 1
+    100062: bip_gob_warRDigit11
+    100064: bip_gob_warPelvis
+    100066: bip_gob_warLUpperarm
+    100068: goblin warrior cloth
+    100070: //RootNode
+    100072: goblin_quiver
+    100074: bon_gob_war_jaw
+    100076: bip_gob_warHead
+    100078: goblin_war_club
+    100080: goblin_war_axe
+    100082: bon_gob_war_cloth_tip
+    100084: bon_gob_war_ear R
+    100086: bip_gob_warLPlatform
+    100088: bon_gob_war_ear R_tip 1
+    100090: goblin warrior arm armor L
+    100092: bip_gob_warLIKTarget
+    100094: bip_gob_warRUpperarm
+    100096: bone_goblin arch_botton01
+    100098: bon_gob_war_hair
+    100100: bone_goblin arch_botton00
+    100102: bon_gob_war_face
+    100104: bon_gob_war_jaw_tip 1
+    100106: bip_gob_warNeck2
+    100108: goblin warrior mohican
+    100110: ctrl_goblin arch_arrow
+    100112: goblin warrior wrist armor L
+    100114: bip_gob_warRPlatform
+    100116: bip_gob_warRDigit31
+    100118: bon_gob_war_jaw_tip
+    100120: bone_goblin arch_top00
+    100122: goblin warrior ponny tail
+    100124: bip_gob_warRDigit32
+    100126: bip_gob_warRCollarbone
+    100128: bon_gob_war_ear R_tip
+    100130: bip_gob_warRForearm
+    100132: bip_gob_warHeadBone001
+    100134: bip_gob_warRDigit21
+    100136: IK_goblin arch_botton
+    100138: bone_goblin arch_top01
+    100140: goblin_war_sword
+    100142: bone_goblin arch_main
+    100144: bip_gob_warRDigit11 1
+    100146: goblin warrior hair
+    100148: goblin warrior arm armor R
+    100150: goblin warrior cap
+    100152: goblin warrior helmet
+    100154: bip_gob_warHeadBone002
+    100156: goblin warrior mask
+    100158: goblin warrior shoulder armor L
+    100160: bip_gob_warRDigit22
+    100162: bip_gob_warNeck1
+    100164: goblin warrior armor
+    100166: bip_gob_warRDigit12
+    100168: bon_gob_war_cloth01
+    100170: goblin_war_spear dummy
+    100172: bip_gob_warRIKTarget
+    100174: goblin_war_spear
+    100176: bon_gob_war_ear L
+    100178: bon_gob_war_hair_tip
+    100180: bip_gob_warRPalm
+    100182: goblin warrior shoulder armor R
+    100184: bone_goblin arch_botton_tip
+    100186: goblin warrior wrist armor R
+    100188: bone_goblin arch_top_tip
+    100190: bon_gob_war_cloth00
+    400000: goblin_shield
+    400002: bip_gob_war
+    400004: goblin_arch
+    400006: goblin warrior
+    400008: goblin warrior boot A
+    400010: goblin warrior boot B
+    400012: bip_gob_warLDigit32
+    400014: bip_gob_warLDigit21
+    400016: bip_gob_warLForearm
+    400018: bip_gob_warLCollarbone
+    400020: bip_gob_warRFoot
+    400022: ctrl_goblin arch_dummie top
+    400024: bip_gob_warRThigh
+    400026: bip_gob_warLDigit22
+    400028: bip_gob_warLDigit12
+    400030: bip_gob_warLDigit11
+    400032: bip_gob_warLDigit31
+    400034: bip_gob_warSpine2
+    400036: bip_gob_warRibcage
+    400038: ctrl_goblin arch_main
+    400040: bip_gob_warSpine4
+    400042: bip_gob_warLCalf
+    400044: IK_goblin arch_top
+    400046: ctrl_goblin arch_dummie botton
+    400048: bip_gob_warSpine1
+    400050: bip_gob_warSpine3
+    400052: bip_gob_warLPalm
+    400054: bip_gob_warLFoot
+    400056: bip_gob_warRCalf
+    400058: bip_gob_warLThigh
+    400060: bip_gob_warLDigit11 1
+    400062: bip_gob_warRDigit11
+    400064: bip_gob_warPelvis
+    400066: bip_gob_warLUpperarm
+    400068: goblin warrior cloth
+    400070: //RootNode
+    400072: goblin_quiver
+    400074: bon_gob_war_jaw
+    400076: bip_gob_warHead
+    400078: goblin_war_club
+    400080: goblin_war_axe
+    400082: bon_gob_war_cloth_tip
+    400084: bon_gob_war_ear R
+    400086: bip_gob_warLPlatform
+    400088: bon_gob_war_ear R_tip 1
+    400090: goblin warrior arm armor L
+    400092: bip_gob_warLIKTarget
+    400094: bip_gob_warRUpperarm
+    400096: bone_goblin arch_botton01
+    400098: bon_gob_war_hair
+    400100: bone_goblin arch_botton00
+    400102: bon_gob_war_face
+    400104: bon_gob_war_jaw_tip 1
+    400106: bip_gob_warNeck2
+    400108: goblin warrior mohican
+    400110: ctrl_goblin arch_arrow
+    400112: goblin warrior wrist armor L
+    400114: bip_gob_warRPlatform
+    400116: bip_gob_warRDigit31
+    400118: bon_gob_war_jaw_tip
+    400120: bone_goblin arch_top00
+    400122: goblin warrior ponny tail
+    400124: bip_gob_warRDigit32
+    400126: bip_gob_warRCollarbone
+    400128: bon_gob_war_ear R_tip
+    400130: bip_gob_warRForearm
+    400132: bip_gob_warHeadBone001
+    400134: bip_gob_warRDigit21
+    400136: IK_goblin arch_botton
+    400138: bone_goblin arch_top01
+    400140: goblin_war_sword
+    400142: bone_goblin arch_main
+    400144: bip_gob_warRDigit11 1
+    400146: goblin warrior hair
+    400148: goblin warrior arm armor R
+    400150: goblin warrior cap
+    400152: goblin warrior helmet
+    400154: bip_gob_warHeadBone002
+    400156: goblin warrior mask
+    400158: goblin warrior shoulder armor L
+    400160: bip_gob_warRDigit22
+    400162: bip_gob_warNeck1
+    400164: goblin warrior armor
+    400166: bip_gob_warRDigit12
+    400168: bon_gob_war_cloth01
+    400170: goblin_war_spear dummy
+    400172: bip_gob_warRIKTarget
+    400174: goblin_war_spear
+    400176: bon_gob_war_ear L
+    400178: bon_gob_war_hair_tip
+    400180: bip_gob_warRPalm
+    400182: goblin warrior shoulder armor R
+    400184: bone_goblin arch_botton_tip
+    400186: goblin warrior wrist armor R
+    400188: bone_goblin arch_top_tip
+    400190: bon_gob_war_cloth00
+    2300000: goblin_shield
+    2300002: goblin_quiver
+    2300004: goblin_war_club
+    2300006: goblin_war_axe
+    2300008: goblin warrior arm armor L
+    2300010: goblin warrior mohican
+    2300012: goblin warrior wrist armor L
+    2300014: goblin_war_sword
+    2300016: goblin warrior hair
+    2300018: goblin warrior arm armor R
+    2300020: goblin warrior cap
+    2300022: goblin warrior helmet
+    2300024: goblin warrior mask
+    2300026: goblin warrior shoulder armor L
+    2300028: goblin warrior armor
+    2300030: goblin_war_spear
+    2300032: goblin warrior shoulder armor R
+    2300034: goblin warrior wrist armor R
+    3300000: goblin_shield
+    3300002: goblin_quiver
+    3300004: goblin_war_club
+    3300006: goblin_war_axe
+    3300008: goblin warrior arm armor L
+    3300010: goblin warrior mohican
+    3300012: goblin warrior wrist armor L
+    3300014: goblin_war_sword
+    3300016: goblin warrior hair
+    3300018: goblin warrior arm armor R
+    3300020: goblin warrior cap
+    3300022: goblin warrior helmet
+    3300024: goblin warrior mask
+    3300026: goblin warrior shoulder armor L
+    3300028: goblin warrior armor
+    3300030: goblin_war_spear
+    3300032: goblin warrior shoulder armor R
+    3300034: goblin warrior wrist armor R
+    4300000: goblin warrior
+    4300002: goblin warrior cloth
+    4300004: goblin warrior boot A
+    4300006: goblin warrior boot B
+    4300008: goblin_arch
+    4300010: goblin_shield
+    4300012: goblin warrior arm armor L
+    4300014: goblin warrior wrist armor L
+    4300016: goblin warrior shoulder armor L
+    4300018: goblin_war_axe
+    4300020: goblin_war_club
+    4300022: goblin_war_sword
+    4300024: goblin_war_spear
+    4300026: goblin warrior arm armor R
+    4300028: goblin warrior wrist armor R
+    4300030: goblin warrior shoulder armor R
+    4300032: goblin warrior cap
+    4300034: goblin warrior mask
+    4300036: goblin warrior helmet
+    4300038: goblin warrior mohican
+    4300040: goblin warrior hair
+    4300042: goblin_quiver
+    4300044: goblin warrior armor
+    4300046: goblin warrior ponny tail
+    7400050: idle
+    7400052: idle break 1
+    7400054: idle break 2
+    7400056: salute
+    7400058: walk
+    7400060: run
+    7400062: run fast
+    7400064: crouch
+    7400066: crouch walk
+    7400068: hit front
+    7400070: hit back
+    7400072: jump
+    7400074: falling
+    7400076: die soft
+    7400078: die hard
+    7400080: idle fight
+    7400082: idle break fight
+    7400084: blocking
+    7400086: axe attack
+    7400088: 'sword attack '
+    7400090: sword double attack
+    7400092: arch attack
+    7400094: spear prepare
+    7400096: spear attack
+    7400098: jump simple
+    7400100: 'run '
+    7400102: 'crouch '
+    7400104: jump complete
+    7400106: sword attack
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: goblin_arch
+    13700002: goblin warrior
+    13700004: goblin warrior boot A
+    13700006: goblin warrior boot B
+    13700008: goblin warrior cloth
+    13700010: goblin warrior ponny tail
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: idle
+      takeName: 
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: MoveSpeed
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      skeletonMaskElements: []
+    - name: idle break 1
+      takeName: 
+      firstFrame: 120
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: idle break 2
+      takeName: 
+      firstFrame: 190
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: salute
+      takeName: 
+      firstFrame: 290
+      lastFrame: 369
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: jump simple
+      takeName: 
+      firstFrame: 370
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: walk
+      takeName: 
+      firstFrame: 385
+      lastFrame: 415
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: MoveSpeed
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .998281479
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      skeletonMaskElements: []
+    - name: 'run '
+      takeName: 
+      firstFrame: 420
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: run fast
+      takeName: 
+      firstFrame: 455
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: 'crouch '
+      takeName: 
+      firstFrame: 485
+      lastFrame: 499
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: crouch walk
+      takeName: 
+      firstFrame: 500
+      lastFrame: 550
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: hit front
+      takeName: 
+      firstFrame: 554
+      lastFrame: 564
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: hit back
+      takeName: 
+      firstFrame: 565
+      lastFrame: 575
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: jump complete
+      takeName: 
+      firstFrame: 580
+      lastFrame: 623
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: falling
+      takeName: 
+      firstFrame: 625
+      lastFrame: 665
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: die soft
+      takeName: 
+      firstFrame: 668
+      lastFrame: 740
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: die hard
+      takeName: 
+      firstFrame: 745
+      lastFrame: 770
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: idle fight
+      takeName: 
+      firstFrame: 775
+      lastFrame: 820
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: idle break fight
+      takeName: 
+      firstFrame: 820
+      lastFrame: 870
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: blocking
+      takeName: 
+      firstFrame: 870
+      lastFrame: 890
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: axe attack
+      takeName: 
+      firstFrame: 890
+      lastFrame: 910
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: sword attack
+      takeName: 
+      firstFrame: 910
+      lastFrame: 930
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: sword double attack
+      takeName: 
+      firstFrame: 930
+      lastFrame: 960
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: arch attack
+      takeName: 
+      firstFrame: 960
+      lastFrame: 1015
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: spear prepare
+      takeName: 
+      firstFrame: 1015
+      lastFrame: 1025
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: spear attack
+      takeName: 
+      firstFrame: 1025
+      lastFrame: 1045
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0199999996
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: bip_gob_warPelvis
+      humanName: Hips
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .211863741, y: 0, z: .105931871}
+        preQ: {x: -.442421138, y: -.551600873, z: .442421049, w: .551600993}
+        postQ: {x: -1.19209282e-07, y: 1.04308121e-07, z: .993829966, w: .110913761}
+        length: .264829755
+        modified: 1
+    - boneName: bip_gob_warLThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: -60.0000038, y: -60.0000038, z: -90}
+        max: {x: 60.0000038, y: 60.0000038, z: 50}
+        value: {x: .384651214, y: 0, z: .192325607}
+        preQ: {x: .928247333, y: .365779936, z: .062838845, w: -.0247618761}
+        postQ: {x: -1.49011612e-08, y: .0358254015, z: .999357998, w: 1.49011612e-07}
+        length: .480814159
+        modified: 1
+    - boneName: bip_gob_warRThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: -60.0000038, y: -60.0000038, z: -90}
+        max: {x: 60.0000038, y: 60.0000038, z: 50}
+        value: {x: .384651572, y: 0, z: .192325786}
+        preQ: {x: .928247392, y: .365779579, z: -.0628397986, w: .0247623641}
+        postQ: {x: -7.4505806e-08, y: -.0358259678, z: .999357998, w: -5.96046448e-08}
+        length: .480814606
+        modified: 1
+    - boneName: bip_gob_warLCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .400579065, y: 0, z: .200289533}
+        preQ: {x: -.0314113088, y: .0975042209, z: -.504425406, w: .857357025}
+        postQ: {x: -8.94069601e-08, y: .0196525585, z: -.999806881, w: -3.7252903e-07}
+        length: .500723958
+        modified: 1
+    - boneName: bip_gob_warRCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .400579005, y: 0, z: .200289503}
+        preQ: {x: .031412974, y: -.0975035578, z: -.504425168, w: .857357085}
+        postQ: {x: 3.5762784e-07, y: -.0196530502, z: -.999806881, w: -2.23517404e-07}
+        length: .500723898
+        modified: 1
+    - boneName: bip_gob_warLFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: -30.0000019, z: -50}
+        max: {x: 0, y: 30.0000019, z: 50}
+        value: {x: .0922171101, y: 0, z: .046108555}
+        preQ: {x: -.0689218491, y: .00378775597, z: -.970921755, w: -.229229838}
+        postQ: {x: -.000132959336, y: 9.86680461e-05, z: -.802896917, w: .596117735}
+        length: .115271419
+        modified: 1
+    - boneName: bip_gob_warRFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: -30.0000019, z: -50}
+        max: {x: 0, y: 30.0000019, z: 50}
+        value: {x: .0922171772, y: 0, z: .0461085886}
+        preQ: {x: .068920821, y: -.00378859043, z: -.970921755, w: -.229230076}
+        postQ: {x: .000135201961, y: -.00010051579, z: -.802948654, w: .596048057}
+        length: .115271509
+        modified: 1
+    - boneName: bip_gob_warSpine2
+      humanName: Spine
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .144833669, y: 0, z: .0724168345}
+        preQ: {x: -2.98023259e-08, y: -1.19209304e-07, z: -.985468209, w: .169859812}
+        postQ: {x: -0, y: -1.1920929e-07, z: -.99999994, w: 2.98023224e-08}
+        length: .18104215
+        modified: 1
+    - boneName: bip_gob_warSpine3
+      humanName: Chest
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .435363382, y: 0, z: .217681691}
+        preQ: {x: 4.47034907e-08, y: -1.19209304e-07, z: -.999998808, w: .0015215876}
+        postQ: {x: 1.19209304e-07, y: -5.96046519e-08, z: -.996541739, w: -.0830930844}
+        length: .544204354
+        modified: 1
+    - boneName: bip_gob_warNeck2
+      humanName: Neck
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .131488353, y: 0, z: .0657441765}
+        preQ: {x: -4.54485416e-05, y: .0136639327, z: .999898314, w: -.00407591462}
+        postQ: {x: 1.49011612e-07, y: 2.98023224e-08, z: -.99999994, w: -8.94069743e-08}
+        length: .164360508
+        modified: 1
+    - boneName: bip_gob_warHead
+      humanName: Head
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .131488353, y: 0, z: .0657441765}
+        preQ: {x: -7.4505806e-08, y: 5.96046448e-08, z: .999976397, w: .0068620746}
+        postQ: {x: 4.47034836e-08, y: -2.98023224e-08, z: -.99999994, w: 0}
+        length: .164360508
+        modified: 1
+    - boneName: bip_gob_warLCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: -15.000001, z: -15.000001}
+        max: {x: 0, y: 15.000001, z: 30.0000019}
+        value: {x: .145652294, y: 0, z: .0728261471}
+        preQ: {x: -.498737007, y: -.37134102, z: -.501259804, w: .601752341}
+        postQ: {x: -2.10106373e-06, y: .628024995, z: .778193235, w: 2.18886998e-06}
+        length: .182065442
+        modified: 1
+    - boneName: bip_gob_warRCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: -15.000001, z: -15.000001}
+        max: {x: 0, y: 15.000001, z: 30.0000019}
+        value: {x: .145652592, y: 0, z: .0728262961}
+        preQ: {x: .601752281, y: -.501258671, z: -.37134099, w: -.49873808}
+        postQ: {x: -1.05798233e-06, y: -.778193474, z: -.628024518, w: 2.98023195e-07}
+        length: .182065815
+        modified: 1
+    - boneName: bip_gob_warLUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -60.0000038}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: .459301651, y: 0, z: .229650825}
+        preQ: {x: .421159685, y: .517970502, z: .743992686, w: .0283870939}
+        postQ: {x: 2.73808865e-07, y: .784125566, z: .620602131, w: -6.76361722e-08}
+        length: .574127197
+        modified: 1
+    - boneName: bip_gob_warRUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -60.0000038}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: .459301502, y: 0, z: .229650751}
+        preQ: {x: -.028386239, y: -.743992388, z: -.517970741, w: -.421159983}
+        postQ: {x: 3.27825575e-07, y: -.62060225, z: -.784125447, w: -1.19907796e-07}
+        length: .574127018
+        modified: 1
+    - boneName: bip_gob_warLForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .432087272, y: 0, z: .216043636}
+        preQ: {x: .662750423, y: .739411354, z: -.0694212839, w: .0959849954}
+        postQ: {x: 6.33299351e-08, y: .999991655, z: -.00406745076, w: 2.54251063e-07}
+        length: .540109217
+        modified: 1
+    - boneName: bip_gob_warRForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .432087362, y: 0, z: .216043681}
+        preQ: {x: -.095984675, y: .0694214031, z: -.739411652, w: -.662750304}
+        postQ: {x: -8.93138292e-07, y: .00406718208, z: -.999991715, w: -2.70083518e-07}
+        length: .540109336
+        modified: 1
+    - boneName: bip_gob_warLPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: .216043636, y: 0, z: .108021818}
+        preQ: {x: -1.36901249e-07, y: .709977329, z: .704224467, w: 2.2366973e-07}
+        postQ: {x: -.0281573478, y: .0268071312, z: .997894824, w: .0519080944}
+        length: .270054609
+        modified: 1
+    - boneName: bip_gob_warRPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: .216043681, y: 0, z: .10802184}
+        preQ: {x: -8.23289156e-07, y: -.704224706, z: -.70997709, w: 4.43309546e-07}
+        postQ: {x: -.0519084185, y: -.997894764, z: -.0268069021, w: .0281573609}
+        length: .270054668
+        modified: 1
+    - boneName: bip_gob_warLDigit11
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: -50}
+        max: {x: 0, y: 0, z: 50}
+        value: {x: .125997216, y: 0, z: .0629986078}
+        preQ: {x: .000163823381, y: 2.42590941e-05, z: .989252806, w: .146214887}
+        postQ: {x: 2.98023224e-08, y: 8.42937027e-08, z: .99999994, w: -1.05367128e-07}
+        length: .157496586
+        modified: 1
+    - boneName: bip_gob_warRDigit11
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: -50}
+        max: {x: 0, y: 0, z: 50}
+        value: {x: .125997245, y: 0, z: .0629986227}
+        preQ: {x: -.000166624814, y: -2.4527315e-05, z: .98924011, w: .146300763}
+        postQ: {x: -2.98023224e-08, y: 9.48304049e-08, z: .99999994, w: -1.47513958e-07}
+        length: .157496631
+        modified: 1
+    - boneName: bon_gob_war_ear L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: -20, z: -10}
+        max: {x: 0, y: 20, z: 15.000001}
+        value: {x: .0799999759, y: 0, z: .0399999879}
+        preQ: {x: -.707106769, y: -.707106769, z: -2.98023259e-08, w: -2.98023259e-08}
+        postQ: {x: .837146401, y: .112124465, z: .501592696, w: -.187132791}
+        length: .100000001
+        modified: 1
+    - boneName: bon_gob_war_ear R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: -20, z: -10}
+        max: {x: 0, y: 20, z: 15.000001}
+        value: {x: .0799999759, y: 0, z: .0399999879}
+        preQ: {x: -.707106769, y: -.707106769, z: -2.98023259e-08, w: -2.98023259e-08}
+        postQ: {x: -.18195796, y: -.506329596, z: -.110245429, w: .835683823}
+        length: .100000001
+        modified: 1
+    - boneName: bon_gob_war_jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: -10, z: -10}
+        max: {x: 0, y: 10, z: 10}
+        value: {x: .0799999759, y: 0, z: .0399999879}
+        preQ: {x: -.76764375, y: -.64087683, z: -2.96823561e-08, w: -3.71029429e-08}
+        postQ: {x: -1.49011612e-07, y: 1.34110451e-07, z: .95618099, w: .292776048}
+        length: .100000001
+        modified: 1
+    - boneName: bip_gob_warLDigit11 1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .0994344875, y: 0, z: .0497172438}
+        preQ: {x: .28864187, y: .13269724, z: .888103068, w: -.332189977}
+        postQ: {x: -7.07805157e-08, y: .539535761, z: .841962636, w: 1.04587525e-06}
+        length: .124293141
+        modified: 1
+    - boneName: bip_gob_warLDigit12
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0745758563, y: 0, z: .0372879282}
+        preQ: {x: .143457532, y: .652001679, z: .710067749, w: -.223868877}
+        postQ: {x: .120963596, y: .525800824, z: .820528805, w: .188768655}
+        length: .0932198539
+        modified: 1
+    - boneName: bip_gob_warLDigit21
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0917740688, y: 0, z: .0458870344}
+        preQ: {x: .146321505, y: .103118129, z: .914645314, w: -.362464458}
+        postQ: {x: -4.65661252e-08, y: .0879476294, z: .996125042, w: 1.21677283e-06}
+        length: .114717618
+        modified: 1
+    - boneName: bip_gob_warLDigit22
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0688305423, y: 0, z: .0344152711}
+        preQ: {x: .0261157788, y: .183272496, z: .937141895, w: -.29579401}
+        postQ: {x: .00849312451, y: .0875366926, z: .991469204, w: .0961973295}
+        length: .0860382169
+        modified: 1
+    - boneName: bip_gob_warLDigit31
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0963362083, y: 0, z: .0481681041}
+        preQ: {x: .0703112036, y: .116607942, z: .923805237, w: -.357830435}
+        postQ: {x: 1.42899793e-07, y: .0286053792, z: .999590635, w: 6.68922382e-07}
+        length: .120420292
+        modified: 1
+    - boneName: bip_gob_warLDigit32
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0722521469, y: 0, z: .0361260734}
+        preQ: {x: .00850251224, y: .126425326, z: .946399629, w: -.297105968}
+        postQ: {x: .004479561, y: .0282532014, z: .987258375, w: .156532735}
+        length: .0903152227
+        modified: 1
+    - boneName: ctrl_goblin arch_arrow
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: 2.48447013, y: 0, z: 1.24223506}
+        preQ: {x: .207384229, y: .740329802, z: .622225702, w: -.147440165}
+        postQ: {x: -.246423274, y: .115205452, z: .849765301, w: .451555252}
+        length: 3.10558891
+        modified: 1
+    - boneName: bone_goblin arch_top00
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .57601732, y: 0, z: .28800866}
+        preQ: {x: -.151845708, y: .272105008, z: .927116692, w: .208221644}
+        postQ: {x: -1.20606273e-07, y: .098268494, z: .995159924, w: -1.688255e-06}
+        length: .720021963
+        modified: 1
+    - boneName: bone_goblin arch_top01
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .432013065, y: 0, z: .216006532}
+        preQ: {x: .0288947113, y: .201168552, z: .934382021, w: -.292619884}
+        postQ: {x: 8.6147331e-08, y: .0982889906, z: .995157957, w: -1.92085263e-08}
+        length: .540016472
+        modified: 1
+    - boneName: bip_gob_warRDigit11 1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .099434562, y: 0, z: .049717281}
+        preQ: {x: -.332189649, y: .888103485, z: .132696494, w: .288640857}
+        postQ: {x: 1.2218951e-06, y: -.841962695, z: -.539535642, w: -2.98023201e-06}
+        length: .124293238
+        modified: 1
+    - boneName: bip_gob_warRDigit12
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0745759159, y: 0, z: .037287958}
+        preQ: {x: -.223871842, y: .710067511, z: .652000308, w: .143460259}
+        postQ: {x: -.18876639, y: -.820529461, z: -.525800169, w: -.120966502}
+        length: .0932199284
+        modified: 1
+    - boneName: bip_gob_warRDigit21
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0917739049, y: 0, z: .0458869524}
+        preQ: {x: -.362463921, y: .914645731, z: .103117578, w: .146320909}
+        postQ: {x: -4.11271958e-06, y: -.996125042, z: -.087947607, w: 6.25848656e-07}
+        length: .114717416
+        modified: 1
+    - boneName: bip_gob_warRDigit22
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0688304231, y: 0, z: .0344152115}
+        preQ: {x: -.295791298, y: .937142789, z: .183272332, w: .0261154976}
+        postQ: {x: -.0962002277, y: -.991468966, z: -.0875368267, w: -.00849255826}
+        length: .0860380605
+        modified: 1
+    - boneName: bip_gob_warRDigit31
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0963368341, y: 0, z: .0481684171}
+        preQ: {x: -.357830316, y: .923805416, z: .116607666, w: .0703109354}
+        postQ: {x: -1.71363376e-06, y: -.999590755, z: -.0286052544, w: 5.96046505e-07}
+        length: .120421074
+        modified: 1
+    - boneName: bip_gob_warRDigit32
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0722526163, y: 0, z: .0361263081}
+        preQ: {x: -.297104985, y: .946400046, z: .126425281, w: .00850191806}
+        postQ: {x: -.156533837, y: -.987258196, z: -.0282533001, w: -.00447881222}
+        length: .0903158039
+        modified: 1
+    - boneName: goblin_war_spear dummy
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .799999774, y: 0, z: .399999887}
+        preQ: {x: -.238920301, y: .961888194, z: .0478367843, w: -.124095827}
+        postQ: {x: .00127943582, y: .486707866, z: -.156108111, w: -.859502017}
+        length: 1
+        modified: 1
+    skeleton:
+    - name: fantasy horde-goblin_warrior
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bip_gob_warPelvis
+      position: {x: 5.20931671e-08, y: 1.00143969, z: -.0733025372}
+      rotation: {x: .499127001, y: -.500871539, z: -.499126911, w: .50087142}
+      scale: {x: 1, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_warLThigh
+      position: {x: -.0208020061, y: .0567192361, z: .158104941}
+      rotation: {x: -.110544361, y: .990931988, z: -.0278674345, w: .0711129159}
+      scale: {x: .999999702, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: bip_gob_warLCalf
+      position: {x: -.480814278, y: 1.39439834e-07, z: 3.49094753e-09}
+      rotation: {x: -.00663880445, y: .00674310233, z: .338296473, w: .940991998}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: bip_gob_warLFoot
+      position: {x: -.500724077, y: 3.42279577e-07, z: 2.06331777e-07}
+      rotation: {x: -.0381706543, y: .0574886091, z: -.76282537, w: .642911613}
+      scale: {x: .999999464, y: .999999821, z: .999999702}
+      transformModified: 1
+    - name: bip_gob_warLDigit11
+      position: {x: -.314993471, y: 1.00821895e-09, z: -4.83331384e-08}
+      rotation: {x: -2.41806647e-05, y: .000163776233, z: -.146215007, w: .989252806}
+      scale: {x: 1.00000036, y: 1.00000024, z: 1.00000048}
+      transformModified: 1
+    - name: bip_gob_warRThigh
+      position: {x: -.0208025109, y: .0567191094, z: -.158104971}
+      rotation: {x: -.110544138, y: .990931928, z: .0278676935, w: -.0711140186}
+      scale: {x: .999999583, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: bip_gob_warRCalf
+      position: {x: -.480814904, y: -1.44166092e-08, z: -1.44398868e-07}
+      rotation: {x: .00663990853, y: -.00674507162, z: .338296562, w: .940991938}
+      scale: {x: 1.00000072, y: 1.0000006, z: .99999994}
+      transformModified: 1
+    - name: bip_gob_warRFoot
+      position: {x: -.500723779, y: 2.12846587e-07, z: -2.73215846e-07}
+      rotation: {x: .0381666496, y: -.0574898086, z: -.762769699, w: .642977893}
+      scale: {x: .999998987, y: .999999344, z: .999999523}
+      transformModified: 1
+    - name: bip_gob_warRDigit11
+      position: {x: -.314993531, y: 1.13730408e-07, z: 1.8758135e-07}
+      rotation: {x: 2.46254003e-05, y: -.000166654994, z: -.146300912, w: .98924011}
+      scale: {x: 1.00000048, y: .999999881, z: 1.00000036}
+      transformModified: 1
+    - name: bip_gob_warSpine1
+      position: {x: -.0552207865, y: -.0042249728, z: -7.6818818e-09}
+      rotation: {x: -1.60104552e-08, y: -3.05773185e-08, z: -.148960531, w: .988843083}
+      scale: {x: .99999994, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_warSpine2
+      position: {x: -.212524667, y: -1.27817728e-07, z: -7.53106999e-09}
+      rotation: {x: 1.66646714e-08, y: 3.24621396e-08, z: .169859812, w: .985468209}
+      scale: {x: 1.00000024, y: 1.00000083, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_warSpine3
+      position: {x: -.181042179, y: -2.17670396e-10, z: 3.31225678e-08}
+      rotation: {x: -5.63878935e-08, y: 6.96869478e-08, z: .0846092403, w: .996414185}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: bip_gob_warSpine4
+      position: {x: -.194553033, y: -1.0955266e-08, z: -1.36709462e-08}
+      rotation: {x: 3.00507352e-08, y: -3.69512598e-08, z: -.086692594, w: .996235073}
+      scale: {x: .999999404, y: .999999046, z: .999999881}
+      transformModified: 1
+    - name: bip_gob_warRibcage
+      position: {x: -.262166291, y: -1.31263747e-08, z: -5.13780165e-08}
+      rotation: {x: 1.49140824e-08, y: 1.6142268e-08, z: .0208223592, w: -.999783158}
+      scale: {x: 1, y: 1, z: .999999583}
+      transformModified: 1
+    - name: bip_gob_warLCollarbone
+      position: {x: .0209736265, y: .0439180173, z: .0755584836}
+      rotation: {x: -.0258284397, y: -.766031027, z: -.155060574, w: -.623286009}
+      scale: {x: 1.00000012, y: 1.00000036, z: .999999881}
+      transformModified: 1
+    - name: bip_gob_warLUpperarm
+      position: {x: -.182065532, y: 1.40440548e-07, z: -1.04583069e-06}
+      rotation: {x: .20745483, y: -.0902802274, z: -.111007541, w: .967723727}
+      scale: {x: .999999464, y: .999999702, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_warLForearm
+      position: {x: -.574127853, y: 1.90820359e-07, z: 2.04413865e-07}
+      rotation: {x: -.110844024, y: -.0290389154, z: -.0323527306, w: .992886484}
+      scale: {x: 1.00000036, y: 1, z: .999999881}
+      transformModified: 1
+    - name: bip_gob_warLPalm
+      position: {x: -.540109575, y: 6.6433536e-08, z: -2.28028142e-07}
+      rotation: {x: -.689604461, y: .0566825159, z: .0165636521, w: .721774459}
+      scale: {x: 1, y: .999999642, z: .999999821}
+      transformModified: 1
+    - name: bip_gob_warLDigit11 1
+      position: {x: -.0392379463, y: -.020686388, z: .055242002}
+      rotation: {x: .477820069, y: .220385864, z: -.0663117617, w: .847773969}
+      scale: {x: 1.00000012, y: 1.00000012, z: .999999583}
+      transformModified: 1
+    - name: bip_gob_warLDigit12
+      position: {x: -.124293238, y: 1.72069406e-07, z: -1.4294065e-07}
+      rotation: {x: -6.00763457e-08, y: -8.44153814e-09, z: .224199504, w: .974543214}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_warLDigit21
+      position: {x: -.166477367, y: -.00646553049, z: .0548236929}
+      rotation: {x: .0358679257, y: .114782415, z: .0769389644, w: .989756942}
+      scale: {x: 1.00000012, y: .999999762, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_warLDigit22
+      position: {x: -.114717677, y: 2.54293326e-07, z: -3.03164533e-08}
+      rotation: {x: 1.29405876e-07, y: -2.48580907e-08, z: .0965703279, w: .995326161}
+      scale: {x: 1.00000036, y: 1.00000036, z: .999999881}
+      transformModified: 1
+    - name: bip_gob_warLDigit31
+      position: {x: -.168454841, y: -.0116891637, z: -.0241542906}
+      rotation: {x: -.0219493397, y: .108398698, z: .0795566365, w: .990675807}
+      scale: {x: 1.00000012, y: .999999642, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_warLDigit32
+      position: {x: -.120420404, y: 1.19988115e-07, z: 1.96558627e-08}
+      rotation: {x: 7.58083502e-07, y: 6.64078499e-08, z: .156596169, w: .987662673}
+      scale: {x: 1, y: 1, z: .999999821}
+      transformModified: 1
+    - name: ctrl_goblin arch_main
+      position: {x: -.116435163, y: -.0617861152, z: -.0118585015}
+      rotation: {x: .692180455, y: .0193312597, z: .0177083164, w: .72124809}
+      scale: {x: 1.00000024, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: bone_goblin arch_main
+      position: {x: -.576168001, y: -2.79828906, z: -1.89741349}
+      rotation: {x: .0305083934, y: -.819887042, z: -.335017592, w: .463268399}
+      scale: {x: 1.00000024, y: 1.00000012, z: .999999464}
+      transformModified: 1
+    - name: ctrl_goblin arch_arrow
+      position: {x: .400708765, y: -.132023513, z: -.0188910514}
+      rotation: {x: -.466512889, y: .533461332, z: .0451996177, w: .704089224}
+      scale: {x: 1.00000024, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: bone_goblin arch_botton00
+      position: {x: -1.46194601, y: 2.20700002, z: -1.62374949}
+      rotation: {x: -.226477847, y: -.187016845, z: .281431526, w: .913525403}
+      scale: {x: .99999994, y: 1, z: .999999225}
+      transformModified: 1
+    - name: bone_goblin arch_botton01
+      position: {x: -.833512425, y: 3.1378454e-06, z: -1.64901166e-07}
+      rotation: {x: -1.71082064e-07, y: -8.36063066e-07, z: -.972879648, w: .231311575}
+      scale: {x: 1.00000036, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: bone_goblin arch_botton_tip
+      position: {x: -.675563693, y: -3.05175774e-07, z: 0}
+      rotation: {x: -2.93628446e-08, y: -3.00631291e-06, z: .000146184073, w: .99999994}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: bone_goblin arch_top00
+      position: {x: -1.46194601, y: 2.20699954, z: -1.62374926}
+      rotation: {x: -.0293267239, y: -.290181726, z: -.427442372, w: .855702877}
+      scale: {x: 1.00000036, y: 1.00000036, z: .999999464}
+      transformModified: 1
+    - name: bone_goblin arch_top01
+      position: {x: -.720022202, y: -2.45887236e-06, z: -5.40534408e-08}
+      rotation: {x: 2.06025834e-05, y: -4.97047949e-08, z: 1.68532824e-06, w: .99999994}
+      scale: {x: .999999762, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: bone_goblin arch_top_tip
+      position: {x: -.74742192, y: 3.43322739e-07, z: 0}
+      rotation: {x: -2.97833118e-08, y: 2.14576698e-06, z: -8.85873851e-06, w: .99999994}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: ctrl_goblin arch_dummie botton
+      position: {x: -3.81469718e-08, y: -.141395986, z: 0}
+      rotation: {x: -.707106769, y: -1.58050639e-08, z: -5.26835597e-09, w: .70710665}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_goblin arch_botton
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1.49011585e-08, y: 7.45057971e-09, z: 1.49011585e-08, w: .99999994}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: ctrl_goblin arch_dummie top
+      position: {x: -.00558166485, y: .130234227, z: 4.4250487e-06}
+      rotation: {x: 2.57904026e-06, y: 7.82457755e-06, z: .537042856, w: .843554914}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_goblin arch_top
+      position: {x: -1.48773188e-06, y: -6.48498542e-07, z: -4.4250487e-06}
+      rotation: {x: -.596485257, y: .379741222, z: -.379752129, w: .596481442}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: goblin warrior arm armor L
+      position: {x: -.472768694, y: -.0871805176, z: 1.48286951}
+      rotation: {x: .922966242, y: .135106966, z: .346789151, w: -.0980646312}
+      scale: {x: .999999762, y: 1.00000048, z: .999999881}
+      transformModified: 1
+    - name: goblin warrior wrist armor L
+      position: {x: -.472768694, y: -.0871805176, z: 1.48286951}
+      rotation: {x: .922966242, y: .135106966, z: .346789151, w: -.0980646312}
+      scale: {x: .999999762, y: 1.00000048, z: .999999881}
+      transformModified: 1
+    - name: goblin_shield
+      position: {x: -.48630172, y: .0053742216, z: -.120893247}
+      rotation: {x: .103430539, y: .785765707, z: .609803617, w: -.00371545739}
+      scale: {x: .999999881, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: goblin warrior shoulder armor L
+      position: {x: -1.10698438, y: .480274886, z: 1.3839848}
+      rotation: {x: .911801636, y: -.0624534301, z: .394696951, w: .0945074409}
+      scale: {x: 1.00000072, y: .99999994, z: 1.0000006}
+      transformModified: 1
+    - name: bip_gob_warNeck1
+      position: {x: .00212173467, y: .0271701422, z: 0}
+      rotation: {x: .0136633441, y: .000139095107, z: .00278549455, w: .999902725}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_warNeck2
+      position: {x: -.0936799943, y: -.000763803895, z: 1.95790949e-06}
+      rotation: {x: .0136639811, y: 4.5323497e-05, z: -.00407602824, w: -.999898314}
+      scale: {x: 1, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: bip_gob_warHead
+      position: {x: -.164360493, y: 2.00289261e-08, z: -1.99217549e-08}
+      rotation: {x: 1.49025645e-08, y: 1.53101727e-08, z: .00686211837, w: -.999976397}
+      scale: {x: 1.00000024, y: 1.00000048, z: 1.00000036}
+      transformModified: 1
+    - name: bip_gob_warHeadBone001
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -2.91038305e-09, y: 2.98023206e-08, z: -1.86264493e-09, w: .99999994}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: bip_gob_warHeadBone002
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -2.91038305e-09, y: 2.98023206e-08, z: -1.86264493e-09, w: .99999994}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: bon_gob_war_ear L
+      position: {x: -.110993169, y: .052956, z: .170534447}
+      rotation: {x: .487002552, y: -.222356752, z: -.512667894, w: -.671235859}
+      scale: {x: .999999642, y: .999999642, z: .999999881}
+      transformModified: 1
+    - name: bon_gob_war_ear R_tip
+      position: {x: -.313070744, y: -1.52587887e-07, z: 3.81469718e-08}
+      rotation: {x: -1.49011603e-08, y: 0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bon_gob_war_ear R
+      position: {x: -.110993475, y: .0529558361, z: -.161897629}
+      rotation: {x: -.668873012, y: -.512962461, z: -.229365408, w: .486692786}
+      scale: {x: .999999583, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: bon_gob_war_ear R_tip 1
+      position: {x: -.318963081, y: -1.52587887e-07, z: 0}
+      rotation: {x: 0, y: 7.45058015e-09, z: -0, w: .99999994}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: bon_gob_war_face
+      position: {x: -.143054411, y: .143315732, z: 1.36426891e-07}
+      rotation: {x: .673626244, y: -.739072025, z: 1.41648812e-07, w: -3.7992038e-08}
+      scale: {x: .99999994, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: bon_gob_war_jaw_tip
+      position: {x: -.276492268, y: 6.10351549e-07, z: -3.81469718e-08}
+      rotation: {x: -3.8693666e-09, y: 2.08009565e-09, z: .0652948096, w: .997865975}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: bon_gob_war_hair
+      position: {x: -.284195989, y: -.0555661321, z: 1.48000652e-07}
+      rotation: {x: -.901848555, y: -.432052195, z: -4.96536181e-08, w: -1.63012629e-07}
+      scale: {x: .999999881, y: 1.00000048, z: .999999821}
+      transformModified: 1
+    - name: bon_gob_war_hair_tip
+      position: {x: -.498321056, y: 0, z: 5.72204577e-08}
+      rotation: {x: -1.73782946e-10, y: -5.58523361e-09, z: -.0310996622, w: .999516249}
+      scale: {x: .999999702, y: .999999881, z: 1}
+      transformModified: 1
+    - name: bon_gob_war_jaw
+      position: {x: -.0034628103, y: .077622883, z: 1.68814893e-07}
+      rotation: {x: .469098091, y: -.883145988, z: 2.50758148e-07, w: -1.9304613e-08}
+      scale: {x: .999999523, y: .999999762, z: .999999642}
+      transformModified: 1
+    - name: bon_gob_war_jaw_tip 1
+      position: {x: -.348110586, y: -3.05175774e-07, z: -3.81469718e-08}
+      rotation: {x: 5.38944045e-09, y: -2.37663245e-09, z: -.0934401006, w: .99562484}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: goblin warrior cap
+      position: {x: 2.14870763, y: .0529555418, z: 5.72204577e-08}
+      rotation: {x: .707106769, y: 2.89759576e-08, z: -.707106769, w: 2.89759576e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin warrior hair
+      position: {x: 2.14870763, y: .0529555418, z: 5.72204577e-08}
+      rotation: {x: .707106769, y: 5.13664702e-08, z: -.707106769, w: 5.13664702e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin warrior helmet
+      position: {x: 2.14870763, y: .0529555418, z: 5.72204577e-08}
+      rotation: {x: .707106769, y: 2.89759576e-08, z: -.707106769, w: 2.89759576e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin warrior mask
+      position: {x: 2.14870763, y: .0529555418, z: 5.72204577e-08}
+      rotation: {x: .707106769, y: 2.89759576e-08, z: -.707106769, w: 2.89759576e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin warrior mohican
+      position: {x: 2.14870763, y: .0529555418, z: 5.72204577e-08}
+      rotation: {x: .707106769, y: 2.89759576e-08, z: -.707106769, w: 2.89759576e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bip_gob_warRCollarbone
+      position: {x: .0209732633, y: .0439180247, z: -.0755582601}
+      rotation: {x: -.0258280337, y: -.76603049, z: .155060381, w: .623286724}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: bip_gob_warRUpperarm
+      position: {x: -.182065874, y: 2.32063641e-07, z: 3.24986956e-07}
+      rotation: {x: -.207454905, y: .0902794749, z: -.111007541, w: .967723787}
+      scale: {x: .999999762, y: .999999642, z: .999999523}
+      transformModified: 1
+    - name: bip_gob_warRForearm
+      position: {x: -.574127376, y: -1.32951186e-07, z: -3.56098042e-07}
+      rotation: {x: .110844173, y: .0290379524, z: -.0323522575, w: .992886484}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: bip_gob_warRPalm
+      position: {x: -.540109575, y: 2.86797558e-07, z: 9.59216209e-07}
+      rotation: {x: .689604342, y: -.0566824339, z: .0165632982, w: .721774459}
+      scale: {x: .999999821, y: 1, z: .999999821}
+      transformModified: 1
+    - name: bip_gob_warRDigit11 1
+      position: {x: -.0392380543, y: -.0206859019, z: -.0552419126}
+      rotation: {x: -.477820218, y: -.220381603, z: -.0663135573, w: .847774804}
+      scale: {x: 1.00000048, y: 1.00000036, z: 1.00000072}
+      transformModified: 1
+    - name: bip_gob_warRDigit12
+      position: {x: -.124293245, y: 1.70710109e-07, z: -7.63918649e-07}
+      rotation: {x: -1.21245201e-08, y: 5.95545258e-09, z: .224199429, w: .974543273}
+      scale: {x: .999999583, y: 1, z: .999999523}
+      transformModified: 1
+    - name: bip_gob_warRDigit21
+      position: {x: -.166477427, y: -.00646549463, z: -.0548236668}
+      rotation: {x: -.0358685926, y: -.114782497, z: .0769412443, w: .989756763}
+      scale: {x: 1.00000048, y: 1.00000048, z: 1.0000006}
+      transformModified: 1
+    - name: bip_gob_warRDigit22
+      position: {x: -.114717387, y: 9.36926369e-07, z: 2.0555278e-07}
+      rotation: {x: -2.14365386e-07, y: 6.34420587e-08, z: .0965703353, w: .995326161}
+      scale: {x: 1, y: .999999285, z: .999999642}
+      transformModified: 1
+    - name: bip_gob_warRDigit31
+      position: {x: -.168454334, y: -.0116895363, z: .0241542701}
+      rotation: {x: .0219491497, y: -.108399197, z: .0795574859, w: .990675688}
+      scale: {x: 1.00000048, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: bip_gob_warRDigit32
+      position: {x: -.120421112, y: 4.50923068e-07, z: 1.51099925e-07}
+      rotation: {x: -8.60564683e-07, y: -9.1566271e-08, z: .156596228, w: .987662673}
+      scale: {x: 1.00000048, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: goblin_war_axe
+      position: {x: -.134750441, y: -.0599031039, z: .0278916154}
+      rotation: {x: -.1522111, y: .978565335, z: .00668495195, w: -.138553113}
+      scale: {x: 1.00000012, y: 1.00000048, z: 1.00000036}
+      transformModified: 1
+    - name: goblin_war_club
+      position: {x: -.134750426, y: -.0599028766, z: .0278916918}
+      rotation: {x: -.152210861, y: .978565335, z: .00668498781, w: -.138553306}
+      scale: {x: 1.00000083, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: goblin_war_spear dummy
+      position: {x: -.106770128, y: -.0471274555, z: -.00669864658}
+      rotation: {x: -.125568643, y: .835971773, z: .0571454801, w: -.531147838}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: goblin_war_spear
+      position: {x: -3.81469718e-08, y: 1.52587887e-07, z: .350451797}
+      rotation: {x: 1.34110365e-07, y: 2.98023224e-08, z: 3.72528959e-08, w: .99999994}
+      scale: {x: 1, y: 1.00000048, z: 1.00000072}
+      transformModified: 1
+    - name: goblin_war_sword
+      position: {x: -.134750426, y: -.0599028766, z: .0278916918}
+      rotation: {x: -.152210847, y: .978565335, z: .00668503018, w: -.138553157}
+      scale: {x: .999999881, y: 1.00000024, z: 1.00000083}
+      transformModified: 1
+    - name: goblin warrior arm armor R
+      position: {x: -.472768813, y: -.0871805549, z: -1.48286927}
+      rotation: {x: .346789241, y: .0980645493, z: .922966182, w: -.1351071}
+      scale: {x: .999999583, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: goblin warrior wrist armor R
+      position: {x: -.472768813, y: -.0871805549, z: -1.48286927}
+      rotation: {x: .346789241, y: .0980645493, z: .922966182, w: -.1351071}
+      scale: {x: .999999583, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: goblin warrior shoulder armor R
+      position: {x: -1.10698497, y: .480274826, z: -1.38398409}
+      rotation: {x: .394697011, y: -.0945074633, z: .911801517, w: .0624534935}
+      scale: {x: 1.0000006, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: goblin_quiver
+      position: {x: 1.89280927, y: .0765843466, z: 1.33514405e-07}
+      rotation: {x: .707106769, y: 2.89759594e-08, z: -.707106769, w: 2.89759594e-08}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: goblin warrior armor
+      position: {x: .988195539, y: .382110089, z: -4.76837148e-09}
+      rotation: {x: .699400365, y: .104111068, z: -.699400365, w: .104111068}
+      scale: {x: .99999994, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: bon_gob_war_cloth00
+      position: {x: -.151573613, y: .186080575, z: -1.33075559e-07}
+      rotation: {x: -.0296210945, y: .706492126, z: .706481874, w: -.0295764953}
+      scale: {x: .99999994, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: bon_gob_war_cloth01
+      position: {x: -.38557896, y: 7.43723021e-08, z: -1.53828111e-07}
+      rotation: {x: -6.66742926e-06, y: -.0141470497, z: 3.36823723e-05, w: .999899864}
+      scale: {x: .999999762, y: .999999881, z: 1}
+      transformModified: 1
+    - name: bon_gob_war_cloth_tip
+      position: {x: -.277782857, y: 1.001358e-07, z: 0}
+      rotation: {x: -1.120153e-06, y: -.0331474319, z: -5.12496763e-06, w: .999450445}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 3
+  userData: 

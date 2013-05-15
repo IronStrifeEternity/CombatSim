@@ -1,0 +1,911 @@
+fileFormatVersion: 2
+guid: cb01db2707aa97a4e94efee03de71f52
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: goblin ranger hair
+    100002: bon_gob_ran_hair
+    100004: goblin_arch
+    100006: goblin ranger ponny tail
+    100008: goblin_ran_spear
+    100010: goblin ranger shoulder armor
+    100012: goblin_ran_sword
+    100014: goblin ranger wrist armor R
+    100016: bip_gob_ranNeck1
+    100018: bon_gob_ran_ear R
+    100020: goblin ranger cap
+    100022: ctrl_goblin arch_dummie top
+    100024: goblin ranger boot B
+    100026: goblin ranger boot A
+    100028: bip_gob_ranRPlatform
+    100030: goblin ranger cloth
+    100032: bip_gob_ranRIKTarget
+    100034: bip_gob_ranRDigit22
+    100036: bip_gob_ranHeadBone002
+    100038: ctrl_goblin arch_main
+    100040: bip_gob_ranRDigit32
+    100042: goblin ranger mask
+    100044: IK_goblin arch_top
+    100046: ctrl_goblin arch_dummie botton
+    100048: bon_gob_ran_cloth01
+    100050: goblin ranger arm armor R
+    100052: bip_gob_ranRDigit31
+    100054: bon_gob_ran_jaw_tip
+    100056: bip_gob_ranHeadBone001
+    100058: bon_gob_ran_ear L
+    100060: bon_gob_ran_jaw_tip 1
+    100062: goblin ranger mohican
+    100064: bon_gob_ran_cloth_tip
+    100066: bip_gob_ranNeck2
+    100068: bon_gob_ran_face
+    100070: //RootNode
+    100072: goblin_quiver
+    100074: goblin ranger helmet
+    100076: bip_gob_ranLPlatform
+    100078: bon_gob_ran_hair_tip
+    100080: bon_gob_ran_ear R_tip 1
+    100082: bip_gob_ranLIKTarget
+    100084: bon_gob_ran_ear R_tip
+    100086: bon_gob_ran_cloth00
+    100088: goblin ranger armor
+    100090: bon_gob_ran_jaw
+    100092: bip_gob_ranHead
+    100094: goblin_ran_club
+    100096: bone_goblin arch_botton01
+    100098: goblin_ran_axe
+    100100: bone_goblin arch_botton00
+    100102: bip_gob_ran
+    100104: goblin ranger
+    100106: bip_gob_ranRDigit21
+    100108: bip_gob_ranLDigit11 1
+    100110: ctrl_goblin arch_arrow
+    100112: bip_gob_ranLForearm
+    100114: bip_gob_ranRPalm
+    100116: bip_gob_ranSpine4
+    100118: bip_gob_ranRibcage
+    100120: bone_goblin arch_top00
+    100122: bip_gob_ranLCalf
+    100124: bip_gob_ranLFoot
+    100126: bip_gob_ranLDigit11
+    100128: bip_gob_ranRThigh
+    100130: bip_gob_ranRCalf
+    100132: bip_gob_ranRFoot
+    100134: bip_gob_ranPelvis
+    100136: IK_goblin arch_botton
+    100138: bone_goblin arch_top01
+    100140: bip_gob_ranSpine1
+    100142: bone_goblin arch_main
+    100144: bip_gob_ranRDigit12
+    100146: bip_gob_ranRDigit11 1
+    100148: bip_gob_ranLDigit22
+    100150: bip_gob_ranLDigit31
+    100152: bip_gob_ranLDigit32
+    100154: goblin_ran_shield
+    100156: goblin ranger wrist armor L
+    100158: goblin ranger arm armor L
+    100160: bip_gob_ranLPalm
+    100162: bip_gob_ranLDigit12
+    100164: bip_gob_ranLCollarbone
+    100166: bip_gob_ranRUpperarm
+    100168: bip_gob_ranRDigit11
+    100170: goblin_war_spear dummy
+    100172: bip_gob_ranLThigh
+    100174: bip_gob_ranSpine2
+    100176: bip_gob_ranRCollarbone
+    100178: bip_gob_ranLDigit21
+    100180: bip_gob_ranRForearm
+    100182: bip_gob_ranLUpperarm
+    100184: bone_goblin arch_botton_tip
+    100186: bip_gob_ranSpine3
+    100188: bone_goblin arch_top_tip
+    400000: goblin ranger hair
+    400002: bon_gob_ran_hair
+    400004: goblin_arch
+    400006: goblin ranger ponny tail
+    400008: goblin_ran_spear
+    400010: goblin ranger shoulder armor
+    400012: goblin_ran_sword
+    400014: goblin ranger wrist armor R
+    400016: bip_gob_ranNeck1
+    400018: bon_gob_ran_ear R
+    400020: goblin ranger cap
+    400022: ctrl_goblin arch_dummie top
+    400024: goblin ranger boot B
+    400026: goblin ranger boot A
+    400028: bip_gob_ranRPlatform
+    400030: goblin ranger cloth
+    400032: bip_gob_ranRIKTarget
+    400034: bip_gob_ranRDigit22
+    400036: bip_gob_ranHeadBone002
+    400038: ctrl_goblin arch_main
+    400040: bip_gob_ranRDigit32
+    400042: goblin ranger mask
+    400044: IK_goblin arch_top
+    400046: ctrl_goblin arch_dummie botton
+    400048: bon_gob_ran_cloth01
+    400050: goblin ranger arm armor R
+    400052: bip_gob_ranRDigit31
+    400054: bon_gob_ran_jaw_tip
+    400056: bip_gob_ranHeadBone001
+    400058: bon_gob_ran_ear L
+    400060: bon_gob_ran_jaw_tip 1
+    400062: goblin ranger mohican
+    400064: bon_gob_ran_cloth_tip
+    400066: bip_gob_ranNeck2
+    400068: bon_gob_ran_face
+    400070: //RootNode
+    400072: goblin_quiver
+    400074: goblin ranger helmet
+    400076: bip_gob_ranLPlatform
+    400078: bon_gob_ran_hair_tip
+    400080: bon_gob_ran_ear R_tip 1
+    400082: bip_gob_ranLIKTarget
+    400084: bon_gob_ran_ear R_tip
+    400086: bon_gob_ran_cloth00
+    400088: goblin ranger armor
+    400090: bon_gob_ran_jaw
+    400092: bip_gob_ranHead
+    400094: goblin_ran_club
+    400096: bone_goblin arch_botton01
+    400098: goblin_ran_axe
+    400100: bone_goblin arch_botton00
+    400102: bip_gob_ran
+    400104: goblin ranger
+    400106: bip_gob_ranRDigit21
+    400108: bip_gob_ranLDigit11 1
+    400110: ctrl_goblin arch_arrow
+    400112: bip_gob_ranLForearm
+    400114: bip_gob_ranRPalm
+    400116: bip_gob_ranSpine4
+    400118: bip_gob_ranRibcage
+    400120: bone_goblin arch_top00
+    400122: bip_gob_ranLCalf
+    400124: bip_gob_ranLFoot
+    400126: bip_gob_ranLDigit11
+    400128: bip_gob_ranRThigh
+    400130: bip_gob_ranRCalf
+    400132: bip_gob_ranRFoot
+    400134: bip_gob_ranPelvis
+    400136: IK_goblin arch_botton
+    400138: bone_goblin arch_top01
+    400140: bip_gob_ranSpine1
+    400142: bone_goblin arch_main
+    400144: bip_gob_ranRDigit12
+    400146: bip_gob_ranRDigit11 1
+    400148: bip_gob_ranLDigit22
+    400150: bip_gob_ranLDigit31
+    400152: bip_gob_ranLDigit32
+    400154: goblin_ran_shield
+    400156: goblin ranger wrist armor L
+    400158: goblin ranger arm armor L
+    400160: bip_gob_ranLPalm
+    400162: bip_gob_ranLDigit12
+    400164: bip_gob_ranLCollarbone
+    400166: bip_gob_ranRUpperarm
+    400168: bip_gob_ranRDigit11
+    400170: goblin_war_spear dummy
+    400172: bip_gob_ranLThigh
+    400174: bip_gob_ranSpine2
+    400176: bip_gob_ranRCollarbone
+    400178: bip_gob_ranLDigit21
+    400180: bip_gob_ranRForearm
+    400182: bip_gob_ranLUpperarm
+    400184: bone_goblin arch_botton_tip
+    400186: bip_gob_ranSpine3
+    400188: bone_goblin arch_top_tip
+    2300000: goblin ranger hair
+    2300002: goblin_quiver
+    2300004: goblin_ran_spear
+    2300006: goblin ranger shoulder armor
+    2300008: goblin_ran_sword
+    2300010: goblin ranger wrist armor R
+    2300012: goblin ranger mask
+    2300014: goblin ranger arm armor R
+    2300016: goblin ranger mohican
+    2300018: goblin ranger helmet
+    2300020: goblin ranger armor
+    2300022: goblin_ran_club
+    2300024: goblin_ran_axe
+    2300026: goblin_ran_shield
+    2300028: goblin ranger wrist armor L
+    2300030: goblin ranger arm armor L
+    3300000: goblin ranger hair
+    3300002: goblin_quiver
+    3300004: goblin_ran_spear
+    3300006: goblin ranger shoulder armor
+    3300008: goblin_ran_sword
+    3300010: goblin ranger wrist armor R
+    3300012: goblin ranger mask
+    3300014: goblin ranger arm armor R
+    3300016: goblin ranger mohican
+    3300018: goblin ranger helmet
+    3300020: goblin ranger armor
+    3300022: goblin_ran_club
+    3300024: goblin_ran_axe
+    3300026: goblin_ran_shield
+    3300028: goblin ranger wrist armor L
+    3300030: goblin ranger arm armor L
+    4300000: goblin warrior
+    4300002: goblin warrior cloth
+    4300004: goblin warrior boot A
+    4300006: goblin warrior boot B
+    4300008: goblin_arch
+    4300010: goblin_shield
+    4300012: goblin warrior arm armor L
+    4300014: goblin warrior wrist armor L
+    4300016: goblin warrior shoulder armor L
+    4300018: goblin_war_axe
+    4300020: goblin_war_club
+    4300022: goblin_war_sword
+    4300024: goblin_war_spear
+    4300026: goblin warrior arm armor R
+    4300028: goblin warrior wrist armor R
+    4300030: goblin warrior shoulder armor R
+    4300032: goblin warrior cap
+    4300034: goblin warrior mask
+    4300036: goblin warrior helmet
+    4300038: goblin warrior mohican
+    4300040: goblin warrior hair
+    4300042: goblin_quiver
+    4300044: goblin warrior armor
+    4300046: goblin warrior ponny tail
+    4300048: goblin ranger
+    4300050: goblin_ran_shield
+    4300052: goblin ranger wrist armor L
+    4300054: goblin ranger arm armor L
+    4300056: goblin_ran_spear
+    4300058: goblin_ran_axe
+    4300060: goblin_ran_sword
+    4300062: goblin_ran_club
+    4300064: goblin ranger wrist armor R
+    4300066: goblin ranger arm armor R
+    4300068: goblin ranger shoulder armor
+    4300070: goblin ranger helmet
+    4300072: goblin ranger mask
+    4300074: goblin ranger hair
+    4300076: goblin ranger mohican
+    4300078: goblin ranger armor
+    4300080: goblin ranger ponny tail
+    4300082: goblin ranger cloth
+    4300084: goblin ranger boot A
+    4300086: goblin ranger boot B
+    4300088: goblin ranger cap
+    7400146: idle
+    7400148: idle break 1
+    7400150: idle break 2
+    7400152: salute
+    7400154: walk
+    7400156: run
+    7400158: run fast
+    7400160: crouch
+    7400162: crouch walk
+    7400164: hit front
+    7400166: hit back
+    7400168: jump
+    7400170: falling
+    7400172: die soft
+    7400174: die hard
+    7400176: idle fight
+    7400178: idle break fight
+    7400180: blocking
+    7400182: axe attack
+    7400184: 'sword attack '
+    7400186: sword double attack
+    7400188: arch attack
+    7400190: spear prepare
+    7400192: spear attack
+    7400194: die hard
+    7400196: 'axe attack '
+    7400198: sword attack
+    7400200: jump simple
+    7400202: 'run '
+    7400204: 'crouch '
+    7400206: jump complete
+    11100000: //RootNode
+    13700000: goblin_arch
+    13700002: goblin ranger ponny tail
+    13700004: goblin ranger cap
+    13700006: goblin ranger boot B
+    13700008: goblin ranger boot A
+    13700010: goblin ranger cloth
+    13700012: goblin ranger
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: idle
+      takeName: 
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: idle break 1
+      takeName: 
+      firstFrame: 120
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: idle break 2
+      takeName: 
+      firstFrame: 190
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: salute
+      takeName: 
+      firstFrame: 290
+      lastFrame: 369
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: jump simple
+      takeName: 
+      firstFrame: 370
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: walk
+      takeName: 
+      firstFrame: 385
+      lastFrame: 415
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: 'run '
+      takeName: 
+      firstFrame: 420
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: run fast
+      takeName: 
+      firstFrame: 455
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: 'crouch '
+      takeName: 
+      firstFrame: 485
+      lastFrame: 499
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: crouch walk
+      takeName: 
+      firstFrame: 500
+      lastFrame: 550
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: hit front
+      takeName: 
+      firstFrame: 554
+      lastFrame: 564
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: hit back
+      takeName: 
+      firstFrame: 565
+      lastFrame: 575
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: jump complete
+      takeName: 
+      firstFrame: 580
+      lastFrame: 623
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: falling
+      takeName: 
+      firstFrame: 625
+      lastFrame: 665
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: die soft
+      takeName: 
+      firstFrame: 668
+      lastFrame: 740
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: die hard
+      takeName: 
+      firstFrame: 745
+      lastFrame: 770
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: idle fight
+      takeName: 
+      firstFrame: 775
+      lastFrame: 820
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: idle break fight
+      takeName: 
+      firstFrame: 820
+      lastFrame: 870
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: blocking
+      takeName: 
+      firstFrame: 870
+      lastFrame: 890
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: 'axe attack '
+      takeName: 
+      firstFrame: 890
+      lastFrame: 910
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: sword attack
+      takeName: 
+      firstFrame: 910
+      lastFrame: 930
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: sword double attack
+      takeName: 
+      firstFrame: 930
+      lastFrame: 960
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: arch attack
+      takeName: 
+      firstFrame: 960
+      lastFrame: 1015
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: spear prepare
+      takeName: 
+      firstFrame: 1015
+      lastFrame: 1025
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: spear attack
+      takeName: 
+      firstFrame: 1025
+      lastFrame: 1045
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

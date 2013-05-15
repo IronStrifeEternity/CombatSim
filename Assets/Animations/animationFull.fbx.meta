@@ -1,0 +1,2482 @@
+fileFormatVersion: 2
+guid: 599be4b89e2bb7349b5d4bddc1a39818
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Greatsword:polySurface1
+    100004: LightWeight_Rigged_:DSN_lElbowParentUpG
+    100006: LightWeight_Rigged_:DSN_lKneeParentUpG
+    100008: LightWeight_Rigged_:DSN_rElbowParentUpG
+    100010: LightWeight_Rigged_:DSN_rKneeParentUpG
+    100012: LightWeight_Rigged_:EyeAimCG
+    100014: LightWeight_Rigged_:HeadC
+    100016: LightWeight_Rigged_:HeadCG
+    100018: LightWeight_Rigged_:HeadJ
+    100020: LightWeight_Rigged_:HeadTipJ
+    100022: LightWeight_Rigged_:IK_Weapon_NodeL1
+    100024: LightWeight_Rigged_:IK_Weapon_NodeR1
+    100026: LightWeight_Rigged_:JawCG
+    100028: LightWeight_Rigged_:JawJ
+    100030: LightWeight_Rigged_:JawTipJ
+    100032: LightWeight_Rigged_:lAnkleFKC
+    100034: LightWeight_Rigged_:lAnkleFKCG
+    100036: LightWeight_Rigged_:lAnkleJ
+    100038: LightWeight_Rigged_:lAnkleJFK
+    100040: LightWeight_Rigged_:lAnkleJIK
+    100042: LightWeight_Rigged_:lArmIKFKG
+    100044: LightWeight_Rigged_:lArmIKHandle
+    100046: LightWeight_Rigged_:lArmSwitchC
+    100048: LightWeight_Rigged_:lArmSwitchCG
+    100050: LightWeight_Rigged_:lBallFKC
+    100052: LightWeight_Rigged_:lBallFKCG
+    100054: LightWeight_Rigged_:lBallIKHandle
+    100056: LightWeight_Rigged_:lBallJ
+    100058: LightWeight_Rigged_:lBallJFK
+    100060: LightWeight_Rigged_:lBallJIK
+    100062: LightWeight_Rigged_:lClavicleC
+    100064: LightWeight_Rigged_:lClavicleCG
+    100066: LightWeight_Rigged_:lClavicleJ
+    100068: LightWeight_Rigged_:lElbowFKC
+    100070: LightWeight_Rigged_:lElbowFKCG
+    100072: LightWeight_Rigged_:lElbowIKC
+    100074: LightWeight_Rigged_:lElbowIKCG
+    100076: LightWeight_Rigged_:lElbowJ
+    100078: LightWeight_Rigged_:lElbowJFK
+    100080: LightWeight_Rigged_:lElbowJIK
+    100082: LightWeight_Rigged_:lEyeJ
+    100084: LightWeight_Rigged_:lFootBallPivot
+    100086: LightWeight_Rigged_:lFootIKC
+    100088: LightWeight_Rigged_:lFootIKCG
+    100090: LightWeight_Rigged_:lFootToePivot
+    100092: LightWeight_Rigged_:lForearmJ
+    100094: LightWeight_Rigged_:lHipFKC
+    100096: LightWeight_Rigged_:lHipFKCG
+    100098: LightWeight_Rigged_:lHipJ
+    100100: LightWeight_Rigged_:lHipJFK
+    100102: LightWeight_Rigged_:lHipJIK
+    100104: LightWeight_Rigged_:lIndex1C
+    100106: LightWeight_Rigged_:lIndex1CG
+    100108: LightWeight_Rigged_:lIndex1J
+    100110: LightWeight_Rigged_:lIndex2C
+    100112: LightWeight_Rigged_:lIndex2CG
+    100114: LightWeight_Rigged_:lIndex2J
+    100116: LightWeight_Rigged_:lIndex3C
+    100118: LightWeight_Rigged_:lIndex3CG
+    100120: LightWeight_Rigged_:lIndex3J
+    100122: LightWeight_Rigged_:lIndexTipJ
+    100124: LightWeight_Rigged_:lKneeFKC
+    100126: LightWeight_Rigged_:lKneeFKCG
+    100128: LightWeight_Rigged_:lKneeIKC
+    100130: LightWeight_Rigged_:lKneeIKCG
+    100132: LightWeight_Rigged_:lKneeJ
+    100134: LightWeight_Rigged_:lKneeJFK
+    100136: LightWeight_Rigged_:lKneeJIK
+    100138: LightWeight_Rigged_:lLegIKFKG
+    100140: LightWeight_Rigged_:lLegIKHandle
+    100142: LightWeight_Rigged_:lLegSwitchC
+    100144: LightWeight_Rigged_:lLegSwitchCG
+    100146: LightWeight_Rigged_:lMiddle1C
+    100148: LightWeight_Rigged_:lMiddle1CG
+    100150: LightWeight_Rigged_:lMiddle1J
+    100152: LightWeight_Rigged_:lMiddle2C
+    100154: LightWeight_Rigged_:lMiddle2CG
+    100156: LightWeight_Rigged_:lMiddle2J
+    100158: LightWeight_Rigged_:lMiddle3C
+    100160: LightWeight_Rigged_:lMiddle3CG
+    100162: LightWeight_Rigged_:lMiddle3J
+    100164: LightWeight_Rigged_:lMiddleTipJ
+    100166: LightWeight_Rigged_:lPinkie1C
+    100168: LightWeight_Rigged_:lPinkie1CG
+    100170: LightWeight_Rigged_:lPinkie1J
+    100172: LightWeight_Rigged_:lPinkie2C
+    100174: LightWeight_Rigged_:lPinkie2CG
+    100176: LightWeight_Rigged_:lPinkie2J
+    100178: LightWeight_Rigged_:lPinkie3C
+    100180: LightWeight_Rigged_:lPinkie3CG
+    100182: LightWeight_Rigged_:lPinkie3J
+    100184: LightWeight_Rigged_:lPinkieTipJ
+    100186: LightWeight_Rigged_:lRing1C
+    100188: LightWeight_Rigged_:lRing1CG
+    100190: LightWeight_Rigged_:lRing1J
+    100192: LightWeight_Rigged_:lRing2C
+    100194: LightWeight_Rigged_:lRing2CG
+    100196: LightWeight_Rigged_:lRing2J
+    100198: LightWeight_Rigged_:lRing3C
+    100200: LightWeight_Rigged_:lRing3CG
+    100202: LightWeight_Rigged_:lRing3J
+    100204: LightWeight_Rigged_:lRingTipJ
+    100206: LightWeight_Rigged_:lShoulderFKC
+    100208: LightWeight_Rigged_:lShoulderFKCG
+    100210: LightWeight_Rigged_:lShoulderJ
+    100212: LightWeight_Rigged_:lShoulderJFK
+    100214: LightWeight_Rigged_:lShoulderJIK
+    100216: LightWeight_Rigged_:lThumb1C
+    100218: LightWeight_Rigged_:lThumb1CG
+    100220: LightWeight_Rigged_:lThumb1J
+    100222: LightWeight_Rigged_:lThumb2C
+    100224: LightWeight_Rigged_:lThumb2CG
+    100226: LightWeight_Rigged_:lThumb2J
+    100228: LightWeight_Rigged_:lThumb3C
+    100230: LightWeight_Rigged_:lThumb3CG
+    100232: LightWeight_Rigged_:lThumb3J
+    100234: LightWeight_Rigged_:lThumbTipJ
+    100236: LightWeight_Rigged_:lToeIKHandle
+    100238: LightWeight_Rigged_:lToeJ
+    100240: LightWeight_Rigged_:lToeJFK
+    100242: LightWeight_Rigged_:lToeJIK
+    100244: LightWeight_Rigged_:lWristFKC
+    100246: LightWeight_Rigged_:lWristFKCG
+    100248: LightWeight_Rigged_:lWristIKC
+    100250: LightWeight_Rigged_:lWristIKCG
+    100252: LightWeight_Rigged_:lWristJ
+    100254: LightWeight_Rigged_:lWristJFK
+    100256: LightWeight_Rigged_:lWristJIK
+    100258: LightWeight_Rigged_:MainHipC
+    100260: LightWeight_Rigged_:MainHipCG
+    100262: LightWeight_Rigged_:MainHipJ
+    100264: LightWeight_Rigged_:NeckC
+    100266: LightWeight_Rigged_:NeckCG
+    100268: LightWeight_Rigged_:NeckJ
+    100270: LightWeight_Rigged_:rAnkleFKC
+    100272: LightWeight_Rigged_:rAnkleFKCG
+    100274: LightWeight_Rigged_:rAnkleJ
+    100276: LightWeight_Rigged_:rAnkleJFK
+    100278: LightWeight_Rigged_:rAnkleJIK
+    100280: LightWeight_Rigged_:rArmIKFKG
+    100282: LightWeight_Rigged_:rArmIKHandle
+    100284: LightWeight_Rigged_:rArmSwitchC
+    100286: LightWeight_Rigged_:rArmSwitchCG
+    100288: LightWeight_Rigged_:rBallFKC
+    100290: LightWeight_Rigged_:rBallFKCG
+    100292: LightWeight_Rigged_:rBallIKHandle
+    100294: LightWeight_Rigged_:rBallJ
+    100296: LightWeight_Rigged_:rBallJFK
+    100298: LightWeight_Rigged_:rBallJIK
+    100300: LightWeight_Rigged_:rClavicleC
+    100302: LightWeight_Rigged_:rClavicleCG
+    100304: LightWeight_Rigged_:rClavicleJ
+    100306: LightWeight_Rigged_:rElbowFKC
+    100308: LightWeight_Rigged_:rElbowFKCG
+    100310: LightWeight_Rigged_:rElbowIKC
+    100312: LightWeight_Rigged_:rElbowIKCG
+    100314: LightWeight_Rigged_:rElbowJ
+    100316: LightWeight_Rigged_:rElbowJFK
+    100318: LightWeight_Rigged_:rElbowJIK
+    100320: LightWeight_Rigged_:rEyeJ
+    100322: LightWeight_Rigged_:rFootBallPivot
+    100324: LightWeight_Rigged_:rFootIKC
+    100326: LightWeight_Rigged_:rFootIKCG
+    100328: LightWeight_Rigged_:rFootToePivot
+    100330: LightWeight_Rigged_:rForearmJ
+    100332: LightWeight_Rigged_:rHipFKC
+    100334: LightWeight_Rigged_:rHipFKCG
+    100336: LightWeight_Rigged_:rHipJ
+    100338: LightWeight_Rigged_:rHipJFK
+    100340: LightWeight_Rigged_:rHipJIK
+    100342: LightWeight_Rigged_:rIndex1C
+    100344: LightWeight_Rigged_:rIndex1CG
+    100346: LightWeight_Rigged_:rIndex1J
+    100348: LightWeight_Rigged_:rIndex2C
+    100350: LightWeight_Rigged_:rIndex2CG
+    100352: LightWeight_Rigged_:rIndex2J
+    100354: LightWeight_Rigged_:rIndex3C
+    100356: LightWeight_Rigged_:rIndex3CG
+    100358: LightWeight_Rigged_:rIndex3J
+    100360: LightWeight_Rigged_:rIndexTipJ
+    100362: LightWeight_Rigged_:rKneeFKC
+    100364: LightWeight_Rigged_:rKneeFKCG
+    100366: LightWeight_Rigged_:rKneeIKC
+    100368: LightWeight_Rigged_:rKneeIKCG
+    100370: LightWeight_Rigged_:rKneeJ
+    100372: LightWeight_Rigged_:rKneeJFK
+    100374: LightWeight_Rigged_:rKneeJIK
+    100376: LightWeight_Rigged_:rLegIKFKG
+    100378: LightWeight_Rigged_:rLegIKHandle
+    100380: LightWeight_Rigged_:rLegSwitchC
+    100382: LightWeight_Rigged_:rLegSwitchCG
+    100384: LightWeight_Rigged_:rMiddle1C
+    100386: LightWeight_Rigged_:rMiddle1CG
+    100388: LightWeight_Rigged_:rMiddle1J
+    100390: LightWeight_Rigged_:rMiddle2C
+    100392: LightWeight_Rigged_:rMiddle2CG
+    100394: LightWeight_Rigged_:rMiddle2J
+    100396: LightWeight_Rigged_:rMiddle3C
+    100398: LightWeight_Rigged_:rMiddle3CG
+    100400: LightWeight_Rigged_:rMiddle3J
+    100402: LightWeight_Rigged_:rMiddleTipJ
+    100404: LightWeight_Rigged_:ROOTFKC
+    100406: LightWeight_Rigged_:ROOTFKCG
+    100408: LightWeight_Rigged_:rPinkie1C
+    100410: LightWeight_Rigged_:rPinkie1CG
+    100412: LightWeight_Rigged_:rPinkie1J
+    100414: LightWeight_Rigged_:rPinkie2C
+    100416: LightWeight_Rigged_:rPinkie2CG
+    100418: LightWeight_Rigged_:rPinkie2J
+    100420: LightWeight_Rigged_:rPinkie3C
+    100422: LightWeight_Rigged_:rPinkie3CG
+    100424: LightWeight_Rigged_:rPinkie3J
+    100426: LightWeight_Rigged_:rPinkieTipJ
+    100428: LightWeight_Rigged_:rRing1C
+    100430: LightWeight_Rigged_:rRing1CG
+    100432: LightWeight_Rigged_:rRing1J
+    100434: LightWeight_Rigged_:rRing2C
+    100436: LightWeight_Rigged_:rRing2CG
+    100438: LightWeight_Rigged_:rRing2J
+    100440: LightWeight_Rigged_:rRing3C
+    100442: LightWeight_Rigged_:rRing3CG
+    100444: LightWeight_Rigged_:rRing3J
+    100446: LightWeight_Rigged_:rRingTipJ
+    100448: LightWeight_Rigged_:rShoulderFKC
+    100450: LightWeight_Rigged_:rShoulderFKCG
+    100452: LightWeight_Rigged_:rShoulderJ
+    100454: LightWeight_Rigged_:rShoulderJFK
+    100456: LightWeight_Rigged_:rShoulderJIK
+    100458: LightWeight_Rigged_:rThumb1C
+    100460: LightWeight_Rigged_:rThumb1CG
+    100462: LightWeight_Rigged_:rThumb1J
+    100464: LightWeight_Rigged_:rThumb2C
+    100466: LightWeight_Rigged_:rThumb2CG
+    100468: LightWeight_Rigged_:rThumb2J
+    100470: LightWeight_Rigged_:rThumb3C
+    100472: LightWeight_Rigged_:rThumb3CG
+    100474: LightWeight_Rigged_:rThumb3J
+    100476: LightWeight_Rigged_:rThumbTipJ
+    100478: LightWeight_Rigged_:rToeIKHandle
+    100480: LightWeight_Rigged_:rToeJ
+    100482: LightWeight_Rigged_:rToeJFK
+    100484: LightWeight_Rigged_:rToeJIK
+    100486: LightWeight_Rigged_:rWristFKC
+    100488: LightWeight_Rigged_:rWristFKCG
+    100490: LightWeight_Rigged_:rWristIKC
+    100492: LightWeight_Rigged_:rWristIKCG
+    100494: LightWeight_Rigged_:rWristJ
+    100496: LightWeight_Rigged_:rWristJFK
+    100498: LightWeight_Rigged_:rWristJIK
+    100500: LightWeight_Rigged_:Spine01FKC
+    100502: LightWeight_Rigged_:Spine01FKCG
+    100504: LightWeight_Rigged_:Spine01J
+    100506: LightWeight_Rigged_:Spine02FKC
+    100508: LightWeight_Rigged_:Spine02FKCG
+    100510: LightWeight_Rigged_:Spine02J
+    100512: LightWeight_Rigged_:Spine03FKC
+    100514: LightWeight_Rigged_:Spine03FKCG
+    100516: LightWeight_Rigged_:Spine03J
+    100518: LightWeight_Rigged_:Spine04FKC
+    100520: LightWeight_Rigged_:Spine04FKCG
+    100522: LightWeight_Rigged_:Spine04J
+    100524: MainC
+    100526: Mesh
+    100528: ROOTJ
+    100530: Staff1:polySurface5
+    400000: //RootNode
+    400002: Greatsword:polySurface1
+    400004: LightWeight_Rigged_:DSN_lElbowParentUpG
+    400006: LightWeight_Rigged_:DSN_lKneeParentUpG
+    400008: LightWeight_Rigged_:DSN_rElbowParentUpG
+    400010: LightWeight_Rigged_:DSN_rKneeParentUpG
+    400012: LightWeight_Rigged_:EyeAimCG
+    400014: LightWeight_Rigged_:HeadC
+    400016: LightWeight_Rigged_:HeadCG
+    400018: LightWeight_Rigged_:HeadJ
+    400020: LightWeight_Rigged_:HeadTipJ
+    400022: LightWeight_Rigged_:IK_Weapon_NodeL1
+    400024: LightWeight_Rigged_:IK_Weapon_NodeR1
+    400026: LightWeight_Rigged_:JawCG
+    400028: LightWeight_Rigged_:JawJ
+    400030: LightWeight_Rigged_:JawTipJ
+    400032: LightWeight_Rigged_:lAnkleFKC
+    400034: LightWeight_Rigged_:lAnkleFKCG
+    400036: LightWeight_Rigged_:lAnkleJ
+    400038: LightWeight_Rigged_:lAnkleJFK
+    400040: LightWeight_Rigged_:lAnkleJIK
+    400042: LightWeight_Rigged_:lArmIKFKG
+    400044: LightWeight_Rigged_:lArmIKHandle
+    400046: LightWeight_Rigged_:lArmSwitchC
+    400048: LightWeight_Rigged_:lArmSwitchCG
+    400050: LightWeight_Rigged_:lBallFKC
+    400052: LightWeight_Rigged_:lBallFKCG
+    400054: LightWeight_Rigged_:lBallIKHandle
+    400056: LightWeight_Rigged_:lBallJ
+    400058: LightWeight_Rigged_:lBallJFK
+    400060: LightWeight_Rigged_:lBallJIK
+    400062: LightWeight_Rigged_:lClavicleC
+    400064: LightWeight_Rigged_:lClavicleCG
+    400066: LightWeight_Rigged_:lClavicleJ
+    400068: LightWeight_Rigged_:lElbowFKC
+    400070: LightWeight_Rigged_:lElbowFKCG
+    400072: LightWeight_Rigged_:lElbowIKC
+    400074: LightWeight_Rigged_:lElbowIKCG
+    400076: LightWeight_Rigged_:lElbowJ
+    400078: LightWeight_Rigged_:lElbowJFK
+    400080: LightWeight_Rigged_:lElbowJIK
+    400082: LightWeight_Rigged_:lEyeJ
+    400084: LightWeight_Rigged_:lFootBallPivot
+    400086: LightWeight_Rigged_:lFootIKC
+    400088: LightWeight_Rigged_:lFootIKCG
+    400090: LightWeight_Rigged_:lFootToePivot
+    400092: LightWeight_Rigged_:lForearmJ
+    400094: LightWeight_Rigged_:lHipFKC
+    400096: LightWeight_Rigged_:lHipFKCG
+    400098: LightWeight_Rigged_:lHipJ
+    400100: LightWeight_Rigged_:lHipJFK
+    400102: LightWeight_Rigged_:lHipJIK
+    400104: LightWeight_Rigged_:lIndex1C
+    400106: LightWeight_Rigged_:lIndex1CG
+    400108: LightWeight_Rigged_:lIndex1J
+    400110: LightWeight_Rigged_:lIndex2C
+    400112: LightWeight_Rigged_:lIndex2CG
+    400114: LightWeight_Rigged_:lIndex2J
+    400116: LightWeight_Rigged_:lIndex3C
+    400118: LightWeight_Rigged_:lIndex3CG
+    400120: LightWeight_Rigged_:lIndex3J
+    400122: LightWeight_Rigged_:lIndexTipJ
+    400124: LightWeight_Rigged_:lKneeFKC
+    400126: LightWeight_Rigged_:lKneeFKCG
+    400128: LightWeight_Rigged_:lKneeIKC
+    400130: LightWeight_Rigged_:lKneeIKCG
+    400132: LightWeight_Rigged_:lKneeJ
+    400134: LightWeight_Rigged_:lKneeJFK
+    400136: LightWeight_Rigged_:lKneeJIK
+    400138: LightWeight_Rigged_:lLegIKFKG
+    400140: LightWeight_Rigged_:lLegIKHandle
+    400142: LightWeight_Rigged_:lLegSwitchC
+    400144: LightWeight_Rigged_:lLegSwitchCG
+    400146: LightWeight_Rigged_:lMiddle1C
+    400148: LightWeight_Rigged_:lMiddle1CG
+    400150: LightWeight_Rigged_:lMiddle1J
+    400152: LightWeight_Rigged_:lMiddle2C
+    400154: LightWeight_Rigged_:lMiddle2CG
+    400156: LightWeight_Rigged_:lMiddle2J
+    400158: LightWeight_Rigged_:lMiddle3C
+    400160: LightWeight_Rigged_:lMiddle3CG
+    400162: LightWeight_Rigged_:lMiddle3J
+    400164: LightWeight_Rigged_:lMiddleTipJ
+    400166: LightWeight_Rigged_:lPinkie1C
+    400168: LightWeight_Rigged_:lPinkie1CG
+    400170: LightWeight_Rigged_:lPinkie1J
+    400172: LightWeight_Rigged_:lPinkie2C
+    400174: LightWeight_Rigged_:lPinkie2CG
+    400176: LightWeight_Rigged_:lPinkie2J
+    400178: LightWeight_Rigged_:lPinkie3C
+    400180: LightWeight_Rigged_:lPinkie3CG
+    400182: LightWeight_Rigged_:lPinkie3J
+    400184: LightWeight_Rigged_:lPinkieTipJ
+    400186: LightWeight_Rigged_:lRing1C
+    400188: LightWeight_Rigged_:lRing1CG
+    400190: LightWeight_Rigged_:lRing1J
+    400192: LightWeight_Rigged_:lRing2C
+    400194: LightWeight_Rigged_:lRing2CG
+    400196: LightWeight_Rigged_:lRing2J
+    400198: LightWeight_Rigged_:lRing3C
+    400200: LightWeight_Rigged_:lRing3CG
+    400202: LightWeight_Rigged_:lRing3J
+    400204: LightWeight_Rigged_:lRingTipJ
+    400206: LightWeight_Rigged_:lShoulderFKC
+    400208: LightWeight_Rigged_:lShoulderFKCG
+    400210: LightWeight_Rigged_:lShoulderJ
+    400212: LightWeight_Rigged_:lShoulderJFK
+    400214: LightWeight_Rigged_:lShoulderJIK
+    400216: LightWeight_Rigged_:lThumb1C
+    400218: LightWeight_Rigged_:lThumb1CG
+    400220: LightWeight_Rigged_:lThumb1J
+    400222: LightWeight_Rigged_:lThumb2C
+    400224: LightWeight_Rigged_:lThumb2CG
+    400226: LightWeight_Rigged_:lThumb2J
+    400228: LightWeight_Rigged_:lThumb3C
+    400230: LightWeight_Rigged_:lThumb3CG
+    400232: LightWeight_Rigged_:lThumb3J
+    400234: LightWeight_Rigged_:lThumbTipJ
+    400236: LightWeight_Rigged_:lToeIKHandle
+    400238: LightWeight_Rigged_:lToeJ
+    400240: LightWeight_Rigged_:lToeJFK
+    400242: LightWeight_Rigged_:lToeJIK
+    400244: LightWeight_Rigged_:lWristFKC
+    400246: LightWeight_Rigged_:lWristFKCG
+    400248: LightWeight_Rigged_:lWristIKC
+    400250: LightWeight_Rigged_:lWristIKCG
+    400252: LightWeight_Rigged_:lWristJ
+    400254: LightWeight_Rigged_:lWristJFK
+    400256: LightWeight_Rigged_:lWristJIK
+    400258: LightWeight_Rigged_:MainHipC
+    400260: LightWeight_Rigged_:MainHipCG
+    400262: LightWeight_Rigged_:MainHipJ
+    400264: LightWeight_Rigged_:NeckC
+    400266: LightWeight_Rigged_:NeckCG
+    400268: LightWeight_Rigged_:NeckJ
+    400270: LightWeight_Rigged_:rAnkleFKC
+    400272: LightWeight_Rigged_:rAnkleFKCG
+    400274: LightWeight_Rigged_:rAnkleJ
+    400276: LightWeight_Rigged_:rAnkleJFK
+    400278: LightWeight_Rigged_:rAnkleJIK
+    400280: LightWeight_Rigged_:rArmIKFKG
+    400282: LightWeight_Rigged_:rArmIKHandle
+    400284: LightWeight_Rigged_:rArmSwitchC
+    400286: LightWeight_Rigged_:rArmSwitchCG
+    400288: LightWeight_Rigged_:rBallFKC
+    400290: LightWeight_Rigged_:rBallFKCG
+    400292: LightWeight_Rigged_:rBallIKHandle
+    400294: LightWeight_Rigged_:rBallJ
+    400296: LightWeight_Rigged_:rBallJFK
+    400298: LightWeight_Rigged_:rBallJIK
+    400300: LightWeight_Rigged_:rClavicleC
+    400302: LightWeight_Rigged_:rClavicleCG
+    400304: LightWeight_Rigged_:rClavicleJ
+    400306: LightWeight_Rigged_:rElbowFKC
+    400308: LightWeight_Rigged_:rElbowFKCG
+    400310: LightWeight_Rigged_:rElbowIKC
+    400312: LightWeight_Rigged_:rElbowIKCG
+    400314: LightWeight_Rigged_:rElbowJ
+    400316: LightWeight_Rigged_:rElbowJFK
+    400318: LightWeight_Rigged_:rElbowJIK
+    400320: LightWeight_Rigged_:rEyeJ
+    400322: LightWeight_Rigged_:rFootBallPivot
+    400324: LightWeight_Rigged_:rFootIKC
+    400326: LightWeight_Rigged_:rFootIKCG
+    400328: LightWeight_Rigged_:rFootToePivot
+    400330: LightWeight_Rigged_:rForearmJ
+    400332: LightWeight_Rigged_:rHipFKC
+    400334: LightWeight_Rigged_:rHipFKCG
+    400336: LightWeight_Rigged_:rHipJ
+    400338: LightWeight_Rigged_:rHipJFK
+    400340: LightWeight_Rigged_:rHipJIK
+    400342: LightWeight_Rigged_:rIndex1C
+    400344: LightWeight_Rigged_:rIndex1CG
+    400346: LightWeight_Rigged_:rIndex1J
+    400348: LightWeight_Rigged_:rIndex2C
+    400350: LightWeight_Rigged_:rIndex2CG
+    400352: LightWeight_Rigged_:rIndex2J
+    400354: LightWeight_Rigged_:rIndex3C
+    400356: LightWeight_Rigged_:rIndex3CG
+    400358: LightWeight_Rigged_:rIndex3J
+    400360: LightWeight_Rigged_:rIndexTipJ
+    400362: LightWeight_Rigged_:rKneeFKC
+    400364: LightWeight_Rigged_:rKneeFKCG
+    400366: LightWeight_Rigged_:rKneeIKC
+    400368: LightWeight_Rigged_:rKneeIKCG
+    400370: LightWeight_Rigged_:rKneeJ
+    400372: LightWeight_Rigged_:rKneeJFK
+    400374: LightWeight_Rigged_:rKneeJIK
+    400376: LightWeight_Rigged_:rLegIKFKG
+    400378: LightWeight_Rigged_:rLegIKHandle
+    400380: LightWeight_Rigged_:rLegSwitchC
+    400382: LightWeight_Rigged_:rLegSwitchCG
+    400384: LightWeight_Rigged_:rMiddle1C
+    400386: LightWeight_Rigged_:rMiddle1CG
+    400388: LightWeight_Rigged_:rMiddle1J
+    400390: LightWeight_Rigged_:rMiddle2C
+    400392: LightWeight_Rigged_:rMiddle2CG
+    400394: LightWeight_Rigged_:rMiddle2J
+    400396: LightWeight_Rigged_:rMiddle3C
+    400398: LightWeight_Rigged_:rMiddle3CG
+    400400: LightWeight_Rigged_:rMiddle3J
+    400402: LightWeight_Rigged_:rMiddleTipJ
+    400404: LightWeight_Rigged_:ROOTFKC
+    400406: LightWeight_Rigged_:ROOTFKCG
+    400408: LightWeight_Rigged_:rPinkie1C
+    400410: LightWeight_Rigged_:rPinkie1CG
+    400412: LightWeight_Rigged_:rPinkie1J
+    400414: LightWeight_Rigged_:rPinkie2C
+    400416: LightWeight_Rigged_:rPinkie2CG
+    400418: LightWeight_Rigged_:rPinkie2J
+    400420: LightWeight_Rigged_:rPinkie3C
+    400422: LightWeight_Rigged_:rPinkie3CG
+    400424: LightWeight_Rigged_:rPinkie3J
+    400426: LightWeight_Rigged_:rPinkieTipJ
+    400428: LightWeight_Rigged_:rRing1C
+    400430: LightWeight_Rigged_:rRing1CG
+    400432: LightWeight_Rigged_:rRing1J
+    400434: LightWeight_Rigged_:rRing2C
+    400436: LightWeight_Rigged_:rRing2CG
+    400438: LightWeight_Rigged_:rRing2J
+    400440: LightWeight_Rigged_:rRing3C
+    400442: LightWeight_Rigged_:rRing3CG
+    400444: LightWeight_Rigged_:rRing3J
+    400446: LightWeight_Rigged_:rRingTipJ
+    400448: LightWeight_Rigged_:rShoulderFKC
+    400450: LightWeight_Rigged_:rShoulderFKCG
+    400452: LightWeight_Rigged_:rShoulderJ
+    400454: LightWeight_Rigged_:rShoulderJFK
+    400456: LightWeight_Rigged_:rShoulderJIK
+    400458: LightWeight_Rigged_:rThumb1C
+    400460: LightWeight_Rigged_:rThumb1CG
+    400462: LightWeight_Rigged_:rThumb1J
+    400464: LightWeight_Rigged_:rThumb2C
+    400466: LightWeight_Rigged_:rThumb2CG
+    400468: LightWeight_Rigged_:rThumb2J
+    400470: LightWeight_Rigged_:rThumb3C
+    400472: LightWeight_Rigged_:rThumb3CG
+    400474: LightWeight_Rigged_:rThumb3J
+    400476: LightWeight_Rigged_:rThumbTipJ
+    400478: LightWeight_Rigged_:rToeIKHandle
+    400480: LightWeight_Rigged_:rToeJ
+    400482: LightWeight_Rigged_:rToeJFK
+    400484: LightWeight_Rigged_:rToeJIK
+    400486: LightWeight_Rigged_:rWristFKC
+    400488: LightWeight_Rigged_:rWristFKCG
+    400490: LightWeight_Rigged_:rWristIKC
+    400492: LightWeight_Rigged_:rWristIKCG
+    400494: LightWeight_Rigged_:rWristJ
+    400496: LightWeight_Rigged_:rWristJFK
+    400498: LightWeight_Rigged_:rWristJIK
+    400500: LightWeight_Rigged_:Spine01FKC
+    400502: LightWeight_Rigged_:Spine01FKCG
+    400504: LightWeight_Rigged_:Spine01J
+    400506: LightWeight_Rigged_:Spine02FKC
+    400508: LightWeight_Rigged_:Spine02FKCG
+    400510: LightWeight_Rigged_:Spine02J
+    400512: LightWeight_Rigged_:Spine03FKC
+    400514: LightWeight_Rigged_:Spine03FKCG
+    400516: LightWeight_Rigged_:Spine03J
+    400518: LightWeight_Rigged_:Spine04FKC
+    400520: LightWeight_Rigged_:Spine04FKCG
+    400522: LightWeight_Rigged_:Spine04J
+    400524: MainC
+    400526: Mesh
+    400528: ROOTJ
+    400530: Staff1:polySurface5
+    2300000: Greatsword:polySurface1
+    2300002: Staff1:polySurface5
+    3300000: Greatsword:polySurface1
+    3300002: Staff1:polySurface5
+    4300004: Mesh
+    7400000: tPose
+    7400002: Idle01
+    7400004: Walk
+    7400006: Run
+    7400008: Sprint
+    7400010: IdleSwing
+    7400012: RunJumpStart
+    7400014: RunJumpHover
+    7400016: RunJumpLand
+    7400018: RunSwing
+    7400020: IdleBowStartAim
+    7400022: IdleBowAim
+    7400024: IdleBowShootReload
+    7400026: IdleBowRelax
+    7400028: IdleShieldBlock
+    7400030: IdleConjureStart
+    7400032: IdleConjure
+    7400034: IdleSpellBlast
+    7400036: BackStep
+    7400038: WalkShieldBlock
+    7400040: WalkBowStartAim
+    7400042: WalkBowAim
+    7400044: WalkBowShootReload
+    7400046: WalkBowRelax
+    7400048: WalkConjureStart
+    7400050: WalkConjure
+    7400052: WalkSpellblast
+    7400054: IdleTwoHanded
+    7400056: RunTwoHanded
+    7400058: IdleTwoHandedSwing
+    7400060: RunTwoHandedSwing
+    7400062: RunTwoHandedSwingAlt
+    7400064: OneHandedCombo
+    7400066: RunLeanLeft
+    7400068: RunLeanRight
+    7400070: Death
+    7400072: WeaponEnchant
+    7400074: DashAttack
+    7400076: Frustrated
+    7400078: Combo1
+    7400080: Combo2
+    7400082: Combo3
+    7400084: Combo4
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Idle01
+      takeName: 
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Walk
+      takeName: 
+      firstFrame: 83
+      lastFrame: 113
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Run
+      takeName: 
+      firstFrame: 114
+      lastFrame: 134
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Sprint
+      takeName: 
+      firstFrame: 135
+      lastFrame: 149
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: IdleSwing
+      takeName: 
+      firstFrame: 150
+      lastFrame: 176
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: RunJumpStart
+      takeName: 
+      firstFrame: 193
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: RunJumpHover
+      takeName: 
+      firstFrame: 200
+      lastFrame: 211
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: -.180000007
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: RunJumpLand
+      takeName: 
+      firstFrame: 212
+      lastFrame: 237
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: RunSwing
+      takeName: 
+      firstFrame: 238
+      lastFrame: 278
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: IdleBowStartAim
+      takeName: 
+      firstFrame: 279
+      lastFrame: 307
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: IdleBowAim
+      takeName: 
+      firstFrame: 308
+      lastFrame: 338
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: IdleBowShootReload
+      takeName: 
+      firstFrame: 339
+      lastFrame: 380
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: IdleBowRelax
+      takeName: 
+      firstFrame: 381
+      lastFrame: 419
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: IdleShieldBlock
+      takeName: 
+      firstFrame: 420
+      lastFrame: 472
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: IdleConjureStart
+      takeName: 
+      firstFrame: 473
+      lastFrame: 484
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: IdleConjure
+      takeName: 
+      firstFrame: 485
+      lastFrame: 520
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: IdleSpellBlast
+      takeName: 
+      firstFrame: 521
+      lastFrame: 537
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: BackStep
+      takeName: 
+      firstFrame: 538
+      lastFrame: 558
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: WalkShieldBlock
+      takeName: 
+      firstFrame: 559
+      lastFrame: 619
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: WalkBowStartAim
+      takeName: 
+      firstFrame: 620
+      lastFrame: 680
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: WalkBowAim
+      takeName: 
+      firstFrame: 681
+      lastFrame: 711
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: WalkBowShootReload
+      takeName: 
+      firstFrame: 712
+      lastFrame: 772
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: WalkBowRelax
+      takeName: 
+      firstFrame: 773
+      lastFrame: 833
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: WalkConjureStart
+      takeName: 
+      firstFrame: 834
+      lastFrame: 864
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: WalkConjure
+      takeName: 
+      firstFrame: 865
+      lastFrame: 925
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: WalkSpellblast
+      takeName: 
+      firstFrame: 926
+      lastFrame: 956
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: IdleTwoHanded
+      takeName: 
+      firstFrame: 957
+      lastFrame: 1000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: RunTwoHanded
+      takeName: 
+      firstFrame: 1001
+      lastFrame: 1021
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: IdleTwoHandedSwing
+      takeName: 
+      firstFrame: 1022
+      lastFrame: 1081
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: RunTwoHandedSwing
+      takeName: 
+      firstFrame: 1082
+      lastFrame: 1123
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: RunTwoHandedSwingAlt
+      takeName: 
+      firstFrame: 1124
+      lastFrame: 1164
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: OneHandedCombo
+      takeName: 
+      firstFrame: 1165
+      lastFrame: 1342
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: RunLeanLeft
+      takeName: 
+      firstFrame: 1343
+      lastFrame: 1363
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: RunLeanRight
+      takeName: 
+      firstFrame: 1364
+      lastFrame: 1384
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Death
+      takeName: 
+      firstFrame: 1385
+      lastFrame: 1612
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: WeaponEnchant
+      takeName: 
+      firstFrame: 1613
+      lastFrame: 1705
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: DashAttack
+      takeName: 
+      firstFrame: 1706
+      lastFrame: 1806
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Frustrated
+      takeName: 
+      firstFrame: 1888
+      lastFrame: 1988.00012
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Combo1
+      takeName: Take 001
+      firstFrame: 1165
+      lastFrame: 1186
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Combo2
+      takeName: Take 001
+      firstFrame: 1187
+      lastFrame: 1205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Combo3
+      takeName: Take 001
+      firstFrame: 1206
+      lastFrame: 1220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Combo4
+      takeName: Take 001
+      firstFrame: 1221
+      lastFrame: 1240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: ROOTJ
+      humanName: Hips
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .128586948, y: 0, z: .064293474}
+        preQ: {x: .574959397, y: .411608577, z: -.574959397, w: -.411608547}
+        postQ: {x: .574959457, y: .411608636, z: -.574959457, w: -.411608607}
+        length: .160733759
+        modified: 1
+    - boneName: LightWeight_Rigged_:lHipJ
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: -60.0000038, y: -60.0000038, z: -90}
+        max: {x: 60.0000038, y: 60.0000038, z: 50}
+        value: {x: .490246505, y: 0, z: .245123252}
+        preQ: {x: .587859392, y: -.366948694, z: .636258423, w: -.339035541}
+        postQ: {x: 2.98023224e-08, y: .00539091229, z: .999985397, w: 0}
+        length: .612808287
+        modified: 1
+    - boneName: LightWeight_Rigged_:rHipJ
+      humanName: RightUpperLeg
+      limit:
+        min: {x: -60.0000038, y: -60.0000038, z: -90}
+        max: {x: 60.0000038, y: 60.0000038, z: 50}
+        value: {x: .490246624, y: 0, z: .245123312}
+        preQ: {x: .636241019, y: -.33904615, z: .587878704, w: -.366938055}
+        postQ: {x: -1.49011612e-08, y: -.00577020645, z: .999983311, w: -2.98023224e-08}
+        length: .612808406
+        modified: 1
+    - boneName: LightWeight_Rigged_:lKneeJ
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .507951558, y: 0, z: .253975779}
+        preQ: {x: -.00537720788, y: .0498693101, z: -.714060366, w: .698284805}
+        postQ: {x: -8.94069672e-08, y: .000387579203, z: -.999999881, w: 1.49011612e-08}
+        length: .63493973
+        modified: 1
+    - boneName: LightWeight_Rigged_:rKneeJ
+      humanName: RightLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .507951498, y: 0, z: .253975749}
+        preQ: {x: .00559985731, y: -.049597878, z: -.714078307, w: .698284268}
+        postQ: {x: -5.96046448e-08, y: -8.22544098e-06, z: -.99999994, w: -7.4505806e-08}
+        length: .634939671
+        modified: 1
+    - boneName: LightWeight_Rigged_:lAnkleJ
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: -30.0000019, z: -50}
+        max: {x: 0, y: 30.0000019, z: 50}
+        value: {x: .108799525, y: 0, z: .0543997623}
+        preQ: {x: -.0371677577, y: -.00249490142, z: -.996313691, w: -.0772739649}
+        postQ: {x: 1.49011612e-08, y: -1.04308128e-07, z: -.956340075, w: .292255878}
+        length: .135999441
+        modified: 1
+    - boneName: LightWeight_Rigged_:rAnkleJ
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: -30.0000019, z: -50}
+        max: {x: 0, y: 30.0000019, z: 50}
+        value: {x: .10879948, y: 0, z: .05439974}
+        preQ: {x: .0371672511, y: .00287497044, z: -.996311545, w: -.0772889853}
+        postQ: {x: -1.1920929e-07, y: 1.49011612e-08, z: -.956340015, w: .292256117}
+        length: .135999382
+        modified: 1
+    - boneName: LightWeight_Rigged_:Spine01J
+      humanName: Spine
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .243867204, y: 0, z: .121933602}
+        preQ: {x: .514397919, y: .485174984, z: -.51439774, w: -.485175073}
+        postQ: {x: .102981105, y: .994683266, z: 8.94069672e-08, w: -8.94069672e-08}
+        length: .304834068
+        modified: 1
+    - boneName: LightWeight_Rigged_:Spine03J
+      humanName: Chest
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .249739394, y: 0, z: .124869697}
+        preQ: {x: -.240069449, y: .970755696, z: -5.96046448e-08, w: 1.49011612e-08}
+        postQ: {x: -.101923287, y: -.994792283, z: 5.96046412e-08, w: 0}
+        length: .31217432
+        modified: 1
+    - boneName: LightWeight_Rigged_:NeckJ
+      humanName: Neck
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .0405427776, y: 0, z: .0202713888}
+        preQ: {x: -.212904334, y: -.977072895, z: 2.98023206e-08, w: 1.19209282e-07}
+        postQ: {x: -2.23517446e-07, y: .99999994, z: -4.47034907e-08, w: -1.04308143e-07}
+        length: .0506784916
+        modified: 1
+    - boneName: LightWeight_Rigged_:HeadJ
+      humanName: Head
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .0405427776, y: 0, z: .0202713888}
+        preQ: {x: -5.96046448e-08, y: .99999994, z: -2.98023224e-08, w: 1.49011612e-08}
+        postQ: {x: 2.98023224e-08, y: -.99999994, z: 2.98023224e-08, w: 0}
+        length: .0506784916
+        modified: 1
+    - boneName: LightWeight_Rigged_:lClavicleJ
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: -15.000001, z: -15.000001}
+        max: {x: 0, y: 15.000001, z: 30.0000019}
+        value: {x: .125413761, y: 0, z: .0627068803}
+        preQ: {x: -.594988406, y: -.382084697, z: .594989002, w: -.382083803}
+        postQ: {x: 1.50117234e-08, y: -8.94069743e-08, z: .99999994, w: 7.75323144e-07}
+        length: .156767279
+        modified: 1
+    - boneName: LightWeight_Rigged_:rClavicleJ
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: -15.000001, z: -15.000001}
+        max: {x: 0, y: 15.000001, z: 30.0000019}
+        value: {x: .12541385, y: 0, z: .062706925}
+        preQ: {x: .382083803, y: -.594989002, z: .382084697, w: .594988406}
+        postQ: {x: -7.45520254e-07, y: -.99999994, z: 8.94069885e-08, w: -2.38755415e-08}
+        length: .156767383
+        modified: 1
+    - boneName: LightWeight_Rigged_:lShoulderJ
+      humanName: LeftUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -60.0000038}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: .336681813, y: 0, z: .168340907}
+        preQ: {x: .212594286, y: -.0177313425, z: .911477983, w: -.351705998}
+        postQ: {x: 3.18777857e-08, y: -.00168964721, z: .99999851, w: -2.96302431e-07}
+        length: .420852423
+        modified: 1
+    - boneName: LightWeight_Rigged_:rShoulderJ
+      humanName: RightUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -60.0000038}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: .336681604, y: 0, z: .168340802}
+        preQ: {x: .351706028, y: -.911477864, z: .01773124, w: -.212594539}
+        postQ: {x: 5.6065619e-07, y: -.99999851, z: .00168965268, w: -3.7252903e-08}
+        length: .420852154
+        modified: 1
+    - boneName: LightWeight_Rigged_:lElbowJ
+      humanName: LeftLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .340058565, y: 0, z: .170029283}
+        preQ: {x: .498536795, y: .490989715, z: .523352265, w: -.486304939}
+        postQ: {x: 8.19563866e-08, y: .999997675, z: .00212663412, w: -6.14672899e-08}
+        length: .425073355
+        modified: 1
+    - boneName: LightWeight_Rigged_:rElbowJ
+      humanName: RightLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .340058327, y: 0, z: .170029163}
+        preQ: {x: .486305118, y: -.523352683, z: -.490989715, w: -.498536199}
+        postQ: {x: 1.50594849e-06, y: -.00212660409, z: -.999997675, w: -9.59262181e-08}
+        length: .425073057
+        modified: 1
+    - boneName: LightWeight_Rigged_:lWristJ
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: .170029283, y: 0, z: .0850146413}
+        preQ: {x: 9.91858684e-08, y: .706155181, z: .708056986, w: 8.31187297e-09}
+        postQ: {x: .0797419921, y: .000592071039, z: .99652499, w: -.0240546335}
+        length: .212536678
+        modified: 1
+    - boneName: LightWeight_Rigged_:rWristJ
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: .170029163, y: 0, z: .0850145817}
+        preQ: {x: 9.96515155e-07, y: -.708056867, z: -.7061553, w: -1.12317502e-06}
+        postQ: {x: -.000592024415, y: -.079742007, z: -.0240560547, w: .99652499}
+        length: .212536529
+        modified: 1
+    - boneName: LightWeight_Rigged_:lToeJ
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: -50}
+        max: {x: 0, y: 0, z: 50}
+        value: {x: .0965681151, y: 0, z: .0482840575}
+        preQ: {x: -2.98023224e-08, y: 2.10734221e-08, z: .99999994, w: 6.32202699e-08}
+        postQ: {x: .707106769, y: 3.24966116e-08, z: .707106769, w: -9.32644295e-10}
+        length: .120710179
+        modified: 1
+    - boneName: LightWeight_Rigged_:rToeJ
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: -50}
+        max: {x: 0, y: 0, z: 50}
+        value: {x: .0965680927, y: 0, z: .0482840464}
+        preQ: {x: 8.94069814e-08, y: 1.05367121e-07, z: .99999994, w: -6.32202699e-08}
+        postQ: {x: .707106769, y: 3.56690073e-08, z: .70710665, w: -1.12490177e-07}
+        length: .120710149
+        modified: 1
+    - boneName: LightWeight_Rigged_:lEyeJ
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: -20, z: -10}
+        max: {x: 0, y: 20, z: 15.000001}
+        value: {x: .0799999759, y: 0, z: .0399999879}
+        preQ: {x: -0, y: -0, z: .707106709, w: -.707106769}
+        postQ: {x: .707106769, y: -3.16101385e-08, z: .707106769, w: -1.05367128e-08}
+        length: .100000001
+        modified: 1
+    - boneName: LightWeight_Rigged_:rEyeJ
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: -20, z: -10}
+        max: {x: 0, y: 20, z: 15.000001}
+        value: {x: .0799999759, y: 0, z: .0399999879}
+        preQ: {x: -0, y: -0, z: .707106709, w: -.707106769}
+        postQ: {x: .707106769, y: -3.16101385e-08, z: .707106769, w: -1.05367128e-08}
+        length: .100000001
+        modified: 1
+    - boneName: LightWeight_Rigged_:JawJ
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: -10, z: -10}
+        max: {x: 0, y: 10, z: 10}
+        value: {x: .0799999759, y: 0, z: .0399999879}
+        preQ: {x: -1.1130882e-08, y: -0, z: .64087677, w: -.76764369}
+        postQ: {x: -0, y: -0, z: .968936265, w: .247310743}
+        length: .100000001
+        modified: 1
+    - boneName: LightWeight_Rigged_:lThumb1J
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: -25, z: -20}
+        max: {x: 0, y: 25, z: 20}
+        value: {x: .029298557, y: 0, z: .0146492785}
+        preQ: {x: .261704236, y: .551698267, z: .560198486, w: -.559747696}
+        postQ: {x: -1.04308121e-07, y: .716627657, z: .697455943, w: -6.19888306e-06}
+        length: .036623206
+        modified: 1
+    - boneName: LightWeight_Rigged_:lThumb2J
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -40}
+        max: {x: 0, y: 0, z: 35}
+        value: {x: .0275316648, y: 0, z: .0137658324}
+        preQ: {x: -.16567722, y: .734761834, z: .643292248, w: .137299374}
+        postQ: {x: 1.51712447e-06, y: .637713432, z: .770273626, w: 1.32620335e-06}
+        length: .0344145894
+        modified: 1
+    - boneName: LightWeight_Rigged_:lThumb3J
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: -40}
+        max: {x: 0, y: 0, z: 35}
+        value: {x: .0206487458, y: 0, z: .0103243729}
+        preQ: {x: -.121080711, y: .663152814, z: .724001348, w: .146252617}
+        postQ: {x: .0261522401, y: .533978999, z: .844808757, w: -.0219210684}
+        length: .0258109421
+        modified: 1
+    - boneName: LightWeight_Rigged_:lIndex1J
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .029643463, y: 0, z: .0148217315}
+        preQ: {x: .0935690627, y: -.0288632438, z: .922316611, w: -.373823166}
+        postQ: {x: 1.25641236e-07, y: -.00731072063, z: .999973238, w: -3.87126784e-06}
+        length: .0370543376
+        modified: 1
+    - boneName: LightWeight_Rigged_:lIndex2J
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0329335965, y: 0, z: .0164667983}
+        preQ: {x: -.00198257761, y: -.0228785854, z: .937434256, w: -.347404242}
+        postQ: {x: 3.66941094e-07, y: -.00899094809, z: .999959588, w: -1.85862871e-06}
+        length: .0411670133
+        modified: 1
+    - boneName: LightWeight_Rigged_:lIndex3J
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0247002002, y: 0, z: .0123501001}
+        preQ: {x: -.00281427009, y: -.022791246, z: .94946146, w: -.313042223}
+        postQ: {x: -.000323887711, y: -.00898507331, z: .999311805, w: .0359861702}
+        length: .03087526
+        modified: 1
+    - boneName: LightWeight_Rigged_:lMiddle1J
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0333978347, y: 0, z: .0166989174}
+        preQ: {x: .0593428649, y: -.0254674479, z: .922274947, w: -.381101906}
+        postQ: {x: 1.84110846e-07, y: -.00800268725, z: .999967933, w: 8.79088532e-07}
+        length: .0417473093
+        modified: 1
+    - boneName: LightWeight_Rigged_:lMiddle2J
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0367441028, y: 0, z: .0183720514}
+        preQ: {x: -.00217912858, y: -.0206546579, z: .937164485, w: -.348269165}
+        postQ: {x: 3.13972123e-07, y: -.00940920599, z: .999955714, w: -1.13742499e-06}
+        length: .0459301472
+        modified: 1
+    - boneName: LightWeight_Rigged_:lMiddle3J
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0275580809, y: 0, z: .0137790404}
+        preQ: {x: -.00294629228, y: -.0205593072, z: .949476838, w: -.313149035}
+        postQ: {x: -.00032018288, y: -.00940371491, z: .999376833, w: .0340198055}
+        length: .0344476104
+        modified: 1
+    - boneName: LightWeight_Rigged_:lRing1J
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0330248326, y: 0, z: .0165124163}
+        preQ: {x: -.0210145414, y: -.0213826504, z: .926607907, w: -.374832004}
+        postQ: {x: 1.3117095e-07, y: -.00727035524, z: .999973536, w: -3.94117114e-06}
+        length: .0412810594
+        modified: 1
+    - boneName: LightWeight_Rigged_:lRing2J
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0362766236, y: 0, z: .0181383118}
+        preQ: {x: -.00196558726, y: -.0230176318, z: .937246859, w: -.347900182}
+        postQ: {x: -8.77771527e-08, y: -.00899183936, z: .999959528, w: -1.39378244e-06}
+        length: .0453457981
+        modified: 1
+    - boneName: LightWeight_Rigged_:lRing3J
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0272074714, y: 0, z: .0136037357}
+        preQ: {x: -.00281493226, y: -.0229292363, z: .949460387, w: -.313035518}
+        postQ: {x: -.000301704422, y: -.0089867916, z: .999397457, w: .0335234776}
+        length: .0340093486
+        modified: 1
+    - boneName: LightWeight_Rigged_:lPinkie1J
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .0284133684, y: 0, z: .0142066842}
+        preQ: {x: -.0632605553, y: -.0206186362, z: .928698719, w: -.364817113}
+        postQ: {x: -5.66535107e-07, y: -.00634910772, z: .999979794, w: -8.75682144e-06}
+        length: .0355167203
+        modified: 1
+    - boneName: LightWeight_Rigged_:lPinkie2J
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0310235005, y: 0, z: .0155117502}
+        preQ: {x: -.00169806113, y: -.0253106058, z: .937284648, w: -.347640485}
+        postQ: {x: 1.011067e-07, y: -.00840030331, z: .999964654, w: 8.34132425e-06}
+        length: .0387793854
+        modified: 1
+    - boneName: LightWeight_Rigged_:lPinkie3J
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0232676249, y: 0, z: .0116338124}
+        preQ: {x: -.00262852246, y: -.0252310783, z: .949452758, w: -.312883139}
+        postQ: {x: -.000299916806, y: -.00839489978, z: .999326348, w: .0357237309}
+        length: .029084539
+        modified: 1
+    - boneName: LightWeight_Rigged_:rThumb1J
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: -25, z: -20}
+        max: {x: 0, y: 25, z: 20}
+        value: {x: .029298706, y: 0, z: .014649353}
+        preQ: {x: .551695466, y: .261699557, z: .559751034, w: -.560200036}
+        postQ: {x: 6.66826907e-07, y: -.697455227, z: -.716628253, w: -7.74860325e-07}
+        length: .0366233923
+        modified: 1
+    - boneName: LightWeight_Rigged_:rThumb2J
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -40}
+        max: {x: 0, y: 0, z: 35}
+        value: {x: .0275317207, y: 0, z: .0137658603}
+        preQ: {x: .137299478, y: .643288434, z: .734765112, w: -.165677115}
+        postQ: {x: 6.15417957e-06, y: -.770273089, z: -.637714088, w: 8.49366188e-07}
+        length: .0344146602
+        modified: 1
+    - boneName: LightWeight_Rigged_:rThumb3J
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: -40}
+        max: {x: 0, y: 0, z: 35}
+        value: {x: .0206487887, y: 0, z: .0103243943}
+        preQ: {x: .146244496, y: .723999679, z: .663155973, w: -.12108288}
+        postQ: {x: .0219234228, y: -.844808757, z: -.533979297, w: -.0261443853}
+        length: .0258109942
+        modified: 1
+    - boneName: LightWeight_Rigged_:rIndex1J
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .0296434127, y: 0, z: .0148217063}
+        preQ: {x: -.0288639385, y: .0935655832, z: .37381798, w: -.922318935}
+        postQ: {x: -6.23613596e-06, y: -.999973238, z: .00731004961, w: -1.2665987e-07}
+        length: .0370542742
+        modified: 1
+    - boneName: LightWeight_Rigged_:rIndex2J
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0329338945, y: 0, z: .0164669473}
+        preQ: {x: -.347394079, y: .937437952, z: -.0228809025, w: -.00198302395}
+        postQ: {x: 1.02818001e-06, y: -.999959528, z: .00899046939, w: -2.53319712e-07}
+        length: .0411673859
+        modified: 1
+    - boneName: LightWeight_Rigged_:rIndex3J
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0247004237, y: 0, z: .0123502119}
+        preQ: {x: -.313041329, y: .949461818, z: -.0227936096, w: -.00281424029}
+        postQ: {x: -.0359822623, y: -.999311984, z: .00898464583, w: .000324079738}
+        length: .0308755394
+        modified: 1
+    - boneName: LightWeight_Rigged_:rMiddle1J
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0333976448, y: 0, z: .0166988224}
+        preQ: {x: -.0254674088, y: .0593434498, z: .381103188, w: -.922274351}
+        postQ: {x: 9.23872051e-07, y: -.999967933, z: .00800285768, w: -2.04890966e-08}
+        length: .0417470746
+        modified: 1
+    - boneName: LightWeight_Rigged_:rMiddle2J
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0367442854, y: 0, z: .0183721427}
+        preQ: {x: -.348264754, y: .937166035, z: -.020654235, w: -.0021793698}
+        postQ: {x: -2.9951334e-06, y: -.999955595, z: .00940901786, w: -2.03028307e-07}
+        length: .0459303744
+        modified: 1
+    - boneName: LightWeight_Rigged_:rMiddle3J
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0275582187, y: 0, z: .0137791093}
+        preQ: {x: -.313145101, y: .94947809, z: -.020558849, w: -.00294639077}
+        postQ: {x: -.0340171047, y: -.999376953, z: .00940365903, w: .000320421503}
+        length: .0344477817
+        modified: 1
+    - boneName: LightWeight_Rigged_:rRing1J
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .033024814, y: 0, z: .016512407}
+        preQ: {x: -.0213839691, y: -.0210173912, z: .374830097, w: -.926608503}
+        postQ: {x: -1.38580788e-06, y: -.999973536, z: .00727001997, w: -5.40167058e-08}
+        length: .041281037
+        modified: 1
+    - boneName: LightWeight_Rigged_:rRing2J
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0362765938, y: 0, z: .0181382969}
+        preQ: {x: -.347890317, y: .937250495, z: -.0230192412, w: -.00196536351}
+        postQ: {x: -7.70389943e-06, y: -.999959528, z: .0089914361, w: -1.91852436e-07}
+        length: .0453457609
+        modified: 1
+    - boneName: LightWeight_Rigged_:rRing3J
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0272074509, y: 0, z: .0136037255}
+        preQ: {x: -.313026816, y: .949463189, z: -.0229308046, w: -.00281467196}
+        postQ: {x: -.0335274898, y: -.999397397, z: .00898642093, w: .000301228807}
+        length: .0340093225
+        modified: 1
+    - boneName: LightWeight_Rigged_:rPinkie1J
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .0284134913, y: 0, z: .0142067457}
+        preQ: {x: -.0206202399, y: -.0632636696, z: .364808112, w: -.928702056}
+        postQ: {x: -4.00096133e-06, y: -.999979794, z: .00634834124, w: 3.22237582e-07}
+        length: .035516873
+        modified: 1
+    - boneName: LightWeight_Rigged_:rPinkie2J
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0310234986, y: 0, z: .0155117493}
+        preQ: {x: -.347623467, y: .937290907, z: -.0253122393, w: -.00169802213}
+        postQ: {x: -6.70552183e-08, y: -.999964654, z: .00839958247, w: -2.32830629e-07}
+        length: .0387793817
+        modified: 1
+    - boneName: LightWeight_Rigged_:rPinkie3J
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .023267623, y: 0, z: .0116338115}
+        preQ: {x: -.312890798, y: .949450135, z: -.0252327826, w: -.00262802234}
+        postQ: {x: -.0357314833, y: -.99932605, z: .0083942879, w: .000300064654}
+        length: .0290845372
+        modified: 1
+    skeleton:
+    - name: animationFull
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MainC
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ROOTJ
+      position: {x: 5.38302979e-11, y: 1.44626999, z: 2.03053373e-11}
+      rotation: {x: -2.70825441e-12, y: -3.96554016e-22, z: 1.46424192e-10, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:MainHipJ
+      position: {x: -7.83480003e-10, y: -.0737731457, z: -2.07049308e-11}
+      rotation: {x: -1.42810874e-10, y: -9.31322397e-09, z: -5.54747394e-11, w: .99999994}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lHipJ
+      position: {x: -.158611521, y: 3.57610276e-07, z: 6.99063563e-09}
+      rotation: {x: .521939099, y: .482635796, z: .477060229, w: .516774297}
+      scale: {x: .99999994, y: 1, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lKneeJ
+      position: {x: -.612808347, y: 6.45721421e-10, z: -4.77921986e-08}
+      rotation: {x: .000203099553, y: .00264039519, z: .0775181651, w: .996987402}
+      scale: {x: 1.00000024, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lAnkleJ
+      position: {x: -.634939671, y: -3.21964215e-08, z: -1.21129105e-07}
+      rotation: {x: -.0132483821, y: .0348159075, z: -.365078807, w: .930230975}
+      scale: {x: .99999994, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lBallJ
+      position: {x: -.11580652, y: 2.883937e-08, z: 2.62393645e-08}
+      rotation: {x: -7.70865094e-10, y: -4.17368469e-08, z: -.469578385, w: .882890761}
+      scale: {x: 1.00000024, y: .999999881, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lToeJ
+      position: {x: -.156767234, y: -9.72429035e-08, z: 5.39634435e-08}
+      rotation: {x: -2.71080367e-08, y: -.707106769, z: -3.07349701e-08, w: .707106769}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rHipJ
+      position: {x: .158611611, y: 3.57645462e-07, z: -2.4452893e-09}
+      rotation: {x: .476892292, y: .516562343, z: .522120237, w: .48283273}
+      scale: {x: .99999994, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rKneeJ
+      position: {x: -.612808466, y: 1.92271141e-08, z: -5.99072223e-08}
+      rotation: {x: -.000203138043, y: -.00264033955, z: .0775182173, w: .996987343}
+      scale: {x: 1.00000012, y: .999999821, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rAnkleJ
+      position: {x: -.634939551, y: 4.08078726e-08, z: 6.73435494e-08}
+      rotation: {x: .0136118252, y: -.0347044058, z: -.365092695, w: .930224478}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rBallJ
+      position: {x: -.11580655, y: -3.84556209e-08, z: 3.89056076e-09}
+      rotation: {x: -1.18841692e-09, y: 4.27789146e-08, z: -.469578236, w: .882890701}
+      scale: {x: 1.00000012, y: .999999762, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rToeJ
+      position: {x: -.15676719, y: -5.93747949e-08, z: -6.58882016e-08}
+      rotation: {x: 5.86669158e-09, y: -.707106769, z: 6.71910749e-09, w: .707106769}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:Spine01J
+      position: {x: 1.07369835e-09, y: .152155995, z: -.0518066883}
+      rotation: {x: -.461699098, y: .535568774, z: -.461699098, w: .535568714}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: LightWeight_Rigged_:Spine02J
+      position: {x: -.153835461, y: 1.00063239e-07, z: -5.31888755e-09}
+      rotation: {x: -3.34140147e-08, y: 2.56877417e-08, z: .202517688, w: -.979278564}
+      scale: {x: 1.00000012, y: .999999881, z: 1.00000024}
+      transformModified: 1
+    - name: LightWeight_Rigged_:Spine03J
+      position: {x: -.157447919, y: -1.59260651e-07, z: 6.45324061e-09}
+      rotation: {x: 0, y: 0, z: -.337761819, w: -.941231549}
+      scale: {x: .999999821, y: 1, z: .999999762}
+      transformModified: 1
+    - name: LightWeight_Rigged_:Spine04J
+      position: {x: -.167325571, y: -8.16819394e-08, z: -5.70068703e-09}
+      rotation: {x: 0, y: 0, z: -4.55479743e-08, w: .99999994}
+      scale: {x: 1.00000012, y: 1, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lClavicleJ
+      position: {x: -.0419284701, y: .0191832688, z: -.115270033}
+      rotation: {x: .382084191, y: -.594988763, z: .382084191, w: .594988763}
+      scale: {x: 1.00000024, y: .999999881, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lShoulderJ
+      position: {x: -.156767279, y: 1.82375729e-07, z: 4.70670969e-09}
+      rotation: {x: -.000905914116, y: -.0347887166, z: .0224301163, w: .999142528}
+      scale: {x: .99999994, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lElbowJ
+      position: {x: -.420852274, y: -2.02859027e-07, z: 2.66777356e-08}
+      rotation: {x: .705454588, y: .0429482907, z: -.0598954484, w: .704912543}
+      scale: {x: 1, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lForearmJ
+      position: {x: -.212536559, y: -1.71534911e-08, z: 1.8954897e-07}
+      rotation: {x: 1.99639727e-09, y: -3.53680889e-08, z: 2.06108961e-08, w: .99999994}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lWristJ
+      position: {x: -.425073415, y: 6.18352587e-08, z: 1.07518808e-07}
+      rotation: {x: -.703282177, y: -.0734480843, z: .0392781645, w: .706014633}
+      scale: {x: 1.00000012, y: 1, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lIndex1J
+      position: {x: -.07802964, y: -.010005462, z: .0354194529}
+      rotation: {x: -.00183797069, y: .0177967586, z: .0939195007, w: .995418966}
+      scale: {x: .999999821, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lIndex2J
+      position: {x: -.0370543152, y: -3.39586705e-07, z: 5.70276582e-09}
+      rotation: {x: -1.93515444e-08, y: -1.22540567e-09, z: .0364096649, w: .999336898}
+      scale: {x: 1, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lIndex3J
+      position: {x: -.0411669686, y: -6.0375541e-08, z: 2.87966166e-08}
+      rotation: {x: 6.36781081e-08, y: 6.73011698e-07, z: .0359894931, w: .999352098}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lIndexTipJ
+      position: {x: -.0518472679, y: 1.26061394e-07, z: -4.44948718e-08}
+      rotation: {x: 6.3858522e-08, y: 5.9139178e-09, z: -.387556285, w: .921845973}
+      scale: {x: 1.00000024, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lMiddle1J
+      position: {x: -.0752632841, y: -.0086533986, z: .0140169673}
+      rotation: {x: -.00250281231, y: .0217928775, z: .100637801, w: .994681239}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lMiddle2J
+      position: {x: -.0417472683, y: 2.68279869e-08, z: 1.38489025e-08}
+      rotation: {x: -4.40981864e-08, y: -5.96826197e-08, z: .0372174457, w: .999307156}
+      scale: {x: .999999881, y: .99999994, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lMiddle3J
+      position: {x: -.0459301434, y: -9.62854543e-08, z: 2.84467525e-08}
+      rotation: {x: 5.39299094e-08, y: 3.70055176e-07, z: .0340224728, w: .999421}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lMiddleTipJ
+      position: {x: -.0625962839, y: 3.48302706e-07, z: -4.25408864e-08}
+      rotation: {x: -7.31207521e-08, y: -8.149091e-08, z: -.418593138, w: .9081738}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lPinkie1J
+      position: {x: -.0745744854, y: -.0105459355, z: -.0299550872}
+      rotation: {x: -.00116828794, y: .0132376691, z: .0834868327, w: .996420205}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lPinkie2J
+      position: {x: -.0355167128, y: -6.64502579e-07, z: -4.33631584e-08}
+      rotation: {x: 3.70207793e-08, y: -6.40429903e-07, z: .036831405, w: .999321461}
+      scale: {x: 1.00000012, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lPinkie3J
+      position: {x: -.0387794077, y: 5.33770105e-07, z: 1.48600483e-08}
+      rotation: {x: 4.71065782e-08, y: -1.24713928e-08, z: .0357166678, w: .999361932}
+      scale: {x: .999999762, y: 1, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lPinkieTipJ
+      position: {x: -.048260536, y: -3.43377451e-07, z: 3.72677578e-09}
+      rotation: {x: -3.33756063e-08, y: -3.18968816e-08, z: -.371097684, w: .928593814}
+      scale: {x: 1.00000024, y: 1, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lRing1J
+      position: {x: -.0736667961, y: -.0100052329, z: -.00929938722}
+      rotation: {x: -.0018038241, y: .0175786223, z: .0935047716, w: .995461941}
+      scale: {x: .999999881, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lRing2J
+      position: {x: -.0412810482, y: -2.46596983e-07, z: 1.02059374e-08}
+      rotation: {x: -3.95821012e-08, y: 2.91110894e-07, z: .036945641, w: .999317229}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lRing3J
+      position: {x: -.0453458466, y: -1.63361278e-07, z: -7.16270598e-09}
+      rotation: {x: -1.00421227e-08, y: 1.52980675e-07, z: .0335262343, w: .999437809}
+      scale: {x: .999999821, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lRingTipJ
+      position: {x: -.0626475513, y: -7.97658686e-08, z: 4.40588943e-09}
+      rotation: {x: -7.66376651e-09, y: 2.63237929e-08, z: -.421182096, w: .906976044}
+      scale: {x: 1.00000024, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lThumb1J
+      position: {x: -.0375604667, y: -.0108167864, z: .0444057584}
+      rotation: {x: .0576515161, y: .477241397, z: .10126821, w: .871011853}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lThumb2J
+      position: {x: -.0366232283, y: -3.15656479e-07, z: 2.75171828e-07}
+      rotation: {x: -.112973928, y: -.0256498232, z: .0155820614, w: .993144572}
+      scale: {x: .99999994, y: 1, z: .999999702}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lThumb3J
+      position: {x: -.0344146155, y: 1.67702325e-07, z: -6.32477848e-09}
+      rotation: {x: -.127436012, y: -.0341231152, z: -.000209504709, w: .991259575}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lThumbTipJ
+      position: {x: -.0316208266, y: 3.59374724e-07, z: -6.55322374e-09}
+      rotation: {x: -.00810342003, y: -.0266964678, z: -.290339887, w: .956516743}
+      scale: {x: 1.00000012, y: .999999881, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:NeckJ
+      position: {x: -.13836284, y: .0633043498, z: 5.71004133e-09}
+      rotation: {x: 0, y: 0, z: .212904572, w: -.977072954}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:HeadJ
+      position: {x: -.0506784916, y: -2.10981579e-08, z: 2.2840112e-09}
+      rotation: {x: 0, y: 0, z: 0, w: -.99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:HeadTipJ
+      position: {x: -.190329745, y: -3.51501228e-08, z: 5.04591036e-09}
+      rotation: {x: .49999997, y: -.49999997, z: .49999997, w: .49999997}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: LightWeight_Rigged_:JawJ
+      position: {x: -.0467381105, y: -.0213979334, z: -7.69741426e-09}
+      rotation: {x: 0, y: 0, z: .860016465, w: .510266244}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:JawTipJ
+      position: {x: -.0975213051, y: 7.53943965e-08, z: 2.47684095e-09}
+      rotation: {x: -.174875051, y: -.685141325, z: -.174875051, w: .685141325}
+      scale: {x: 1.00000024, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: LightWeight_Rigged_:lEyeJ
+      position: {x: -.086155355, y: -.092349261, z: -.0320969857}
+      rotation: {x: .49999997, y: -.49999997, z: .49999997, w: .49999997}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rEyeJ
+      position: {x: -.0861551017, y: -.0923492312, z: .032096982}
+      rotation: {x: .49999997, y: -.49999997, z: .49999997, w: .49999997}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rClavicleJ
+      position: {x: -.0419288725, y: .0191834681, z: .115270078}
+      rotation: {x: -.382084191, y: .594988763, z: .382084191, w: .594988763}
+      scale: {x: .999999881, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rShoulderJ
+      position: {x: -.156767383, y: 2.46651126e-07, z: -7.48583862e-09}
+      rotation: {x: .000905914931, y: .0347884409, z: .0224298965, w: .999142528}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rElbowJ
+      position: {x: -.420852154, y: -3.87359535e-07, z: -3.43939099e-08}
+      rotation: {x: -.705454648, y: -.0429475494, z: -.0598955974, w: .704912543}
+      scale: {x: 1.00000036, y: 1.00000012, z: .999999821}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rForearmJ
+      position: {x: -.212536633, y: 1.09317613e-08, z: -1.64190254e-07}
+      rotation: {x: -5.86917404e-09, y: 8.41965644e-08, z: -.99999994, w: -1.69538481e-08}
+      scale: {x: 1, y: .999999821, z: .99999994}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rWristJ
+      position: {x: -.425072879, y: 7.88654475e-08, z: -1.23704422e-06}
+      rotation: {x: .0392781869, y: -.706014574, z: -.703282237, w: .0734480768}
+      scale: {x: .999999762, y: 1, z: .999999762}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rIndex1J
+      position: {x: .0780297592, y: -.0100057004, z: .0354194604}
+      rotation: {x: .0939240381, y: .995418608, z: -.00183705357, w: .0177929923}
+      scale: {x: .99999994, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rIndex2J
+      position: {x: -.0370542631, y: 3.73075721e-07, z: -1.09092229e-08}
+      rotation: {x: -6.84754227e-08, y: 3.27899414e-07, z: .0363997668, w: .999337256}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rIndex3J
+      position: {x: -.0411674008, y: -1.07967317e-07, z: -2.06510435e-08}
+      rotation: {x: -1.13942198e-08, y: -8.12168253e-07, z: .0359847359, w: .999352276}
+      scale: {x: 1.00000012, y: 1, z: .999999821}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rIndexTipJ
+      position: {x: -.0518471524, y: -2.78084656e-07, z: 2.01722976e-08}
+      rotation: {x: -.387556553, y: -.921845913, z: -9.52507229e-09, w: 1.71588677e-09}
+      scale: {x: 1.00000012, y: .999999881, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rMiddle1J
+      position: {x: .0752629265, y: -.00865338556, z: .0140169794}
+      rotation: {x: .100637361, y: .994681239, z: -.00250295596, w: .0217936691}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rMiddle2J
+      position: {x: -.0417471081, y: -5.11667615e-08, z: -3.00316483e-09}
+      rotation: {x: -2.46647822e-08, y: 1.61448838e-07, z: .0372168794, w: .999307156}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rMiddle3J
+      position: {x: -.0459304154, y: 1.94089665e-07, z: -2.09458797e-08}
+      rotation: {x: 7.83943221e-08, y: -5.65383004e-07, z: .0340156667, w: .999421239}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rMiddleTipJ
+      position: {x: -.0625963882, y: 1.01630462e-07, z: 4.15589092e-08}
+      rotation: {x: -.418593049, y: -.908173859, z: 4.24512407e-08, w: -4.15076968e-08}
+      scale: {x: .999999881, y: .999999762, z: .999999702}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rPinkie1J
+      position: {x: .074574098, y: -.0105464607, z: -.0299550518}
+      rotation: {x: .083489947, y: .996420026, z: -.00116766512, w: .0132341553}
+      scale: {x: 1.00000012, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rPinkie2J
+      position: {x: -.0355168842, y: 3.39101064e-07, z: 1.88454834e-08}
+      rotation: {x: 1.68590208e-08, y: 5.02650494e-07, z: .0368051417, w: .999322414}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rPinkie3J
+      position: {x: -.0387793705, y: 4.40357573e-09, z: -1.72626002e-08}
+      rotation: {x: 6.2164986e-08, y: -1.61819983e-07, z: .0357326828, w: .999361336}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rPinkieTipJ
+      position: {x: -.0482602231, y: 2.60109108e-08, z: 7.60105134e-09}
+      rotation: {x: -.371097565, y: -.928593814, z: 5.6011217e-08, w: -2.97616154e-09}
+      scale: {x: .999999881, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rRing1J
+      position: {x: .073666431, y: -.0100054834, z: -.00929937791}
+      rotation: {x: .0935080573, y: .995461702, z: -.00180318207, w: .0175756589}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rRing2J
+      position: {x: -.041281037, y: 2.22589961e-07, z: -8.08668243e-09}
+      rotation: {x: -3.04251948e-08, y: -2.44774753e-07, z: .036944259, w: .999317288}
+      scale: {x: .999999464, y: 1, z: .999999642}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rRing3J
+      position: {x: -.0453457646, y: 6.06194988e-07, z: -2.02707557e-08}
+      rotation: {x: 2.98789153e-08, y: -1.51265755e-08, z: .0335211568, w: .999437988}
+      scale: {x: 1.00000024, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rRingTipJ
+      position: {x: -.0626478791, y: -5.4561518e-08, z: -8.93990926e-09}
+      rotation: {x: -.421181977, y: -.906976104, z: 1.12288481e-08, w: -1.8466551e-08}
+      scale: {x: 1.00000036, y: .999999762, z: 1.00000012}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rThumb1J
+      position: {x: .03756034, y: -.0108163357, z: .0444055758}
+      rotation: {x: .101278037, y: .871009409, z: .0576566346, w: .477243036}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rThumb2J
+      position: {x: -.0366233289, y: 5.64235378e-08, z: -1.15979695e-07}
+      rotation: {x: .112973891, y: .0256546102, z: .0155749377, w: .993144572}
+      scale: {x: .999999821, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rThumb3J
+      position: {x: -.0344146453, y: -3.36568831e-07, z: -2.37017687e-07}
+      rotation: {x: .127436385, y: .0341166109, z: -.000208687896, w: .991259754}
+      scale: {x: 1.00000036, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: LightWeight_Rigged_:rThumbTipJ
+      position: {x: -.0316210762, y: 5.17675517e-07, z: -1.96997174e-08}
+      rotation: {x: -.290339798, y: -.956516802, z: -.00810343679, w: .026696438}
+      scale: {x: .999999523, y: .999999881, z: .999999523}
+      transformModified: 1
+    - name: Staff1:polySurface5
+      position: {x: .0623182021, y: -.0374336764, z: -.197852954}
+      rotation: {x: .446278453, y: .587772608, z: .547019899, w: .395130336}
+      scale: {x: .19290553, y: .257791102, z: .19290553}
+      transformModified: 1
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: MainC
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 3
+  userData: 
