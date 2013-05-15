@@ -81,7 +81,6 @@ public class PlayerMover : MonoBehaviour {
     private void DoJump()
     {
         grounded = false;
-        Debug.Log("Doing jump");
         canJump = false;
         Invoke("EnableJump", jumpCooldown);
         verticalSpeed = Mathf.Sqrt(2 * targetJumpHeight * gravity);

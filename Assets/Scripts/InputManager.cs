@@ -51,7 +51,7 @@ public class InputManager : MonoBehaviour {
         animator.SetBool("SprintButton", sprintButton );
         animator.SetBool("BlockButton", blockButton);
         animator.SetBool("RollButton", rollButton);
-        animator.SetFloat("TurnRate", mouseDeltaX);
+        animator.SetFloat("TurnRate", mouseDeltaX, .3f, Time.deltaTime);
         animator.SetBool("AttackButton", attackButton);
         animator.SetBool("ShieldBashButton", shieldBashButton);
         animator.SetBool("StabButton", stabButton);
