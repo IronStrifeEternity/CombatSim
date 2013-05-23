@@ -56,7 +56,6 @@ public class PlayerMover : MonoBehaviour {
         var modifiedMoveSpeed = moveSpeed;
         if (input.blockButton) modifiedMoveSpeed *= .4f;
         else if (input.sprintButton) modifiedMoveSpeed *= 1.35f;
-
         collisionFlags = cc.Move((direction * modifiedMoveSpeed + new Vector3(0, verticalSpeed)) * Time.deltaTime);
         this.transform.RotateAround(Vector3.up, input.mouseDeltaX * .06f);
     }
