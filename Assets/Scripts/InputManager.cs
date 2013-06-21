@@ -5,7 +5,7 @@ public class InputManager : MonoBehaviour {
 
     Animator animator;
     public float horizontalInput, verticalInput, mouseDeltaX, mouseDeltaY;
-    public bool jumpButton, sprintButton, rollButton, attackButton, blockButton, shieldBashButton, stabButton;
+    public bool jumpButton, sprintButton, rollButton, attackButton, blockButton, shieldBashButton, stabButton, cameraButton;
     private float blockButtonTime = 0;
     private float shieldBashButtonInterval = .3f;
 
@@ -36,7 +36,7 @@ public class InputManager : MonoBehaviour {
         {
             blockButton = false;
         }
-
+        cameraButton = Input.GetMouseButton(1);
 
         rollButton = Input.GetKeyDown(KeyCode.C);
         attackButton = Input.GetMouseButton(0);
@@ -45,13 +45,13 @@ public class InputManager : MonoBehaviour {
         mouseDeltaY = Input.GetAxis("Mouse Y");
         stabButton = Input.GetAxis("Mouse ScrollWheel") > 0 || Input.GetMouseButton(2);
 
+        animator.SetBool("AnyMovementButton", horizontalInput != 0 || verticalInput != 0);
         animator.SetFloat("HorizontalInput", horizontalInput);
         animator.SetFloat("VerticalInput", verticalInput);
         animator.SetBool("JumpButton", jumpButton);
         animator.SetBool("SprintButton", sprintButton );
         animator.SetBool("BlockButton", blockButton);
         animator.SetBool("RollButton", rollButton);
-        animator.SetFloat("TurnRate", mouseDeltaX, .3f, Time.deltaTime);
         animator.SetBool("AttackButton", attackButton);
         animator.SetBool("ShieldBashButton", shieldBashButton);
         animator.SetBool("StabButton", stabButton);

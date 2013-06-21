@@ -29,11 +29,11 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .514925361
+        second: 1.77931976
       data:
         first:
           name: _SpecPower
-        second: 3.73388052
+        second: 1.42507458
     m_Colors:
       data:
         first:

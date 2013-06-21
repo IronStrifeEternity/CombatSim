@@ -22,18 +22,26 @@ public class WeaponCollider : MonoBehaviour
 
     void Start()
     {
+        this.gameObject.layer = 10;
+
         lethalityId = Animator.StringToHash("Lethality");
         anim = this.transform.root.GetComponent<Animator>();
         stats = this.transform.root.GetComponent<CharacterStats>();
         collider.isTrigger = true;
         self = this.transform.root;
+
+        if (!rigidbody)
+        {
+            var rb = this.gameObject.AddComponent<Rigidbody>();
+            rb.isKinematic = true;
+        }
     }
 
     void Update()
     {
         UpdateVelocity();
         lethalityLevel = anim.GetFloat(lethalityId);
-        var newState = anim.GetCurrentAnimatorStateInfo(1);
+        var newState = anim.GetNextAnimatorStateInfo(1);
         if (newState.nameHash != state.nameHash)
         {
             ResetSwing();
@@ -67,14 +75,14 @@ public class WeaponCollider : MonoBehaviour
     private void Deactivate()
     {
         lethal = false;
-        collider.enabled = false;
+        //collider.enabled = false;
     }
 
     private void Activate()
     {
         lethal = true;
         targetsHitThisSwing = new List<GameObject>();
-        collider.enabled = true;
+        //collider.enabled = true;
 
     }
 

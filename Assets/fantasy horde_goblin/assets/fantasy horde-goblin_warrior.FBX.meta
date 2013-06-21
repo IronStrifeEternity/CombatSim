@@ -678,7 +678,7 @@ ModelImporter:
       loop: 0
       loopBlend: 0
       loopBlendOrientation: 0
-      loopBlendPositionY: 0
+      loopBlendPositionY: 1
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
@@ -787,7 +787,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       loopBlend: 0
-      loopBlendOrientation: 0
+      loopBlendOrientation: 1
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
@@ -797,7 +797,18 @@ ModelImporter:
       mirror: 0
       keepAdditionalBonesAnimation: 1
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: Lethality
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
       skeletonMaskElements: []
     - name: sword double attack
       takeName: 
@@ -890,7 +901,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .0199999996
+    globalScale: .0149999997
     meshCompression: 0
     addColliders: 0
     swapUVChannels: 0
@@ -1097,7 +1108,7 @@ ModelImporter:
         max: {x: 0, y: 40, z: 80}
         value: {x: .216043681, y: 0, z: .10802184}
         preQ: {x: -8.23289156e-07, y: -.704224706, z: -.70997709, w: 4.43309546e-07}
-        postQ: {x: -.0519084185, y: -.997894764, z: -.0268069021, w: .0281573609}
+        postQ: {x: -.0519084223, y: -.997894764, z: -.0268068761, w: .0281573683}
         length: .270054668
         modified: 1
     - boneName: bip_gob_warLDigit11
@@ -1245,20 +1256,20 @@ ModelImporter:
       limit:
         min: {x: 0, y: -20, z: -50}
         max: {x: 0, y: 20, z: 50}
-        value: {x: .099434562, y: 0, z: .049717281}
-        preQ: {x: -.332189649, y: .888103485, z: .132696494, w: .288640857}
-        postQ: {x: 1.2218951e-06, y: -.841962695, z: -.539535642, w: -2.98023201e-06}
-        length: .124293238
+        value: {x: .0994345695, y: 0, z: .0497172847}
+        preQ: {x: -.332189649, y: .888103485, z: .13269648, w: .288640857}
+        postQ: {x: 1.19954336e-06, y: -.841962755, z: -.539535642, w: -3.01003456e-06}
+        length: .124293245
         modified: 1
     - boneName: bip_gob_warRDigit12
       humanName: Right Index Intermediate
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0745759159, y: 0, z: .037287958}
-        preQ: {x: -.223871842, y: .710067511, z: .652000308, w: .143460259}
-        postQ: {x: -.18876639, y: -.820529461, z: -.525800169, w: -.120966502}
-        length: .0932199284
+        value: {x: .0745759234, y: 0, z: .0372879617}
+        preQ: {x: -.223871872, y: .71006763, z: .652000308, w: .143460259}
+        postQ: {x: -.188766345, y: -.820529401, z: -.525800109, w: -.120966494}
+        length: .0932199359
         modified: 1
     - boneName: bip_gob_warRDigit21
       humanName: Right Middle Proximal
@@ -1266,8 +1277,8 @@ ModelImporter:
         min: {x: 0, y: -7.50000048, z: -50}
         max: {x: 0, y: 7.50000048, z: 50}
         value: {x: .0917739049, y: 0, z: .0458869524}
-        preQ: {x: -.362463921, y: .914645731, z: .103117578, w: .146320909}
-        postQ: {x: -4.11271958e-06, y: -.996125042, z: -.087947607, w: 6.25848656e-07}
+        preQ: {x: -.362463951, y: .914645791, z: .10311757, w: .146320879}
+        postQ: {x: -4.11271958e-06, y: -.996125042, z: -.0879475847, w: 6.25848656e-07}
         length: .114717416
         modified: 1
     - boneName: bip_gob_warRDigit22
@@ -1276,8 +1287,8 @@ ModelImporter:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
         value: {x: .0688304231, y: 0, z: .0344152115}
-        preQ: {x: -.295791298, y: .937142789, z: .183272332, w: .0261154976}
-        postQ: {x: -.0962002277, y: -.991468966, z: -.0875368267, w: -.00849255826}
+        preQ: {x: -.295791298, y: .937142789, z: .183272317, w: .0261155032}
+        postQ: {x: -.0962002277, y: -.991468966, z: -.0875367969, w: -.00849257316}
         length: .0860380605
         modified: 1
     - boneName: bip_gob_warRDigit31
@@ -1286,8 +1297,8 @@ ModelImporter:
         min: {x: 0, y: -7.50000048, z: -50}
         max: {x: 0, y: 7.50000048, z: 50}
         value: {x: .0963368341, y: 0, z: .0481684171}
-        preQ: {x: -.357830316, y: .923805416, z: .116607666, w: .0703109354}
-        postQ: {x: -1.71363376e-06, y: -.999590755, z: -.0286052544, w: 5.96046505e-07}
+        preQ: {x: -.357830316, y: .923805416, z: .116607651, w: .0703109503}
+        postQ: {x: -1.72853458e-06, y: -.999590635, z: -.0286052227, w: 5.96046391e-07}
         length: .120421074
         modified: 1
     - boneName: bip_gob_warRDigit32
@@ -1296,8 +1307,8 @@ ModelImporter:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
         value: {x: .0722526163, y: 0, z: .0361263081}
-        preQ: {x: -.297104985, y: .946400046, z: .126425281, w: .00850191806}
-        postQ: {x: -.156533837, y: -.987258196, z: -.0282533001, w: -.00447881222}
+        preQ: {x: -.297104955, y: .946399987, z: .126425266, w: .00850187428}
+        postQ: {x: -.156533822, y: -.987258196, z: -.0282532815, w: -.00447878195}
         length: .0903158039
         modified: 1
     - boneName: goblin_war_spear dummy
@@ -1306,8 +1317,8 @@ ModelImporter:
         min: {x: 0, y: -20, z: -50}
         max: {x: 0, y: 20, z: 50}
         value: {x: .799999774, y: 0, z: .399999887}
-        preQ: {x: -.238920301, y: .961888194, z: .0478367843, w: -.124095827}
-        postQ: {x: .00127943582, y: .486707866, z: -.156108111, w: -.859502017}
+        preQ: {x: -.238920271, y: .961888194, z: .0478367619, w: -.124095857}
+        postQ: {x: .00127941906, y: .486707866, z: -.156108141, w: -.859502017}
         length: 1
         modified: 1
     skeleton:
@@ -1483,7 +1494,7 @@ ModelImporter:
       transformModified: 1
     - name: ctrl_goblin arch_dummie botton
       position: {x: -3.81469718e-08, y: -.141395986, z: 0}
-      rotation: {x: -.707106769, y: -1.58050639e-08, z: -5.26835597e-09, w: .70710665}
+      rotation: {x: -.707106829, y: -1.58050657e-08, z: -5.26835642e-09, w: .707106709}
       scale: {x: 1.00000012, y: 1, z: 1}
       transformModified: 1
     - name: IK_goblin arch_botton
@@ -1568,7 +1579,7 @@ ModelImporter:
       transformModified: 1
     - name: bon_gob_war_face
       position: {x: -.143054411, y: .143315732, z: 1.36426891e-07}
-      rotation: {x: .673626244, y: -.739072025, z: 1.41648812e-07, w: -3.7992038e-08}
+      rotation: {x: .673626304, y: -.739072084, z: 1.41648826e-07, w: -3.79920415e-08}
       scale: {x: .99999994, y: .99999994, z: .999999881}
       transformModified: 1
     - name: bon_gob_war_jaw_tip
@@ -1638,12 +1649,12 @@ ModelImporter:
       transformModified: 1
     - name: bip_gob_warRPalm
       position: {x: -.540109575, y: 2.86797558e-07, z: 9.59216209e-07}
-      rotation: {x: .689604342, y: -.0566824339, z: .0165632982, w: .721774459}
+      rotation: {x: .689604402, y: -.0566824488, z: .0165633, w: .721774518}
       scale: {x: .999999821, y: 1, z: .999999821}
       transformModified: 1
     - name: bip_gob_warRDigit11 1
       position: {x: -.0392380543, y: -.0206859019, z: -.0552419126}
-      rotation: {x: -.477820218, y: -.220381603, z: -.0663135573, w: .847774804}
+      rotation: {x: -.477820277, y: -.220381632, z: -.0663135573, w: .847774923}
       scale: {x: 1.00000048, y: 1.00000036, z: 1.00000072}
       transformModified: 1
     - name: bip_gob_warRDigit12
