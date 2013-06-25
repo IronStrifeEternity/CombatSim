@@ -17,8 +17,15 @@ public class CharacterStats : ScriptBase
     public int PhysicalStrength { get { return physicalStrength; } }
     public int physicalDefense = 10;
 
-    public int blockAmount = 50;
-    public int BlockAmount { get { return blockAmount; } }
+    public int magicalStrength = 25;
+    public int MagicalStrength { get { return magicalStrength; } }
+    public int magicalDefense = 0;
+
+    public int physicalBlockAmount = 50;
+    public int PhysicalBlockAmount { get { return physicalBlockAmount; } }
+
+    public int magicalBlockAmount = 10;
+    public int MagicalBlockAmount { get { return magicalBlockAmount; } }
 
     public int teamNumber;
     public float moveSpeed = 6;
@@ -39,11 +46,28 @@ public class CharacterStats : ScriptBase
 
     public void ApplyDamage(Damage damage, HitType hitType)
     {
-        var reducedAmount = (damage.amount - physicalDefense - (hitType == HitType.ShieldBlocked ? blockAmount : 0));
+        int reducedAmount = damage.amount;
+        switch (damage.type)
+        {
+            case DamageType.Physical:
+                reducedAmount = (damage.amount - physicalDefense - (hitType == HitType.ShieldBlocked ? physicalBlockAmount : 0));
+                break;
+            case DamageType.Magical:
+                reducedAmount = damage.amount - magicalDefense - (hitType == HitType.ShieldBlocked ? magicalBlockAmount : 0);
+                break;
+            case DamageType.Composite:
+                reducedAmount = (damage.amount - physicalDefense - (hitType == HitType.ShieldBlocked ? (physicalBlockAmount + magicalBlockAmount) : 0) - magicalDefense);
+                    break;
+            case DamageType.Pure:
+                break;
+            default:
+                break;
+        }
+        reducedAmount = Mathf.Max(0, reducedAmount);
         health = Mathf.Max(0, health - reducedAmount);
         if (health <= 0)
         {
-            CharacterDied(damage, ThisPosition);
+            CharacterDied(damage, Position);
         }
         var e = new DamagedEventArgs(damage.damageDealer, damage.amount, reducedAmount, damage.type, damage.hitLocation);
         this.gameObject.BroadcastMessage("OnDamageTaken", e, SendMessageOptions.DontRequireReceiver);

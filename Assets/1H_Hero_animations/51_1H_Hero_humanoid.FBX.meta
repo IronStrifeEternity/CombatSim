@@ -727,7 +727,18 @@ ModelImporter:
       mirror: 0
       keepAdditionalBonesAnimation: 1
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: Blocking
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
       skeletonMaskElements: []
     - name: 1H_moveFROMblock
       takeName: 
@@ -1414,8 +1425,18 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: .0544894747
-            value: 1
+          - time: .0511324666
+            value: .000204531476
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .439424753
+            value: .995184302
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .848486781
+            value: -.00214416161
             inSlope: 0
             outSlope: 0
             tangentMode: 0
@@ -1448,7 +1469,22 @@ ModelImporter:
           serializedVersion: 2
           curve:
           - time: 0
-            value: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .251322359
+            value: .99261868
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .505284786
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .977010608
+            value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
@@ -1480,8 +1516,33 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - time: .0123124868
+            value: .000146925449
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .498740673
+            value: .00639593601
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .568844676
+            value: .779303312
+            inSlope: 7.95841217
+            outSlope: 7.95841217
+            tangentMode: 0
+          - time: .685018063
             value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .809091687
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .930907786
+            value: .0131162405
             inSlope: 0
             outSlope: 0
             tangentMode: 0

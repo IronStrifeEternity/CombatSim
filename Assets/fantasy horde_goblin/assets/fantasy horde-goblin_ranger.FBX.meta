@@ -301,6 +301,7 @@ ModelImporter:
     7400202: 'run '
     7400204: 'crouch '
     7400206: jump complete
+    9500000: //RootNode
     11100000: //RootNode
     13700000: goblin_arch
     13700002: goblin ranger ponny tail
@@ -875,7 +876,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: .0149999997
     meshCompression: 0
     addColliders: 0
     swapUVChannels: 0
@@ -894,8 +895,823 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    human: []
-    skeleton: []
+    human:
+    - boneName: bip_gob_ranPelvis
+      humanName: Hips
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .147329003, y: 0, z: .0736645013}
+        preQ: {x: -.443798482, y: -.5504933, z: .443798453, w: .550493419}
+        postQ: {x: -5.96046412e-08, y: 1.78813934e-07, z: .994104028, w: .108429305}
+        length: .18416132
+        modified: 1
+    - boneName: bip_gob_ranLThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: -60.0000038, y: -60.0000038, z: -90}
+        max: {x: 60.0000038, y: 60.0000038, z: 50}
+        value: {x: .277842134, y: 0, z: .138921067}
+        preQ: {x: .927337527, y: .369815171, z: .0532099642, w: -.0212195683}
+        postQ: {x: 1.04308143e-07, y: .0318734683, z: .99949187, w: 2.6822093e-07}
+        length: .347302794
+        modified: 1
+    - boneName: bip_gob_ranRThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: -60.0000038, y: -60.0000038, z: -90}
+        max: {x: 60.0000038, y: 60.0000038, z: 50}
+        value: {x: .277842253, y: 0, z: .138921127}
+        preQ: {x: .927337646, y: .369814992, z: -.0532106049, w: .0212200172}
+        postQ: {x: 7.45058131e-08, y: -.0318739451, z: .99949187, w: 1.34110465e-07}
+        length: .347302943
+        modified: 1
+    - boneName: bip_gob_ranLCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .271124065, y: 0, z: .135562032}
+        preQ: {x: -.0218555462, y: .0929993391, z: -.500475705, w: .8604635}
+        postQ: {x: -2.38418565e-07, y: .0202931594, z: -.999794006, w: -1.19209282e-07}
+        length: .338905215
+        modified: 1
+    - boneName: bip_gob_ranRCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .271124214, y: 0, z: .135562107}
+        preQ: {x: .0218611415, y: -.0929910392, z: -.500473678, w: .860465407}
+        postQ: {x: 3.27825546e-07, y: -.0202859342, z: -.999794185, w: -2.08616257e-07}
+        length: .338905424
+        modified: 1
+    - boneName: bip_gob_ranLFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: -30.0000019, z: -50}
+        max: {x: 0, y: 30.0000019, z: 50}
+        value: {x: .0721412376, y: 0, z: .0360706188}
+        preQ: {x: -.0712972507, y: .00389590836, z: -.97083956, w: -.228848904}
+        postQ: {x: -8.56816769e-08, y: 8.19563866e-08, z: -.802926421, w: .596078038}
+        length: .0901765823
+        modified: 1
+    - boneName: bip_gob_ranRFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: -30.0000019, z: -50}
+        max: {x: 0, y: 30.0000019, z: 50}
+        value: {x: .0721410215, y: 0, z: .0360705107}
+        preQ: {x: .0712860152, y: -.00389111019, z: -.970839739, w: -.228852049}
+        postQ: {x: -6.50435732e-06, y: 4.81680036e-06, z: -.80302912, w: .595939636}
+        length: .0901763141
+        modified: 1
+    - boneName: bip_gob_ranSpine2
+      humanName: Spine
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .0987496972, y: 0, z: .0493748486}
+        preQ: {x: 2.98023224e-08, y: -2.98023224e-08, z: -.985562563, w: .169311389}
+        postQ: {x: 1.1920929e-07, y: -4.47034871e-08, z: -.99999994, w: -1.34110451e-07}
+        length: .123437159
+        modified: 1
+    - boneName: bip_gob_ranSpine3
+      humanName: Chest
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .301810145, y: 0, z: .150905073}
+        preQ: {x: 1.19209304e-07, y: -7.45058131e-08, z: -.999999523, w: -.000938132522}
+        postQ: {x: 1.63912759e-07, y: -8.94069672e-08, z: -.996348977, w: -.0853722617}
+        length: .377262831
+        modified: 1
+    - boneName: bip_gob_ranNeck2
+      humanName: Neck
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .0986163244, y: 0, z: .0493081622}
+        preQ: {x: -4.54187393e-05, y: .0136639774, z: .999898314, w: -.00407612324}
+        postQ: {x: 1.19209282e-07, y: -5.96046412e-08, z: -.99999994, w: 5.96046412e-08}
+        length: .123270437
+        modified: 1
+    - boneName: bip_gob_ranHead
+      humanName: Head
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .0986163244, y: 0, z: .0493081622}
+        preQ: {x: -4.47034907e-08, y: 1.49011626e-07, z: .999976397, w: .00686210487}
+        postQ: {x: 4.47034871e-08, y: -1.1920929e-07, z: -.99999994, w: 0}
+        length: .123270437
+        modified: 1
+    - boneName: bip_gob_ranLCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: -15.000001, z: -15.000001}
+        max: {x: 0, y: 15.000001, z: 30.0000019}
+        value: {x: .10923925, y: 0, z: .0546196252}
+        preQ: {x: -.498736471, y: -.37134102, z: -.501260281, w: .601752341}
+        postQ: {x: -2.93552876e-06, y: .628025174, z: .778192997, w: 2.93302583e-06}
+        length: .1365491
+        modified: 1
+    - boneName: bip_gob_ranRCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: -15.000001, z: -15.000001}
+        max: {x: 0, y: 15.000001, z: 30.0000019}
+        value: {x: .109239511, y: 0, z: .0546197556}
+        preQ: {x: .601752102, y: -.50125885, z: -.371341437, w: -.498737782}
+        postQ: {x: -5.66244069e-07, y: -.778193355, z: -.628024697, w: 4.69386549e-07}
+        length: .136549428
+        modified: 1
+    - boneName: bip_gob_ranLUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -60.0000038}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: .300857753, y: 0, z: .150428876}
+        preQ: {x: .420341909, y: .517896771, z: .744538307, w: .0275386814}
+        postQ: {x: 1.95577726e-07, y: .787620306, z: .61616081, w: 1.31293731e-07}
+        length: .376072317
+        modified: 1
+    - boneName: bip_gob_ranRUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -60.0000038}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: .300857365, y: 0, z: .150428683}
+        preQ: {x: -.0275362041, y: -.744537532, z: -.517897427, w: -.420342445}
+        postQ: {x: -2.06753612e-07, y: -.616160572, z: -.787620485, w: 4.76371497e-07}
+        length: .376071841
+        modified: 1
+    - boneName: bip_gob_ranLForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .282360435, y: 0, z: .141180217}
+        preQ: {x: .661726296, y: .739043295, z: -.0749671012, w: .101553321}
+        postQ: {x: -2.42143869e-07, y: .999987125, z: .00506439805, w: 2.42143869e-08}
+        length: .352950692
+        modified: 1
+    - boneName: bip_gob_ranRForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .282360196, y: 0, z: .141180098}
+        preQ: {x: .101553909, y: -.0749670714, z: .739043415, w: .661725998}
+        postQ: {x: 1.20140598e-07, y: .00506424857, z: .999987125, w: 6.89178634e-08}
+        length: .352950394
+        modified: 1
+    - boneName: bip_gob_ranLPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: .141180217, y: 0, z: .0705901086}
+        preQ: {x: -1.86963035e-07, y: .703426361, z: .710768044, w: -1.53611282e-07}
+        postQ: {x: -.011749913, y: .0158655476, z: .998281002, w: .05518125}
+        length: .176475346
+        modified: 1
+    - boneName: bip_gob_ranRPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: .141180098, y: 0, z: .070590049}
+        preQ: {x: -1.32247806e-07, y: -.710767925, z: -.70342648, w: 3.7252903e-08}
+        postQ: {x: -.0551815294, y: -.998281062, z: -.015865799, w: .011749465}
+        length: .176475197
+        modified: 1
+    - boneName: bip_gob_ranLDigit11
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: -50}
+        max: {x: 0, y: 0, z: 50}
+        value: {x: .0944979414, y: 0, z: .0472489707}
+        preQ: {x: 1.49011612e-07, y: -0, z: .989245474, w: .146263868}
+        postQ: {x: -0, y: 2.63417785e-08, z: .99999994, w: 5.79519153e-08}
+        length: .118122466
+        modified: 1
+    - boneName: bip_gob_ranRDigit11
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: -50}
+        max: {x: 0, y: 0, z: 50}
+        value: {x: .0944979489, y: 0, z: .0472489744}
+        preQ: {x: 8.04662795e-06, y: 1.20699417e-06, z: .989220321, w: .146434337}
+        postQ: {x: 2.98023224e-08, y: -1.05367128e-08, z: .99999994, w: -6.32202699e-08}
+        length: .118122473
+        modified: 1
+    - boneName: bon_gob_ran_ear L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: -20, z: -10}
+        max: {x: 0, y: 20, z: 15.000001}
+        value: {x: .0799999759, y: 0, z: .0399999879}
+        preQ: {x: -.707106769, y: -.707106769, z: 2.98023259e-08, w: -8.94069814e-08}
+        postQ: {x: .837146342, y: .11212448, z: .501592577, w: -.187132835}
+        length: .100000001
+        modified: 1
+    - boneName: bon_gob_ran_ear R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: -20, z: -10}
+        max: {x: 0, y: 20, z: 15.000001}
+        value: {x: .0799999759, y: 0, z: .0399999879}
+        preQ: {x: -.707106769, y: -.707106769, z: 2.98023259e-08, w: -8.94069814e-08}
+        postQ: {x: -.18195799, y: -.506329656, z: -.110245384, w: .835683763}
+        length: .100000001
+        modified: 1
+    - boneName: bon_gob_ran_jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: -10, z: -10}
+        max: {x: 0, y: 10, z: 10}
+        value: {x: .0799999759, y: 0, z: .0399999879}
+        preQ: {x: -.76764375, y: -.64087683, z: 2.96823561e-08, w: -1.00177957e-07}
+        postQ: {x: -8.94069672e-08, y: 1.49011598e-07, z: .956180871, w: .292776078}
+        length: .100000001
+        modified: 1
+    - boneName: bip_gob_ranLDigit11 1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .0745757446, y: 0, z: .0372878723}
+        preQ: {x: .286922634, y: .109291293, z: .891864657, w: -.332126707}
+        postQ: {x: -2.98023206e-08, y: .525607944, z: .850726724, w: -1.05705101e-06}
+        length: .0932197198
+        modified: 1
+    - boneName: bip_gob_ranLDigit12
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0559318177, y: 0, z: .0279659089}
+        preQ: {x: .142421186, y: .633060277, z: .725129068, w: -.230518118}
+        postQ: {x: .11784105, y: .512227714, z: .829070389, w: .190731347}
+        length: .069914788
+        modified: 1
+    - boneName: bip_gob_ranLDigit21
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0688307956, y: 0, z: .0344153978}
+        preQ: {x: .144383624, y: .0798130855, z: .917040646, w: -.363069981}
+        postQ: {x: 4.06056643e-07, y: .0725441575, z: .997365177, w: -1.29034743e-06}
+        length: .0860385299
+        modified: 1
+    - boneName: bip_gob_ranLDigit22
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0516231023, y: 0, z: .0258115511}
+        preQ: {x: .0217516553, y: .159772128, z: .940515637, w: -.299048066}
+        postQ: {x: .00700606778, y: .0722050518, z: .992703736, w: .096314624}
+        length: .0645288974
+        modified: 1
+    - boneName: bip_gob_ranLDigit31
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0722522363, y: 0, z: .0361261182}
+        preQ: {x: .068303369, y: .0931861997, z: .926507711, w: -.358098179}
+        postQ: {x: 3.81551246e-07, y: .0133054601, z: .999911427, w: 5.13158739e-07}
+        length: .0903153345
+        modified: 1
+    - boneName: bip_gob_ranLDigit32
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0541891865, y: 0, z: .0270945933}
+        preQ: {x: .00399359548, y: .102824815, z: .948344648, w: -.300089359}
+        postQ: {x: .00208407594, y: .0131416088, z: .987575173, w: .156582743}
+        length: .067736499
+        modified: 1
+    - boneName: ctrl_goblin arch_arrow
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: 1.86335289, y: 0, z: .931676447}
+        preQ: {x: .204809606, y: .726250589, z: .638783634, w: -.150227472}
+        postQ: {x: -.251989633, y: .104685798, z: .8511253, w: .448472708}
+        length: 2.32919168
+        modified: 1
+    - boneName: bone_goblin arch_top00
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .432013154, y: 0, z: .216006577}
+        preQ: {x: -.164833739, y: .256040007, z: .931317627, w: .19980213}
+        postQ: {x: -2.45636329e-07, y: .0860645249, z: .996289492, w: -1.19931065e-06}
+        length: .540016592
+        modified: 1
+    - boneName: bone_goblin arch_top01
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .324009836, y: 0, z: .162004918}
+        preQ: {x: .025619369, y: .179303408, z: .937675655, w: -.296577126}
+        postQ: {x: 4.8358919e-07, y: .0860851407, z: .996287763, w: 1.83936191e-08}
+        length: .405012429
+        modified: 1
+    - boneName: bip_gob_ranRDigit11 1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .0745758414, y: 0, z: .0372879207}
+        preQ: {x: -.332126409, y: .891864896, z: .109291151, w: .286922246}
+        postQ: {x: 9.5367426e-07, y: -.850726843, z: -.525608003, w: -4.91738263e-07}
+        length: .093219839
+        modified: 1
+    - boneName: bip_gob_ranRDigit12
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0559318885, y: 0, z: .0279659443}
+        preQ: {x: -.230518296, y: .725129306, z: .63305968, w: .142421767}
+        postQ: {x: -.190731436, y: -.829070508, z: -.512227535, w: -.11784149}
+        length: .0699148774
+        modified: 1
+    - boneName: bip_gob_ranRDigit21
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0688306242, y: 0, z: .0344153121}
+        preQ: {x: -.363068759, y: .917041063, z: .0798128992, w: .144383401}
+        postQ: {x: -8.49366131e-07, y: -.997365057, z: -.0725443363, w: 4.02331324e-07}
+        length: .0860383138
+        modified: 1
+    - boneName: bip_gob_ranRDigit22
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0516229719, y: 0, z: .0258114859}
+        preQ: {x: -.299046129, y: .940516472, z: .159772277, w: .0217511617}
+        postQ: {x: -.0963168293, y: -.992703557, z: -.0722053722, w: -.00700524449}
+        length: .0645287335
+        modified: 1
+    - boneName: bip_gob_ranRDigit31
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: -7.50000048, z: -50}
+        max: {x: 0, y: 7.50000048, z: 50}
+        value: {x: .0722523853, y: 0, z: .0361261927}
+        preQ: {x: -.358098447, y: .926507533, z: .0931866989, w: .0683042184}
+        postQ: {x: 2.25007511e-06, y: -.999911427, z: -.0133054936, w: -1.16229046e-06}
+        length: .0903155208
+        modified: 1
+    - boneName: bip_gob_ranRDigit32
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: -45}
+        max: {x: 0, y: 0, z: 45}
+        value: {x: .0541892983, y: 0, z: .0270946492}
+        preQ: {x: -.300091892, y: .948343694, z: .102824979, w: .00399408257}
+        postQ: {x: -.15658012, y: -.987575591, z: -.0131416181, w: -.00208473182}
+        length: .0677366406
+        modified: 1
+    - boneName: goblin_war_spear dummy
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: -20, z: -50}
+        max: {x: 0, y: 20, z: 50}
+        value: {x: .799999774, y: 0, z: .399999887}
+        preQ: {x: -.237020597, y: .96470964, z: .0324204266, w: -.110023633}
+        postQ: {x: -.00934452564, y: .501107574, z: -.162173748, w: -.850001991}
+        length: 1
+        modified: 1
+    skeleton:
+    - name: fantasy horde-goblin_ranger
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bip_gob_ranPelvis
+      position: {x: 4.29359126e-08, y: .709626734, z: -.0549768992}
+      rotation: {x: .499127001, y: -.500871539, z: -.499126911, w: .50087142}
+      scale: {x: 1, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_ranLThigh
+      position: {x: -.0156017132, y: .042539373, z: .11857871}
+      rotation: {x: -.115281373, y: .991170585, z: -.0248825736, w: .0605946295}
+      scale: {x: 1, y: 1.00000012, z: 1.0000006}
+      transformModified: 1
+    - name: bip_gob_ranLCalf
+      position: {x: -.347302884, y: 1.9655306e-07, z: -1.69543224e-09}
+      rotation: {x: -.00569551205, y: -.00656929752, z: .342382938, w: .93952018}
+      scale: {x: .999999166, y: .999999166, z: .999999166}
+      transformModified: 1
+    - name: bip_gob_ranLFoot
+      position: {x: -.338905513, y: 9.47535028e-08, z: 1.45004975e-07}
+      rotation: {x: -.0393706933, y: .0595686398, z: -.762445033, w: .643100977}
+      scale: {x: 1, y: 1.00000048, z: .999999881}
+      transformModified: 1
+    - name: bip_gob_ranLDigit11
+      position: {x: -.23624517, y: 5.46401075e-08, z: -2.03393355e-08}
+      rotation: {x: 2.21678835e-08, y: 1.62193984e-07, z: -.146263823, w: .989245594}
+      scale: {x: 1.00000024, y: 1.00000036, z: 1.0000006}
+      transformModified: 1
+    - name: bip_gob_ranRThigh
+      position: {x: -.0156019134, y: .0425393544, z: -.118578695}
+      rotation: {x: -.115281269, y: .991170645, z: .0248827878, w: -.0605950393}
+      scale: {x: 1, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: bip_gob_ranRCalf
+      position: {x: -.347303033, y: 9.73944339e-08, z: 8.83602347e-09}
+      rotation: {x: .00569215929, y: .00655700173, z: .342385471, w: .939519405}
+      scale: {x: .999999762, y: .999999821, z: .999999464}
+      transformModified: 1
+    - name: bip_gob_ranRFoot
+      position: {x: -.338905543, y: 1.33519734e-07, z: -1.67622602e-07}
+      rotation: {x: .0393513255, y: -.0595688336, z: -.762337089, w: .643230021}
+      scale: {x: .999999821, y: 1.00000048, z: 1}
+      transformModified: 1
+    - name: bip_gob_ranRDigit11
+      position: {x: -.236245096, y: 1.28622915e-07, z: 2.63375046e-08}
+      rotation: {x: -1.21589608e-06, y: 8.04364572e-06, z: -.146434397, w: .989220321}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000072}
+      transformModified: 1
+    - name: bip_gob_ranSpine1
+      position: {x: -.0414157994, y: -.00316876266, z: -7.15858883e-09}
+      rotation: {x: -6.07394313e-08, y: -4.54699105e-08, z: -.149612218, w: .988744617}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_ranSpine2
+      position: {x: -.14490214, y: 4.18677287e-10, z: 1.29358719e-08}
+      rotation: {x: 1.52262576e-08, y: 5.44776739e-08, z: .169311568, w: .985562444}
+      scale: {x: 1.00000012, y: 1.00000072, z: 1}
+      transformModified: 1
+    - name: bip_gob_ranSpine3
+      position: {x: -.123437144, y: 3.94058617e-08, z: -1.32042857e-08}
+      rotation: {x: 1.5542998e-08, y: 1.96013943e-08, z: .0844375342, w: .996428728}
+      scale: {x: .999999881, y: .99999994, z: .999999762}
+      transformModified: 1
+    - name: bip_gob_ranSpine4
+      position: {x: -.132649511, y: 5.90466911e-08, z: 1.32854838e-08}
+      rotation: {x: -1.55185234e-08, y: -1.97384153e-08, z: -.0862627551, w: .996272385}
+      scale: {x: .999999523, y: .999999166, z: 1.00000036}
+      transformModified: 1
+    - name: bip_gob_ranRibcage
+      position: {x: -.178747863, y: -3.46830014e-08, z: 1.47688457e-08}
+      rotation: {x: 1.17594805e-11, y: 1.18412635e-09, z: .0198663436, w: -.99980253}
+      scale: {x: 1, y: .999999881, z: .999999404}
+      transformModified: 1
+    - name: bip_gob_ranLCollarbone
+      position: {x: .0157298092, y: .0329385921, z: .0566687249}
+      rotation: {x: -.0258287936, y: -.766031325, z: -.155060813, w: -.623285472}
+      scale: {x: 1.00000024, y: 1.00000036, z: .99999994}
+      transformModified: 1
+    - name: bip_gob_ranLUpperarm
+      position: {x: -.13654916, y: 1.15822878e-07, z: -1.09369694e-06}
+      rotation: {x: .212877199, y: -.0906217098, z: -.109239846, w: .966714859}
+      scale: {x: .999999642, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_ranLForearm
+      position: {x: -.376072466, y: 1.83557376e-07, z: 3.65848614e-08}
+      rotation: {x: -.125646368, y: -.0313134566, z: -.0318001695, w: .991070628}
+      scale: {x: 1.00000036, y: .999999821, z: .99999994}
+      transformModified: 1
+    - name: bip_gob_ranLPalm
+      position: {x: -.352950871, y: -1.70411099e-07, z: 2.86130035e-08}
+      rotation: {x: -.690940559, y: .0471672304, z: .0309560299, w: .720706642}
+      scale: {x: 1, y: .999999762, z: .999999702}
+      transformModified: 1
+    - name: bip_gob_ranLDigit11 1
+      position: {x: -.0294283573, y: -.0155145787, z: .0414318144}
+      rotation: {x: .477819651, y: .220384493, z: -.0663149431, w: .847774327}
+      scale: {x: .999999821, y: 1.00000036, z: .999999642}
+      transformModified: 1
+    - name: bip_gob_ranLDigit12
+      position: {x: -.0932197943, y: -1.77264639e-07, z: 9.2893309e-08}
+      rotation: {x: -6.8533339e-08, y: -6.30176586e-08, z: .224199355, w: .974543273}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: bip_gob_ranLDigit21
+      position: {x: -.124858029, y: -.00484882202, z: .0411178842}
+      rotation: {x: .0358670428, y: .114783153, z: .0769357756, w: .989757121}
+      scale: {x: 1, y: .99999994, z: 1.00000048}
+      transformModified: 1
+    - name: bip_gob_ranLDigit22
+      position: {x: -.0860385522, y: -1.93698725e-07, z: 7.76187008e-08}
+      rotation: {x: 1.48285872e-08, y: -5.84208486e-08, z: .0965703726, w: .995326042}
+      scale: {x: 1.0000006, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: bip_gob_ranLDigit31
+      position: {x: -.126341298, y: -.00876712892, z: -.0181156136}
+      rotation: {x: -.0219499115, y: .108399369, z: .0795549154, w: .990675867}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: bip_gob_ranLDigit32
+      position: {x: -.090315327, y: 5.95089169e-08, z: 7.64492114e-08}
+      rotation: {x: 3.63304139e-07, y: -1.00606059e-07, z: .156596079, w: .987662673}
+      scale: {x: 1, y: .999999881, z: .999999702}
+      transformModified: 1
+    - name: ctrl_goblin arch_main
+      position: {x: -.0873263851, y: -.046339646, z: -.00889390428}
+      rotation: {x: .692180455, y: .0193312597, z: .0177083164, w: .72124809}
+      scale: {x: 1.00000024, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: bone_goblin arch_main
+      position: {x: -.474114537, y: -2.10702872, z: -1.43217432}
+      rotation: {x: .0305084195, y: -.819887042, z: -.335017622, w: .46326831}
+      scale: {x: 1.00000048, y: 1.00000024, z: .999999523}
+      transformModified: 1
+    - name: ctrl_goblin arch_arrow
+      position: {x: .258543223, y: -.107329488, z: -.0232826825}
+      rotation: {x: -.466511965, y: .533460259, z: .0451988727, w: .704090536}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: bone_goblin arch_botton00
+      position: {x: -1.09645939, y: 1.65524936, z: -1.21781206}
+      rotation: {x: -.226477891, y: -.187016919, z: .281431526, w: .913525403}
+      scale: {x: 1.00000012, y: 1, z: .999999583}
+      transformModified: 1
+    - name: bone_goblin arch_botton01
+      position: {x: -.625134468, y: 2.86808699e-06, z: 1.63470617e-07}
+      rotation: {x: -2.08683048e-07, y: -7.68306734e-07, z: -.972879589, w: .2313115}
+      scale: {x: 1.00000012, y: .999999881, z: 1}
+      transformModified: 1
+    - name: bone_goblin arch_botton_tip
+      position: {x: -.50667268, y: -2.14576716e-07, z: 0}
+      rotation: {x: -1.44645762e-08, y: -2.98768487e-06, z: .000146128237, w: .99999994}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: bone_goblin arch_top00
+      position: {x: -1.09645951, y: 1.65524924, z: -1.21781182}
+      rotation: {x: -.029326966, y: -.29018116, z: -.427442253, w: .855703115}
+      scale: {x: 1.00000012, y: 1.00000012, z: .999999583}
+      transformModified: 1
+    - name: bone_goblin arch_top01
+      position: {x: -.540016651, y: -1.31967158e-06, z: -1.92278904e-07}
+      rotation: {x: 2.07003395e-05, y: -6.28911437e-07, z: 1.26860084e-06, w: .99999994}
+      scale: {x: .999999464, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: bone_goblin arch_top_tip
+      position: {x: -.560566366, y: 2.57492047e-07, z: 5.72204577e-08}
+      rotation: {x: -1.48821835e-08, y: 2.14576721e-06, z: -8.84383826e-06, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ctrl_goblin arch_dummie botton
+      position: {x: -0, y: -.106047019, z: 5.72204577e-08}
+      rotation: {x: -.707106769, y: -1.58050639e-08, z: -5.26835597e-09, w: .70710665}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_goblin arch_botton
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1.49011585e-08, y: 7.45057971e-09, z: 1.49011585e-08, w: .99999994}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: ctrl_goblin arch_dummie top
+      position: {x: -.00418624887, y: .0976756811, z: 3.31878664e-06}
+      rotation: {x: 2.57904026e-06, y: 7.82457755e-06, z: .537042856, w: .843554854}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_goblin arch_top
+      position: {x: -1.11579891e-06, y: -4.57763662e-07, z: -3.31878664e-06}
+      rotation: {x: -.596485257, y: .379741192, z: -.3797521, w: .596481442}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: goblin ranger arm armor L
+      position: {x: -.269088984, y: -.0704390109, z: 1.07359004}
+      rotation: {x: .931875885, y: .147799969, z: .312675864, w: -.109526366}
+      scale: {x: .999999881, y: 1.0000006, z: 1.00000024}
+      transformModified: 1
+    - name: goblin ranger wrist armor L
+      position: {x: -.269088984, y: -.0704390109, z: 1.07359004}
+      rotation: {x: .931875885, y: .147799969, z: .312675864, w: -.109526366}
+      scale: {x: .999999881, y: 1.0000006, z: 1.00000024}
+      transformModified: 1
+    - name: goblin_ran_shield
+      position: {x: -.329563618, y: -.0255884454, z: -.0729869232}
+      rotation: {x: .0551917553, y: .789817274, z: .610161781, w: -.0290667992}
+      scale: {x: .99999994, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: bip_gob_ranNeck1
+      position: {x: .00159130094, y: .0203776136, z: 0}
+      rotation: {x: .0136633441, y: .000139091382, z: .00278549455, w: .999902725}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_ranNeck2
+      position: {x: -.0702601969, y: -.000572806806, z: 1.42947079e-06}
+      rotation: {x: .0136639634, y: 4.53086868e-05, z: -.00407604314, w: -.999898195}
+      scale: {x: .99999994, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: bip_gob_ranHead
+      position: {x: -.123270556, y: -4.87388085e-09, z: 2.8346141e-09}
+      rotation: {x: 1.49025645e-08, y: 1.53101727e-08, z: .00686211837, w: -.999976397}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_ranHeadBone001
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -2.91038305e-09, y: 2.98023206e-08, z: -1.86264493e-09, w: .99999994}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: bip_gob_ranHeadBone002
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -2.91038305e-09, y: 2.98023206e-08, z: -1.86264493e-09, w: .99999994}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: bon_gob_ran_ear L
+      position: {x: -.0832453966, y: .0397169553, z: .127900586}
+      rotation: {x: .487002581, y: -.222356722, z: -.512667835, w: -.6712358}
+      scale: {x: 1.00000012, y: 1, z: .999999821}
+      transformModified: 1
+    - name: bon_gob_ran_ear R_tip
+      position: {x: -.234803125, y: 0, z: 2.86102289e-08}
+      rotation: {x: -1.49011603e-08, y: 0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bon_gob_ran_ear R
+      position: {x: -.0832461193, y: .0397170298, z: -.121423282}
+      rotation: {x: -.668873012, y: -.512962461, z: -.229365334, w: .486692786}
+      scale: {x: .999999821, y: 1.00000024, z: 1.00000036}
+      transformModified: 1
+    - name: bon_gob_ran_ear R_tip 1
+      position: {x: -.239222258, y: -1.14440915e-07, z: -5.72204577e-08}
+      rotation: {x: 0, y: 7.45058015e-09, z: -0, w: .99999994}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: bon_gob_ran_face
+      position: {x: -.107290387, y: .107486814, z: 1.21244568e-07}
+      rotation: {x: .673626304, y: -.739072025, z: 1.78162551e-07, w: -3.43545423e-08}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: bon_gob_ran_jaw_tip
+      position: {x: -.207369193, y: 4.57763662e-07, z: -1.43051144e-08}
+      rotation: {x: -3.8693666e-09, y: 2.08009565e-09, z: .0652948096, w: .997865975}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: bon_gob_ran_hair
+      position: {x: -.213146299, y: -.0416744277, z: 1.14296839e-07}
+      rotation: {x: -.901848495, y: -.432052225, z: -7.11052195e-08, w: -2.10216527e-07}
+      scale: {x: 1.00000036, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: bon_gob_ran_hair_tip
+      position: {x: -.373740792, y: 0, z: 2.86102289e-08}
+      rotation: {x: -1.73782946e-10, y: -5.58523361e-09, z: -.0310996622, w: .999516249}
+      scale: {x: .999999702, y: .999999881, z: 1}
+      transformModified: 1
+    - name: bon_gob_ran_jaw
+      position: {x: -.00259730592, y: .0582172051, z: 9.75350218e-08}
+      rotation: {x: .469098091, y: -.883145988, z: 2.91058171e-07, w: -3.16442019e-08}
+      scale: {x: 1.00000036, y: 1, z: 1.00000036}
+      transformModified: 1
+    - name: bon_gob_ran_jaw_tip 1
+      position: {x: -.261082917, y: -1.14440915e-07, z: -4.29153424e-08}
+      rotation: {x: 5.38944045e-09, y: -2.37663245e-09, z: -.0934401006, w: .99562484}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: goblin ranger hair
+      position: {x: 1.5131129, y: .0386103131, z: 5.72204577e-08}
+      rotation: {x: .707106709, y: 5.13664631e-08, z: -.707106709, w: 5.13664631e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin ranger helmet
+      position: {x: 1.5131129, y: .0386103131, z: 5.72204577e-08}
+      rotation: {x: .707106709, y: 2.89759541e-08, z: -.707106709, w: 2.89759541e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin ranger mask
+      position: {x: 1.5131129, y: .0386103131, z: 5.72204577e-08}
+      rotation: {x: .707106709, y: 2.89759541e-08, z: -.707106709, w: 2.89759541e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin ranger mohican
+      position: {x: 1.5131129, y: .0386103131, z: 5.72204577e-08}
+      rotation: {x: .707106709, y: 2.89759541e-08, z: -.707106709, w: 2.89759541e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bip_gob_ranRCollarbone
+      position: {x: .0157295838, y: .0329386145, z: -.0566688403}
+      rotation: {x: -.0258275084, y: -.766030073, z: .155059904, w: .62328732}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: bip_gob_ranRUpperarm
+      position: {x: -.136549488, y: 2.98317708e-08, z: 1.53490689e-07}
+      rotation: {x: -.21287775, y: .0906188861, z: -.109238945, w: .966715097}
+      scale: {x: .999999881, y: .999999642, z: .999999642}
+      transformModified: 1
+    - name: bip_gob_ranRForearm
+      position: {x: -.376072019, y: -1.80746611e-07, z: 3.12931974e-07}
+      rotation: {x: .125646532, y: .0313139334, z: -.0317995995, w: .991070688}
+      scale: {x: .999999702, y: 1, z: 1}
+      transformModified: 1
+    - name: bip_gob_ranRPalm
+      position: {x: -.352950662, y: 5.15400806e-08, z: 1.37242722e-07}
+      rotation: {x: .69094044, y: -.0471672565, z: .0309562534, w: .720706701}
+      scale: {x: 1.00000024, y: 1, z: .999999881}
+      transformModified: 1
+    - name: bip_gob_ranRDigit11 1
+      position: {x: -.0294284429, y: -.0155145433, z: -.0414317399}
+      rotation: {x: -.477819592, y: -.220383331, z: -.0663148612, w: .847774506}
+      scale: {x: 1.00000048, y: 1.00000024, z: 1.00000072}
+      transformModified: 1
+    - name: bip_gob_ranRDigit12
+      position: {x: -.0932198763, y: -1.34634377e-07, z: -2.00080251e-07}
+      rotation: {x: 1.05067379e-07, y: 4.13881196e-08, z: .22419931, w: .974543273}
+      scale: {x: .999999702, y: 1, z: .999999642}
+      transformModified: 1
+    - name: bip_gob_ranRDigit21
+      position: {x: -.124858141, y: -.00484861666, z: -.0411178842}
+      rotation: {x: -.0358674303, y: -.114783622, z: .0769366026, w: .989757001}
+      scale: {x: 1.00000048, y: 1.00000024, z: 1.00000048}
+      transformModified: 1
+    - name: bip_gob_ranRDigit22
+      position: {x: -.0860383734, y: 1.65757427e-07, z: 9.74616086e-08}
+      rotation: {x: -5.50970682e-08, y: 1.00668727e-08, z: .0965704247, w: .995326042}
+      scale: {x: .99999994, y: .999999583, z: .999999583}
+      transformModified: 1
+    - name: bip_gob_ranRDigit31
+      position: {x: -.126341373, y: -.00876648352, z: .0181156825}
+      rotation: {x: .021950487, y: -.108399332, z: .0795525461, w: .990676045}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: bip_gob_ranRDigit32
+      position: {x: -.090315558, y: -3.41135859e-07, z: -2.10620996e-07}
+      rotation: {x: -4.58629785e-07, y: -1.57084106e-08, z: .156596228, w: .987662673}
+      scale: {x: 1.00000036, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: goblin_ran_axe
+      position: {x: -.101062931, y: -.0449272133, z: .0209183972}
+      rotation: {x: -.152211115, y: .978565335, z: .00668485742, w: -.138552994}
+      scale: {x: 1.00000048, y: 1.00000024, z: 1.00000036}
+      transformModified: 1
+    - name: goblin_ran_club
+      position: {x: -.101062998, y: -.0449272133, z: .0209185407}
+      rotation: {x: -.152210772, y: .978565216, z: .00668508606, w: -.138553232}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000036}
+      transformModified: 1
+    - name: goblin_ran_sword
+      position: {x: -.101062998, y: -.0449272133, z: .0209185407}
+      rotation: {x: -.152210832, y: .978565216, z: .00668496871, w: -.138553262}
+      scale: {x: 1.00000036, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: goblin_war_spear dummy
+      position: {x: -.0800776258, y: -.0353455916, z: -.0050239847}
+      rotation: {x: -.12556833, y: .83597213, z: .0571472012, w: -.531147003}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: goblin_ran_spear
+      position: {x: 5.72204577e-08, y: 0, z: .26283884}
+      rotation: {x: 1.34110365e-07, y: 2.98023224e-08, z: 3.72528959e-08, w: .99999994}
+      scale: {x: 1, y: 1.00000048, z: 1.00000072}
+      transformModified: 1
+    - name: goblin ranger arm armor R
+      position: {x: -.269088864, y: -.0704389811, z: -1.0735898}
+      rotation: {x: .312675893, y: .109526254, z: .931875944, w: -.147800043}
+      scale: {x: .999999702, y: 1.00000036, z: .99999994}
+      transformModified: 1
+    - name: goblin ranger wrist armor R
+      position: {x: -.269088864, y: -.0704389811, z: -1.0735898}
+      rotation: {x: .312675893, y: .109526254, z: .931875944, w: -.147800043}
+      scale: {x: .999999702, y: 1.00000036, z: .99999994}
+      transformModified: 1
+    - name: goblin ranger shoulder armor
+      position: {x: -.729980826, y: .360253304, z: -.987386286}
+      rotation: {x: .383844912, y: -.101202756, z: .914724112, w: .0755035132}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: goblin_quiver
+      position: {x: 1.41960692, y: .0574382618, z: 1.14440915e-07}
+      rotation: {x: .707106709, y: 2.89759559e-08, z: -.707106709, w: 2.89759559e-08}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: goblin ranger armor
+      position: {x: .701128662, y: .275433391, z: -3.57627861e-09}
+      rotation: {x: .699331522, y: .104572006, z: -.699331522, w: .104572006}
+      scale: {x: 1, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: bon_gob_ran_cloth00
+      position: {x: -.113680206, y: .139560387, z: -8.17596373e-08}
+      rotation: {x: -.0283027887, y: .67500335, z: .736626148, w: -.0308403913}
+      scale: {x: .999999583, y: .99999994, z: .999999642}
+      transformModified: 1
+    - name: bon_gob_ran_cloth01
+      position: {x: -.289184004, y: 5.08156113e-08, z: -1.58574416e-08}
+      rotation: {x: -6.67480845e-06, y: -.0141470423, z: 3.35932928e-05, w: .999899864}
+      scale: {x: 1, y: 1, z: 1.00000036}
+      transformModified: 1
+    - name: bon_gob_ran_cloth_tip
+      position: {x: -.160844877, y: 5.72204577e-08, z: -1.43051144e-08}
+      rotation: {x: -3.74291244e-06, y: -.0248720683, z: .00110371248, w: .999689996}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
     handles: []
     armTwist: .5
     foreArmTwist: .5
@@ -905,7 +1721,8 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 6678b1b3d3ac52b47a7c63fd0c1a3334,
+    type: 3}
   additionalBone: 1
-  animationType: 1
+  animationType: 3
   userData: 

@@ -2,8 +2,8 @@
 
 public class RegularDamageReceiver : DamageReceiver
 {
-    private GameObject _particlePrefab;
-    private GameObject particlePrefab { get { if (!_particlePrefab) { _particlePrefab = Resources.Load("Particles/BloodParticle") as GameObject; } return _particlePrefab; } }
+    private static GameObject _particlePrefab;
+    private static GameObject particlePrefab { get { if (!_particlePrefab) { _particlePrefab = Resources.Load("Particles/BloodParticle") as GameObject; } return _particlePrefab; } }
 
     public override void ReceieveHit(Damage damage)
     {
@@ -12,7 +12,7 @@ public class RegularDamageReceiver : DamageReceiver
         CreateBloodParticle(damage.hitLocation, (float)damage.amount / (float)stats.maxHealth);
     }
 
-    private void CreateBloodParticle(Vector3 location, float damagePercentage)
+    private static void CreateBloodParticle(Vector3 location, float damagePercentage)
     {
         var o = Instantiate(particlePrefab, location, Quaternion.identity) as GameObject;
         var particleSys = o.GetComponent<ParticleSystem>();

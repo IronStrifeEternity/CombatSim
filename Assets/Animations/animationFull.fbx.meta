@@ -961,17 +961,43 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
+      keepOriginalOrientation: 1
       keepOriginalPositionY: 0
       keepOriginalPositionXZ: 0
-      heightFromFeet: 0
+      heightFromFeet: 1
       mirror: 0
       keepAdditionalBonesAnimation: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: SpellShot
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .480974168
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .499192476
+            value: 1.05626667
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
       skeletonMaskElements: []
     - name: BackStep
       takeName: 
@@ -1751,10 +1777,10 @@ ModelImporter:
       limit:
         min: {x: 0, y: 0, z: -50}
         max: {x: 0, y: 0, z: 50}
-        value: {x: .0965680927, y: 0, z: .0482840464}
-        preQ: {x: 8.94069814e-08, y: 1.05367121e-07, z: .99999994, w: -6.32202699e-08}
-        postQ: {x: .707106769, y: 3.56690073e-08, z: .70710665, w: -1.12490177e-07}
-        length: .120710149
+        value: {x: .0965681076, y: 0, z: .0482840538}
+        preQ: {x: 5.96046448e-08, y: 8.42937027e-08, z: .99999994, w: -4.21468513e-08}
+        postQ: {x: .707106829, y: 3.5669018e-08, z: .707106709, w: -8.26878761e-08}
+        length: .120710172
         modified: 1
     - boneName: LightWeight_Rigged_:lEyeJ
       humanName: LeftEye
@@ -1943,7 +1969,7 @@ ModelImporter:
         max: {x: 0, y: 25, z: 20}
         value: {x: .029298706, y: 0, z: .014649353}
         preQ: {x: .551695466, y: .261699557, z: .559751034, w: -.560200036}
-        postQ: {x: 6.66826907e-07, y: -.697455227, z: -.716628253, w: -7.74860325e-07}
+        postQ: {x: 6.59376326e-07, y: -.697455227, z: -.716628253, w: -7.74860325e-07}
         length: .0366233923
         modified: 1
     - boneName: LightWeight_Rigged_:rThumb2J
@@ -1952,8 +1978,8 @@ ModelImporter:
         min: {x: 0, y: 0, z: -40}
         max: {x: 0, y: 0, z: 35}
         value: {x: .0275317207, y: 0, z: .0137658603}
-        preQ: {x: .137299478, y: .643288434, z: .734765112, w: -.165677115}
-        postQ: {x: 6.15417957e-06, y: -.770273089, z: -.637714088, w: 8.49366188e-07}
+        preQ: {x: .137299493, y: .643288434, z: .734765112, w: -.165677086}
+        postQ: {x: 6.14672899e-06, y: -.770273089, z: -.637714088, w: 8.34465027e-07}
         length: .0344146602
         modified: 1
     - boneName: LightWeight_Rigged_:rThumb3J
@@ -1962,8 +1988,8 @@ ModelImporter:
         min: {x: 0, y: 0, z: -40}
         max: {x: 0, y: 0, z: 35}
         value: {x: .0206487887, y: 0, z: .0103243943}
-        preQ: {x: .146244496, y: .723999679, z: .663155973, w: -.12108288}
-        postQ: {x: .0219234228, y: -.844808757, z: -.533979297, w: -.0261443853}
+        preQ: {x: .146244511, y: .723999679, z: .663155973, w: -.12108288}
+        postQ: {x: .0219234079, y: -.844808757, z: -.533979237, w: -.0261444021}
         length: .0258109942
         modified: 1
     - boneName: LightWeight_Rigged_:rIndex1J
@@ -2149,7 +2175,7 @@ ModelImporter:
       transformModified: 1
     - name: LightWeight_Rigged_:rBallJ
       position: {x: -.11580655, y: -3.84556209e-08, z: 3.89056076e-09}
-      rotation: {x: -1.18841692e-09, y: 4.27789146e-08, z: -.469578236, w: .882890701}
+      rotation: {x: -1.18841703e-09, y: 4.27789182e-08, z: -.469578326, w: .88289088}
       scale: {x: 1.00000012, y: .999999762, z: 1}
       transformModified: 1
     - name: LightWeight_Rigged_:rToeJ
@@ -2444,7 +2470,7 @@ ModelImporter:
       transformModified: 1
     - name: LightWeight_Rigged_:rThumb1J
       position: {x: .03756034, y: -.0108163357, z: .0444055758}
-      rotation: {x: .101278037, y: .871009409, z: .0576566346, w: .477243036}
+      rotation: {x: .101278052, y: .871009469, z: .0576566383, w: .477243066}
       scale: {x: 1.00000024, y: 1.00000012, z: 1.00000024}
       transformModified: 1
     - name: LightWeight_Rigged_:rThumb2J

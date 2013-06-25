@@ -35,9 +35,32 @@ public class ScriptBase : MonoBehaviour
         }
     }
 
+    private DestroyEvent destroyEvent;
+    public DestroyEvent DestroyEvent
+    {
+        get
+        {
+            if (!destroyEvent)
+                destroyEvent = this.GetComponent<DestroyEvent>();
+            return destroyEvent;
+        }
+    }
+
+    public event ObjectDestroyedEventHandler Destroyed
+    {
+        add
+        {
+            DestroyEvent.Destroyed += value;
+        }
+        remove
+        {
+            DestroyEvent.Destroyed -= value;
+        }
+    }
+
     /// <summary>
     /// Returns the position of this object.
     /// </summary>
-    public Vector3 ThisPosition { get { return this.transform.position; } }
+    public Vector3 Position { get { return this.transform.position; } }
 
 }

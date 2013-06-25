@@ -36,6 +36,6 @@ public class ShieldDamageReceiver : DamageReceiver
 
     public override void ReceieveHit(Damage damage)
     {
-        stats.ApplyDamage(damage, HitType.ShieldBlocked);
+        stats.ApplyDamage(damage, defending ? HitType.ShieldBlocked : HitType.Unblocked);
     }
 }

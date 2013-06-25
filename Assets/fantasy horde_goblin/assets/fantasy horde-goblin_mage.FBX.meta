@@ -210,6 +210,7 @@ ModelImporter:
     7400110: jump complete
     7400112: 'crouch '
     7400114: die
+    9500000: //RootNode
     11100000: //RootNode
     13700000: goblin mage ponny tail
     13700002: goblin mage boot A
@@ -672,7 +673,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: .0149999997
     meshCompression: 0
     addColliders: 0
     swapUVChannels: 0
@@ -691,8 +692,738 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    human: []
-    skeleton: []
+    human:
+    - boneName: bip_gob_magPelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magSpine2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magSpine3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magNeck2
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLDigit11
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRDigit11
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bon_gob_mag_ear L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bon_gob_mag_ear R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bon_gob_mag_jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLDigit11 1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLDigit12
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLDigit21
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLDigit22
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLDigit31
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magLDigit32
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRDigit11 1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRDigit12
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRDigit21
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRDigit22
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRDigit31
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    - boneName: bip_gob_magRDigit32
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        preQ: {x: 0, y: 0, z: 0, w: 0}
+        postQ: {x: 0, y: 0, z: 0, w: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: fantasy horde-goblin_mage(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bip_gob_mag
+      position: {x: 0, y: 0, z: .0102891698}
+      rotation: {x: .50000006, y: -.50000006, z: -.49999997, w: .49999997}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bip_gob_magLIKTarget
+      position: {x: -.475419253, y: .71578294, z: .32489413}
+      rotation: {x: -.423542857, y: .791742742, z: -.200809881, w: -.391701788}
+      scale: {x: .999999344, y: 1.00000036, z: 1.00000143}
+      transformModified: 1
+    - name: bip_gob_magLPlatform
+      position: {x: -.142801002, y: 0, z: .241524458}
+      rotation: {x: .500114799, y: -.500114799, z: -.499885201, w: .499885201}
+      scale: {x: 1.00000012, y: 1.00000048, z: 1.00000036}
+      transformModified: 1
+    - name: bip_gob_magPelvis
+      position: {x: 3.72783049e-08, y: .751080036, z: -.0549769439}
+      rotation: {x: .49912703, y: -.500871599, z: -.499126941, w: .50087148}
+      scale: {x: .999999881, y: 1.00000048, z: 1.00000095}
+      transformModified: 1
+    - name: bip_gob_magLThigh
+      position: {x: -.0156015344, y: .042539414, z: .11857868}
+      rotation: {x: -.110544443, y: .990932107, z: -.0278674401, w: .0711129308}
+      scale: {x: 1.00000024, y: .999999642, z: .999999344}
+      transformModified: 1
+    - name: bip_gob_magLCalf
+      position: {x: -.360611022, y: -6.15411082e-08, z: 4.98038091e-08}
+      rotation: {x: -.0066388105, y: .00674325833, z: .338296264, w: .940992117}
+      scale: {x: .999999583, y: 1.00000012, z: .999999642}
+      transformModified: 1
+    - name: bip_gob_magLFoot
+      position: {x: -.375542819, y: 4.601862e-08, z: -5.17627825e-08}
+      rotation: {x: -.0381706096, y: .0574884787, z: -.762825191, w: .64291209}
+      scale: {x: .99999994, y: 1.00000048, z: 1.00000036}
+      transformModified: 1
+    - name: bip_gob_magLDigit11
+      position: {x: -.23624523, y: -8.01837974e-09, z: 3.18974358e-08}
+      rotation: {x: -2.41437865e-05, y: .000163776233, z: -.146215171, w: .989252806}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_magRThigh
+      position: {x: -.0156014366, y: .0425393283, z: -.11857868}
+      rotation: {x: -.110543989, y: .990932047, z: .0278676525, w: -.0711139888}
+      scale: {x: .999999821, y: .999999642, z: .999999106}
+      transformModified: 1
+    - name: bip_gob_magRCalf
+      position: {x: -.36061123, y: -1.52232416e-09, z: -1.74609326e-07}
+      rotation: {x: .00663995463, y: -.00674523646, z: .338296056, w: .940992177}
+      scale: {x: 1.00000024, y: 1, z: .999999344}
+      transformModified: 1
+    - name: bip_gob_magRFoot
+      position: {x: -.375542641, y: 2.46485037e-08, z: 4.33636993e-09}
+      rotation: {x: .0381665565, y: -.0574896336, z: -.762769401, w: .642978251}
+      scale: {x: .99999994, y: 1.0000006, z: .99999994}
+      transformModified: 1
+    - name: bip_gob_magRDigit11
+      position: {x: -.236245126, y: -4.28322871e-08, z: 1.57249758e-07}
+      rotation: {x: 2.46253949e-05, y: -.000166654994, z: -.146300837, w: .98924011}
+      scale: {x: 1.0000006, y: .999999881, z: 1.00000048}
+      transformModified: 1
+    - name: bip_gob_magSpine1
+      position: {x: -.0414157994, y: -.00316875521, z: -1.4164482e-08}
+      rotation: {x: -6.07398718e-08, y: -4.54004834e-08, z: -.148960605, w: .988843203}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: bip_gob_magSpine2
+      position: {x: -.15939337, y: -6.28837826e-09, z: 1.58520077e-08}
+      rotation: {x: 4.91530585e-08, y: 2.94023668e-08, z: .169859841, w: .985468209}
+      scale: {x: 1.00000083, y: 1.00000072, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_magSpine3
+      position: {x: -.13578178, y: -1.5515635e-08, z: -2.308985e-09}
+      rotation: {x: -3.9972317e-08, y: 8.2901245e-08, z: .0846092924, w: .996414185}
+      scale: {x: .999999881, y: .999999702, z: .999999762}
+      transformModified: 1
+    - name: bip_gob_magSpine4
+      position: {x: -.145913973, y: -1.77156323e-07, z: 1.55024562e-08}
+      rotation: {x: 1.36351499e-08, y: -5.01655535e-08, z: -.0866926387, w: .996235132}
+      scale: {x: .999999166, y: .999999166, z: .999999404}
+      transformModified: 1
+    - name: bip_gob_magRibcage
+      position: {x: -.196625382, y: -3.79399694e-08, z: -2.97213312e-08}
+      rotation: {x: 1.29212196e-11, y: 1.24110855e-09, z: .0208223462, w: -.999783218}
+      scale: {x: 1.00000048, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_magLCollarbone
+      position: {x: .0157299303, y: .0329386443, z: .0566688143}
+      rotation: {x: -.0258285031, y: -.766031206, z: -.155060753, w: -.623286009}
+      scale: {x: .99999994, y: .999999762, z: 1}
+      transformModified: 1
+    - name: bip_gob_magLUpperarm
+      position: {x: -.136549354, y: 1.27248128e-07, z: -9.66090397e-07}
+      rotation: {x: .207454845, y: -.0902804881, z: -.111007825, w: .967723668}
+      scale: {x: 1.00000024, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_magLForearm
+      position: {x: -.430595815, y: 7.20860083e-09, z: 1.37647916e-07}
+      rotation: {x: -.110843956, y: -.0290388968, z: -.0323528461, w: .992886603}
+      scale: {x: .999999583, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_magLPalm
+      position: {x: -.405082524, y: 1.02111557e-07, z: -2.00049968e-08}
+      rotation: {x: -.689604402, y: .0566832237, z: .0165641811, w: .721774459}
+      scale: {x: 1.00000012, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: bip_gob_magLDigit11 1
+      position: {x: -.0294283815, y: -.0155147323, z: .0414317809}
+      rotation: {x: .47781992, y: .220385298, z: -.0663145483, w: .847774088}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: bip_gob_magLDigit12
+      position: {x: -.0932196975, y: -1.01108e-07, z: 1.20828261e-07}
+      rotation: {x: 1.77540578e-08, y: 1.52450532e-08, z: .224199444, w: .974543273}
+      scale: {x: 1.00000036, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: bip_gob_magLDigit21
+      position: {x: -.124858044, y: -.00484893285, z: .0411179252}
+      rotation: {x: .0358675569, y: .114783481, z: .0769379511, w: .989757001}
+      scale: {x: 1.0000006, y: 1.00000036, z: .99999994}
+      transformModified: 1
+    - name: bip_gob_magLDigit22
+      position: {x: -.0860383287, y: -4.07137541e-08, z: 4.78858588e-08}
+      rotation: {x: 3.81538541e-07, y: -1.02491748e-08, z: .0965703726, w: .995326161}
+      scale: {x: .999999821, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
+    - name: bip_gob_magLDigit31
+      position: {x: -.126341045, y: -.00876713637, z: -.018115608}
+      rotation: {x: -.0219495222, y: .108399563, z: .0795562044, w: .990675867}
+      scale: {x: 1.00000036, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_magLDigit32
+      position: {x: -.09031526, y: 1.39264401e-07, z: 9.02981654e-08}
+      rotation: {x: 6.41241343e-07, y: 6.68852778e-08, z: .156596199, w: .987662733}
+      scale: {x: 1, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: goblin mage wrist armor L
+      position: {x: -.354576409, y: -.0653853342, z: 1.11215198}
+      rotation: {x: .922966301, y: .135106966, z: .346789032, w: -.098064661}
+      scale: {x: .999999762, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_magNeck1
+      position: {x: .00159152981, y: .0203776211, z: -7.15255721e-09}
+      rotation: {x: .0273240265, y: .000159990435, z: -.00420087436, w: .999617815}
+      scale: {x: .99999994, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: bip_gob_magNeck2
+      position: {x: -.0702454671, y: -.00155346305, z: 4.63323777e-05}
+      rotation: {x: .0273244847, y: -2.75430248e-05, z: -.0110602714, w: -.999565423}
+      scale: {x: 1.00000036, y: .999999762, z: 1.00000012}
+      transformModified: 1
+    - name: bip_gob_magHead
+      position: {x: -.123270623, y: 6.46411369e-09, z: -9.3157162e-09}
+      rotation: {x: -1.48997632e-08, y: 4.51124933e-08, z: .00686211791, w: -.999976516}
+      scale: {x: .999999762, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: bip_gob_magHeadBone001
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 1.10594556e-08, y: -2.98023259e-08, z: 3.72529074e-09, w: 1}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: bip_gob_magHeadBone002
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 1.10594556e-08, y: -2.98023259e-08, z: 3.72529074e-09, w: 1}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: bon_gob_mag_ear L
+      position: {x: -.083245337, y: .0397169702, z: .127900749}
+      rotation: {x: .487002641, y: -.222356722, z: -.512667894, w: -.671235859}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: bon_gob_mag_ear R_tip
+      position: {x: -.234803081, y: 0, z: 4.37020375e-09}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bon_gob_mag_ear R
+      position: {x: -.0832449421, y: .0397168249, z: -.121423282}
+      rotation: {x: -.668873072, y: -.512962461, z: -.229365319, w: .486692786}
+      scale: {x: .99999994, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: bon_gob_mag_ear R_tip 1
+      position: {x: -.239222243, y: -1.34110451e-07, z: -4.75243986e-08}
+      rotation: {x: 1.77635684e-15, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bon_gob_mag_face
+      position: {x: -.107290603, y: .107486837, z: 1.05706057e-07}
+      rotation: {x: .673626363, y: -.739072084, z: 1.80025211e-07, w: -3.6217191e-08}
+      scale: {x: 1, y: 1, z: .999999762}
+      transformModified: 1
+    - name: bon_gob_mag_jaw_tip
+      position: {x: -.207369223, y: 4.24683094e-07, z: -2.28102355e-08}
+      rotation: {x: 0, y: 0, z: .0652948171, w: .997866035}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bon_gob_mag_hair
+      position: {x: -.213145912, y: -.0416745134, z: 1.13140231e-07}
+      rotation: {x: -.901848555, y: -.432052225, z: -3.83523862e-08, w: -2.44094224e-07}
+      scale: {x: 1.00000024, y: 1, z: 1}
+      transformModified: 1
+    - name: bon_gob_mag_hair_tip
+      position: {x: -.373740822, y: -3.57627861e-09, z: 3.63886237e-08}
+      rotation: {x: 0, y: 0, z: -.031099664, w: .999516308}
+      scale: {x: .999999881, y: .999999881, z: 1}
+      transformModified: 1
+    - name: bon_gob_mag_jaw
+      position: {x: -.00259674899, y: .0582173578, z: 1.18697024e-07}
+      rotation: {x: .469098121, y: -.883146048, z: 2.910582e-07, w: -3.16442055e-08}
+      scale: {x: .999999642, y: 1, z: 1}
+      transformModified: 1
+    - name: bon_gob_war_mag_tip
+      position: {x: -.261082858, y: -3.57627861e-09, z: -2.85798087e-08}
+      rotation: {x: -3.31965976e-16, y: -3.5371702e-15, z: -.0934401155, w: .9956249}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: goblin mage hair
+      position: {x: 1.61153078, y: .0397166535, z: 4.29153424e-08}
+      rotation: {x: .707106829, y: 5.13664737e-08, z: -.707106829, w: 5.13664737e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin mage mask
+      position: {x: 1.5833056, y: -.0464978553, z: .151501745}
+      rotation: {x: .729925573, y: -.00511986529, z: -.682563841, w: -.0359048508}
+      scale: {x: 1, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: goblin mage mohican
+      position: {x: 1.61153078, y: .0397166535, z: 4.29153424e-08}
+      rotation: {x: .707106829, y: 2.89759594e-08, z: -.707106829, w: 2.89759594e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin mage skull
+      position: {x: 1.61153078, y: .0397166535, z: 4.29153424e-08}
+      rotation: {x: .707106829, y: 2.89759594e-08, z: -.707106829, w: 2.89759594e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bip_gob_magRCollarbone
+      position: {x: .015729975, y: .0329386443, z: -.0566687584}
+      rotation: {x: -.025827907, y: -.76603049, z: .155060321, w: .623286784}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: bip_gob_magRUpperarm
+      position: {x: -.136549458, y: 8.58916067e-08, z: 4.7675789e-07}
+      rotation: {x: -.207454994, y: .0902792364, z: -.111007184, w: .967723906}
+      scale: {x: 1.00000012, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: bip_gob_magRForearm
+      position: {x: -.430595696, y: 1.15140942e-07, z: -2.37088642e-07}
+      rotation: {x: .110844247, y: .0290380567, z: -.0323527195, w: .992886543}
+      scale: {x: 1.00000012, y: 1.00000012, z: .999999821}
+      transformModified: 1
+    - name: bip_gob_magRPalm
+      position: {x: -.405082315, y: 1.06599309e-07, z: 8.40677387e-07}
+      rotation: {x: .689604461, y: -.0566828847, z: .0165636912, w: .721774459}
+      scale: {x: .999999464, y: .999999821, z: .999999523}
+      transformModified: 1
+    - name: bip_gob_magRDigit11 1
+      position: {x: -.0294282772, y: -.0155145964, z: -.0414317362}
+      rotation: {x: -.477820098, y: -.220385358, z: -.066314511, w: .847773969}
+      scale: {x: 1.00000036, y: 1.0000006, z: 1.0000006}
+      transformModified: 1
+    - name: bip_gob_magRDigit12
+      position: {x: -.0932198763, y: -2.73976013e-07, z: -3.05062144e-07}
+      rotation: {x: 5.7914896e-08, y: -1.1615451e-07, z: .224199429, w: .974543273}
+      scale: {x: 1.00000012, y: .999999404, z: .999999642}
+      transformModified: 1
+    - name: bip_gob_magRDigit21
+      position: {x: -.12485785, y: -.004849046, z: -.0411178321}
+      rotation: {x: -.0358682945, y: -.114783078, z: .076940015, w: .989756823}
+      scale: {x: 1.00000048, y: 1.00000048, z: 1.00000072}
+      transformModified: 1
+    - name: bip_gob_magRDigit22
+      position: {x: -.086038284, y: 2.99206363e-07, z: -2.1571708e-08}
+      rotation: {x: -1.74209092e-07, y: 9.41196916e-08, z: .0965703353, w: .995326161}
+      scale: {x: 1.00000048, y: .999999404, z: .999999762}
+      transformModified: 1
+    - name: bip_gob_magRDigit31
+      position: {x: -.126340821, y: -.00876658969, z: .0181156229}
+      rotation: {x: .0219492409, y: -.108399794, z: .0795568973, w: .990675747}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000036}
+      transformModified: 1
+    - name: bip_gob_magRDigit32
+      position: {x: -.0903160051, y: 5.2383335e-08, z: 7.45076036e-08}
+      rotation: {x: -7.49146295e-07, y: -1.37852808e-07, z: .156596199, w: .987662733}
+      scale: {x: 1.00000048, y: .999999821, z: 1}
+      transformModified: 1
+    - name: goblin mage staff A
+      position: {x: -.0934913903, y: -.0616310686, z: -.0728561804}
+      rotation: {x: .990495443, y: .0801983476, z: -.111313939, w: -.00981030613}
+      scale: {x: 1.00000048, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: goblin mage staff B
+      position: {x: -.122214615, y: -.0640530959, z: -.0578001589}
+      rotation: {x: .635939837, y: .763605535, z: -.0708987266, w: -.086373955}
+      scale: {x: 1.00000048, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
+    - name: goblin mage staff C
+      position: {x: -.0961967036, y: -.0577522069, z: -.0445991978}
+      rotation: {x: .635939837, y: .763605535, z: -.070898816, w: -.0863738954}
+      scale: {x: 1.00000024, y: 1.00000036, z: 1.00000048}
+      transformModified: 1
+    - name: goblin mage wrist armor R001
+      position: {x: -.354576588, y: -.0653854162, z: -1.11215198}
+      rotation: {x: .34678939, y: .0980646834, z: .922966182, w: -.135107175}
+      scale: {x: .999999821, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: goblin mage armor
+      position: {x: .741146684, y: .286582559, z: -3.57627861e-09}
+      rotation: {x: -3.72529074e-09, y: 0, z: -0, w: 1}
+      scale: {x: .99999994, y: .999999881, z: 1}
+      transformModified: 1
+    - name: bon_gob_mag_cloth00
+      position: {x: -.113680482, y: .139560401, z: -8.12908922e-08}
+      rotation: {x: -.028302839, y: .675003469, z: .736626267, w: -.0308404062}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: bon_gob_mag_cloth01
+      position: {x: -.289183974, y: 6.56722392e-08, z: -7.44312985e-08}
+      rotation: {x: -6.67335826e-06, y: -.0141470414, z: 3.37175734e-05, w: .999899924}
+      scale: {x: .99999994, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: bon_gob_nag_cloth_tip
+      position: {x: -.208337128, y: 7.9890917e-08, z: -4.19141521e-09}
+      rotation: {x: -1.1220842e-06, y: -.0331474431, z: -5.12524957e-06, w: .999450505}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bip_gob_magRIKTarget
+      position: {x: .710424304, y: .597054243, z: .0292098466}
+      rotation: {x: -.0546648949, y: -.144887611, z: -.505826652, w: .848621666}
+      scale: {x: 1.00000048, y: .999999881, z: .999999344}
+      transformModified: 1
+    - name: bip_gob_magRPlatform
+      position: {x: .244105339, y: 0, z: -.221231028}
+      rotation: {x: .349623412, y: -.349623412, z: -.614624679, w: .614624679}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: goblin mage
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin mage boot A
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin mage boot B
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin mage cap
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin mage ponny tail
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: goblin mage wrist armor R
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     handles: []
     armTwist: .5
     foreArmTwist: .5
@@ -702,7 +1433,8 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 6678b1b3d3ac52b47a7c63fd0c1a3334,
+    type: 3}
   additionalBone: 1
-  animationType: 1
+  animationType: 3
   userData: 

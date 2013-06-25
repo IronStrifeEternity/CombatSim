@@ -17,12 +17,16 @@ public class WeaponCollider : MonoBehaviour
     Vector3 parentOldPosition;
     Vector3 swingDirection;
     Transform self;
+    ParticleSystem particles;
+    public bool friendlyFire = false;
 
     public bool Lethal { get { return lethal; } }
 
     void Start()
     {
         this.gameObject.layer = 10;
+        particles = this.GetComponentInChildren<ParticleSystem>();
+        if (particles) particles.enableEmission = false;
 
         lethalityId = Animator.StringToHash("Lethality");
         anim = this.transform.root.GetComponent<Animator>();
@@ -35,6 +39,14 @@ public class WeaponCollider : MonoBehaviour
             var rb = this.gameObject.AddComponent<Rigidbody>();
             rb.isKinematic = true;
         }
+
+        var allColliders = this.transform.root.GetComponentsInChildren<Collider>();
+        for (int g = 0; g < allColliders.Length; g++)
+        {
+            if (this.collider != allColliders[g])
+                Physics.IgnoreCollision(allColliders[g], this.collider);
+        }
+        Physics.IgnoreCollision(transform.root.collider, this.collider);
     }
 
     void Update()
@@ -75,14 +87,15 @@ public class WeaponCollider : MonoBehaviour
     private void Deactivate()
     {
         lethal = false;
-        //collider.enabled = false;
+        if (particles) particles.enableEmission = false;
+
     }
 
     private void Activate()
     {
         lethal = true;
         targetsHitThisSwing = new List<GameObject>();
-        //collider.enabled = true;
+        if (particles) particles.enableEmission = true;
 
     }
 
@@ -91,21 +104,22 @@ public class WeaponCollider : MonoBehaviour
         targetsHitThisSwing = new List<GameObject>();
     }
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (lethal && !targetsHitThisSwing.Contains(other.gameObject) && other.transform.root != self)
+        if (lethal && !targetsHitThisSwing.Contains(other.transform.root.gameObject) && this.transform.root != other.transform.root)
         {
-            ApplyHit(other.gameObject);
+            if (friendlyFire || other.gameObject.GetTeamNumber() != this.stats.teamNumber)
+                ApplyHit(other.gameObject);
 
         }
     }
 
     private void ApplyHit(GameObject gameObject)
     {
-        targetsHitThisSwing.Add(gameObject);
+        targetsHitThisSwing.Add(gameObject.transform.root.gameObject);
 
         var rb = gameObject.rigidbody;
-        if (rb)rb.AddForceAtPosition(swingDirection * 250.0f, this.collider.bounds.center);
+        if (rb) rb.AddForceAtPosition(swingDirection * 250.0f, this.collider.bounds.center);
 
         var dr = gameObject.GetComponent<DamageReceiver>();
         if (dr)
